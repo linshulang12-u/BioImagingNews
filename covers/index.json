@@ -98,5 +98,55 @@
     "src": "covers/endoscopy.jpg",
     "kind": "cover",
     "credit": "Journal cover · Endoscopy"
+  },
+  "chemical papers": {
+    "src": "covers/chemical-papers.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Chemical Papers"
+  },
+  "microchimica acta": {
+    "src": "covers/microchimica-acta.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Microchimica Acta"
+  },
+  "discover artificial intelligence": {
+    "src": "covers/discover-artificial-intelligence.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Discover Artificial Intelligence"
+  },
+  "american journal of physics": {
+    "src": "covers/american-journal-of-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · American Journal of Physics"
+  },
+  "proceedings of the zoological society": {
+    "src": "covers/proceedings-of-the-zoological-society.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Proceedings of the Zoological Society"
+  },
+  "biomedical engineering": {
+    "src": "covers/biomedical-engineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Biomedical Engineering"
+  },
+  "nature nanotechnology": {
+    "src": "covers/nature-nanotechnology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature Nanotechnology"
+  },
+  "journal of optics": {
+    "src": "covers/journal-of-optics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Optics"
+  },
+  "food analytical methods": {
+    "src": "covers/food-analytical-methods.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Food Analytical Methods"
+  },
+  "atmospheric chemistry and physics": {
+    "src": "covers/atmospheric-chemistry-and-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Atmospheric Chemistry and Physics"
   }
 }
