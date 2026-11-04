@@ -148,5 +148,15 @@
     "src": "covers/atmospheric-chemistry-and-physics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Atmospheric Chemistry and Physics"
+  },
+  "nature methods": {
+    "src": "covers/nature-methods.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature Methods"
+  },
+  "journal of crop health": {
+    "src": "covers/journal-of-crop-health.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Crop Health"
   }
 }
