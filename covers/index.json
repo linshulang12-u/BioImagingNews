@@ -1,0 +1,102 @@
+{
+  "ophthalmology and therapy": {
+    "src": "covers/ophthalmology-and-therapy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Ophthalmology and therapy"
+  },
+  "international ophthalmology": {
+    "src": "covers/international-ophthalmology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · International ophthalmology"
+  },
+  "gene therapy": {
+    "src": "covers/gene-therapy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Gene therapy"
+  },
+  "autophagy": {
+    "src": "covers/autophagy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Autophagy"
+  },
+  "cellular and molecular bioengineering": {
+    "src": "covers/cellular-and-molecular-bioengineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Cellular and Molecular Bioengineering"
+  },
+  "dermatology and therapy": {
+    "src": "covers/dermatology-and-therapy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Dermatology and Therapy"
+  },
+  "experiments in fluids": {
+    "src": "covers/experiments-in-fluids.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Experiments in Fluids"
+  },
+  "indian journal of physics": {
+    "src": "covers/indian-journal-of-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Indian Journal of Physics"
+  },
+  "journal of optics and photonics research": {
+    "src": "covers/journal-of-optics-and-photonics-research.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Optics and Photonics Research"
+  },
+  "geroscience": {
+    "src": "covers/geroscience.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · GeroScience"
+  },
+  "physics in medicine and biology": {
+    "src": "covers/physics-in-medicine-and-biology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Physics in Medicine and Biology"
+  },
+  "inverse problems": {
+    "src": "covers/inverse-problems.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Inverse Problems"
+  },
+  "bmc health services research": {
+    "src": "covers/bmc-health-services-research.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · BMC Health Services Research"
+  },
+  "journal of micromechanics and microengineering": {
+    "src": "covers/journal-of-micromechanics-and-microengineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Micromechanics and Microengineering"
+  },
+  "nature photonics": {
+    "src": "covers/nature-photonics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature Photonics"
+  },
+  "physics in medicine &amp; biology": {
+    "src": "covers/physics-in-medicine-amp-biology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Physics in Medicine &amp; Biology"
+  },
+  "chemical research in chinese universities": {
+    "src": "covers/chemical-research-in-chinese-universities.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Chemical Research in Chinese Universities"
+  },
+  "measurement science and technology": {
+    "src": "covers/measurement-science-and-technology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Measurement Science and Technology"
+  },
+  "spine": {
+    "src": "covers/spine.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Spine"
+  },
+  "endoscopy": {
+    "src": "covers/endoscopy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Endoscopy"
+  }
+}

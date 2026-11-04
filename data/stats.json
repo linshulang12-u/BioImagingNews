@@ -1,0 +1,22 @@
+[
+ {
+  "date": "2026-11-04 14:26",
+  "issue": "2026-11-02",
+  "window": [
+   "2026-11-01",
+   "2026-11-04"
+  ],
+  "sources": {
+   "europepmc": 74,
+   "openalex": 1447,
+   "crossref": 6068,
+   "crossref_core_journals": 0,
+   "arxiv": 8
+  },
+  "raw": 7597,
+  "unique": 5311,
+  "relevant": 485,
+  "added": 450,
+  "venue_rejected": 25
+ }
+]
