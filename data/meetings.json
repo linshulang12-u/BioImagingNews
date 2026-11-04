@@ -1,0 +1,39 @@
+{
+  "meetings": [
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-18",
+      "title": "Neuroscience 2026 (SfN)",
+      "where": "Washington, DC",
+      "url": "https://www.sfn.org/meetings/neuroscience-2026"
+    },
+    {
+      "start": "2027-01-30",
+      "end": "2027-02-04",
+      "title": "SPIE Photonics West 2027 (BiOS)",
+      "where": "San Francisco",
+      "url": "https://moscone.com/events/spie-photonics-west-2027"
+    },
+    {
+      "start": "2027-03-21",
+      "end": "2027-03-24",
+      "title": "Focus on Microscopy 2027",
+      "where": "Osaka",
+      "url": "https://www.focusonmicroscopy.org/"
+    },
+    {
+      "start": "2027-04-17",
+      "end": "2027-04-21",
+      "title": "Optica Biophotonics Congress 2027",
+      "where": "Denver, CO",
+      "url": "https://www.optica.org/events/global_calendar/events/2027/optica_biophotonics_congress/"
+    },
+    {
+      "start": "2027-06-20",
+      "end": "2027-06-24",
+      "title": "European Conferences on Biomedical Optics (ECBO) 2027",
+      "where": "Munich",
+      "url": "https://www.optica.org/events/topical_meetings/european_conferences_biomedical_optics/schedule"
+    }
+  ]
+}

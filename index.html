@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BioImaging News</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Weekly digest of biophotonic imaging research: multiphoton, light-sheet and super-resolution microscopy, OCT, photoacoustics, coherent Raman, quantitative phase, endoscopy and computational imaging.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* Layout: community paper portal (logo band, menu bar, one article column with sketches, widget rail), after VibraNews.
+   Identity: deep forest band and a two-channel rule, green (GFP) to magenta (mCherry), like a merged fluorescence image. */
+:root{
+  --bg:#fbfcfb; --card:#ffffff; --ink:#132019; --body:#2a3a31; --muted:#58695f; --rule:#dde6e0; --tint:#eef4f0;
+  --band:#0f2419; --band-ink:#e6f2ea; --band-sub:#9fc0ab; --band-hover:rgba(255,255,255,.1);
+  --title:#1f4e9a; --inst:#9a4d1c; --accent:#15803d; --hot:#c026a3; --oa:#15803d;
+  --mod:#15803d; --meth:#7e22ce; --app:#b45309; --misc:#57655d;
+  --rule-grad:linear-gradient(90deg,#22c55e,#16a34a 35%,#a21caf 65%,#e11d8f);
+  --fig-bg:#f4f8f5; --fig-line:#d3e0d7; --grid:#e3ece6;
+  --font-display:"Bricolage Grotesque","Arial Narrow",Arial,sans-serif;
+  --font-body:"Public Sans","Helvetica Neue",Arial,sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1510; --card:#111c16; --ink:#e4efe8; --body:#c4d5ca; --muted:#94ab9c; --rule:#24362b; --tint:#14211a;
+  --band:#060e09; --band-ink:#e6f2ea; --band-sub:#8fb59c; --band-hover:rgba(255,255,255,.08);
+  --title:#8fb7ff; --inst:#eba274; --accent:#4ade80; --hot:#f472d0; --oa:#4ade80;
+  --mod:#4ade80; --meth:#c4a1ff; --app:#f0b45a; --misc:#a5b8ab;
+  --fig-bg:#101b15; --fig-line:#25392d; --grid:#1d2d24; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0c1510; --card:#111c16; --ink:#e4efe8; --body:#c4d5ca; --muted:#94ab9c; --rule:#24362b; --tint:#14211a;
+  --band:#060e09; --band-ink:#e6f2ea; --band-sub:#8fb59c; --band-hover:rgba(255,255,255,.08);
+  --title:#8fb7ff; --inst:#eba274; --accent:#4ade80; --hot:#f472d0; --oa:#4ade80;
+  --mod:#4ade80; --meth:#c4a1ff; --app:#f0b45a; --misc:#a5b8ab;
+  --fig-bg:#101b15; --fig-line:#25392d; --grid:#1d2d24; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--font-body)}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--font-mono)}
+
+/* Header */
+.head .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px 28px;padding-block:18px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:14px;color:inherit;min-width:0}
+.logo:hover{text-decoration:none}
+.logo svg{width:68px;height:68px;flex:none}
+.logo .name{display:block;font:800 46px/.95 var(--font-display);letter-spacing:-.015em;color:var(--ink)}
+.logo .name b{font-weight:inherit;color:var(--accent)}
+.logo .sub{display:block;font:500 12.5px/1.2 var(--font-mono);color:var(--muted);margin-top:7px;letter-spacing:.12em;text-transform:uppercase}
+.banner{width:420px;max-width:100%;height:80px;border-radius:6px;background:var(--band);position:relative;overflow:hidden}
+.banner canvas{position:absolute;inset:0;width:100%;height:100%}
+.banner .bt{position:absolute;right:12px;top:9px;max-width:52%;text-align:right;line-height:1.3;font:500 13px var(--font-body);color:var(--band-ink)}
+.banner .bs{position:absolute;right:12px;bottom:8px;max-width:50%;text-align:right;font:400 10.5px/1.3 var(--font-mono);color:var(--band-sub)}
+@media (max-width:620px){.logo svg{width:50px;height:50px}.logo .name{font-size:32px}.logo .sub{font-size:10.5px}.banner{height:66px}.banner .bt{font-size:11.5px}}
+
+/* Menu */
+.menu{background:var(--band);border-bottom:3px solid transparent;border-image:var(--rule-grad) 1}
+.menu .wrap{display:flex;align-items:center;justify-content:center;min-height:46px}
+.menu ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center}
+.menu a{display:block;padding:12px 13px;font-weight:500;color:var(--band-ink)}
+.menu a:hover{background:var(--band-hover);text-decoration:none}
+.burger{display:none;background:var(--band-hover);border:0;border-radius:4px;width:40px;height:34px;cursor:pointer}
+.burger span{display:block;width:18px;height:2px;background:var(--band-ink);margin:3px auto}
+@media (max-width:780px){
+  .burger{display:block;margin:6px 0}
+  .menu .wrap{flex-direction:column}
+  .menu ul{display:none;flex-direction:column;width:100%;text-align:center;padding-bottom:6px}
+  .menu.open ul{display:flex}
+}
+
+/* Layout */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:40px;padding-block:32px 48px}
+.body > *{min-width:0}
+@media (max-width:920px){.body{grid-template-columns:minmax(0,1fr)}}
+.sec-h{font:600 24px/1.2 var(--font-body);margin:0 0 14px;padding-bottom:7px;position:relative;text-wrap:balance}
+.sec-h::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background:linear-gradient(90deg,var(--accent) 0,var(--accent) 70px,var(--rule) 70px)}
+.pager{font-size:14px;color:var(--muted);margin:-4px 0 16px}
+.pager a{color:var(--title)}
+
+/* Articles */
+.art{margin:0 0 30px}
+.art h3{font:500 19px/1.25 var(--font-body);margin:0 0 5px;color:var(--title);text-wrap:balance}
+.oa{display:inline-block;font:600 10.5px/1 var(--font-mono);letter-spacing:.04em;color:var(--bg);background:var(--oa);border-radius:3px;padding:3px 5px;margin-left:6px;vertical-align:3px}
+.meta{font-size:14px;line-height:1.5}
+.meta time{font-family:var(--font-mono);font-size:13px;color:var(--muted)}
+.c-mod{color:var(--mod)} .c-meth{color:var(--meth)} .c-app{color:var(--app)} .c-misc{color:var(--misc)}
+.meta button{font:inherit;background:none;border:0;padding:0;cursor:pointer}
+.meta button:hover{text-decoration:underline}
+.inst{color:var(--inst)}
+.authors{font-size:14px;color:var(--muted);line-height:1.45}
+.abs{margin-top:10px;font-size:14.5px;line-height:1.62;color:var(--body)}
+.abs::after{content:"";display:block;clear:both}
+figure.fig{float:left;width:132px;margin:4px 16px 6px 0}
+figure.fig .frame{width:132px;height:92px;border:1px solid var(--fig-line);border-radius:4px;background:var(--fig-bg);overflow:hidden;display:flex;align-items:center;justify-content:center}
+figure.fig img{max-width:100%;max-height:100%;display:block}
+figure.fig canvas{width:132px;height:92px;display:block}
+figure.fig figcaption{font-size:11px;line-height:1.3;color:var(--muted);margin-top:3px}
+@media (max-width:420px){figure.fig{width:104px;margin-right:12px}figure.fig .frame,figure.fig canvas{width:104px;height:72px}}
+.src{font-size:13px;color:var(--muted);margin-top:5px}
+.src a{color:var(--title);font-family:var(--font-mono);font-size:12.5px;word-break:break-all}
+.why{font-size:14px;color:var(--body);margin-top:8px;background:var(--tint);border-left:3px solid var(--accent);padding:7px 11px}
+.empty{color:var(--muted);padding:10px 0 30px}
+.more{display:block;margin:6px auto 30px}
+.art.fotw{border-left:4px solid var(--hot);padding-left:13px}
+.fotw-tag{display:inline-block;font:600 11.5px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--hot);border-radius:3px;padding:2px 7px;margin-bottom:6px}
+
+/* Sidebar */
+aside{font-size:14px}
+.search{display:flex;margin-bottom:24px;border:1px solid var(--rule);border-radius:5px;overflow:hidden;background:var(--card)}
+.search input{flex:1;min-width:0;border:0;background:transparent;padding:8px 10px;font:inherit;color:var(--ink)}
+.search button{border:0;background:var(--band);color:var(--band-ink);font:500 14px var(--font-body);padding:0 14px;cursor:pointer}
+.w-h{font:600 16.5px/1.2 var(--font-body);margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--rule);display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.lang{font:500 12px var(--font-mono);background:none;border:1px solid var(--rule);border-radius:3px;color:var(--muted);padding:1px 7px;cursor:pointer}
+.lang:hover{color:var(--ink)}
+.cats p{margin:0 0 7px;line-height:1.6}
+.cats b{font-weight:600}
+.cats button{font:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+.cats button:hover,.cats button[aria-pressed="true"]{text-decoration:underline}
+.cats button[aria-pressed="true"]{font-weight:600}
+.cats button.none{opacity:.55}
+.subscribe{margin:28px 0 26px;background:var(--tint);border-radius:6px;padding:12px 14px}
+.subscribe .row{display:grid;grid-template-columns:48px 1fr;gap:10px;align-items:center;padding:8px 0}
+.subscribe .row + .row{border-top:1px solid var(--rule)}
+.subscribe .row b{display:block;color:var(--ink);font-weight:600}
+.subscribe .row span{color:var(--muted);font-size:13px}
+.subscribe svg{color:var(--ink)}
+.ad{border:1px dashed var(--fig-line);border-radius:5px;color:var(--muted);font-size:12.5px;text-align:center;padding:16px 8px;margin:0 0 28px}
+ol.list{margin:0 0 28px;padding-left:22px}
+ol.list li{margin-bottom:5px;color:var(--muted)}
+ol.list a{color:var(--title)}
+ul.orgs{list-style:none;margin:0 0 28px;padding:0}
+ul.orgs li{margin-bottom:3px;color:var(--muted)}
+ul.orgs button{font:inherit;color:var(--inst);background:none;border:0;padding:0;cursor:pointer;text-align:left}
+ul.orgs button:hover{text-decoration:underline}
+.confs{list-style:none;margin:0 0 28px;padding:0}
+.confs li{margin-bottom:8px}
+.confs a{color:var(--title);font-weight:500}
+.confs span{color:var(--muted);font-size:13px}
+.confs a[aria-current]{font-weight:600}
+.box{background:var(--tint);border-radius:6px;padding:12px 14px;margin-bottom:28px}
+.box p{margin:0 0 8px}
+.btn{font:500 14px var(--font-body);background:var(--band);color:var(--band-ink);border:0;border-radius:4px;padding:7px 12px;cursor:pointer}
+.ok{font-size:12.5px;color:var(--oa);margin-left:6px}
+footer{border-top:1px solid var(--rule);color:var(--muted);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:14px 28px}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<header class="head">
+  <div class="wrap">
+    <a class="logo" href="#top" id="top" aria-label="BioImaging News home">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <defs><linearGradient id="lgb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c3d2b"/><stop offset="1" stop-color="#0b1a12"/></linearGradient>
+          <radialGradient id="gfp"><stop offset="0" stop-color="#7cf0a6"/><stop offset="1" stop-color="#22c55e" stop-opacity="0"/></radialGradient>
+          <radialGradient id="mch"><stop offset="0" stop-color="#f9a8e8"/><stop offset="1" stop-color="#d946b8" stop-opacity="0"/></radialGradient></defs>
+        <rect x="3" y="3" width="94" height="94" rx="22" fill="url(#lgb)"/>
+        <path d="M38 8 L62 8 L52 44 L48 44 Z" fill="#e6f2ea" fill-opacity=".22"/>
+        <ellipse cx="50" cy="62" rx="30" ry="22" fill="none" stroke="#e6f2ea" stroke-opacity=".6" stroke-width="2"/>
+        <circle cx="44" cy="62" r="12" fill="url(#mch)"/>
+        <circle cx="62" cy="54" r="6" fill="url(#gfp)"/><circle cx="34" cy="72" r="5" fill="url(#gfp)"/><circle cx="66" cy="72" r="4" fill="url(#gfp)"/>
+        <circle cx="50" cy="45" r="3" fill="#ffffff"/>
+      </svg>
+      <span><span class="name">BioImaging<b>News</b></span><span class="sub">Biophotonic Imaging News</span></span>
+    </a>
+    <div class="banner" aria-hidden="true"><canvas id="pulse"></canvas><span class="bt">multiphoton · light-sheet</span><span class="bs">nanoscopy · OCT · photoacoustic · SRS</span></div>
+  </div>
+</header>
+
+<nav class="menu" id="menu" aria-label="Main">
+  <div class="wrap">
+    <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-list"><span></span><span></span><span></span></button>
+    <ul id="menu-list">
+      <li><a href="#top" data-reset>Home</a></li>
+      <li><a href="#featured">Feature Articles</a></li>
+      <li><a href="#recent">Latest Papers</a></li>
+      <li><a href="#topics">Modalities</a></li>
+      <li><a href="#conferences">Meetings</a></li>
+      <li><a href="#jobs">Positions</a></li>
+      <li><a href="#archive-h">Archive</a></li>
+      <li><a href="#submit">Submit a Paper</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap body">
+  <div>
+    <section id="featured">
+      <h2 class="sec-h" id="featTitle">Feature Articles</h2>
+      <p class="pager" id="featNote">Imaging advances chosen by the editor this week: new modalities, depth, speed and resolution records, probes and analysis.</p>
+      <div id="featList"></div>
+    </section>
+    <section id="recent">
+      <h2 class="sec-h" id="recTitle">Latest Papers</h2>
+      <div class="pager" id="pager"></div>
+      <div id="recList"></div>
+    </section>
+  </div>
+
+  <aside>
+    <form class="search" id="searchForm" role="search">
+      <label for="q" style="position:absolute;left:-9999px">Search papers</label>
+      <input id="q" type="search" placeholder="Title, author, modality, journal">
+      <button type="submit">Search</button>
+    </form>
+
+    <h3 class="w-h" id="topics"><span>Modalities &amp; Topics</span><button class="lang" id="langBtn" type="button" aria-label="Show topic names in Chinese">中文</button></h3>
+    <div class="cats" id="cats"></div>
+
+    <div class="subscribe">
+      <a class="row" href="#subscribe-note" id="subscribe-note">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="4" y="12" width="44" height="30" rx="5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 15 L26 30 L46 15" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M10 38 h8 q4 -12 8 0 h16" fill="none" stroke="#c026a3" stroke-width="2"/></svg>
+        <span><b>Monday Digest</b><span>The week's papers by email. Sign-up opens at public launch.</span></span>
+      </a>
+      <a class="row" href="#submit">
+        <svg width="48" height="48" viewBox="0 0 52 52" aria-hidden="true"><rect x="10" y="6" width="28" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 16 h16 M16 22 h16 M16 28 h10" stroke="currentColor" stroke-opacity=".45" stroke-width="2"/><circle cx="38" cy="38" r="10" fill="#c026a3"/><path d="M38 33 v10 M33 38 h10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>
+        <span><b>Share Your Paper</b><span>Send new articles, theses and positions to the editor.</span></span>
+      </a>
+    </div>
+
+    <div class="ad">Sponsor space</div>
+
+    <h3 class="w-h"><span>This Week's Features</span></h3>
+    <ol class="list" id="weekList"></ol>
+
+    <h3 class="w-h"><span>Labs &amp; Institutions</span></h3>
+    <ul class="orgs" id="orgs"></ul>
+
+    <h3 class="w-h" id="conferences"><span>Meetings</span></h3>
+    <ul class="confs" id="confs"></ul>
+
+    <h3 class="w-h" id="jobs"><span>Positions</span></h3>
+    <div class="box"><p>No open listings this week. Postdoc, PhD and industry positions are posted free; use Submit a Paper below.</p></div>
+
+    <h3 class="w-h" id="archive-h"><span>Archive</span></h3>
+    <ul class="confs" id="archive"></ul>
+
+    <h3 class="w-h" id="submit"><span>Submit a Paper</span></h3>
+    <div class="box">
+      <p>Send journal articles (including in-press), preprints, theses, positions and Feature of the Week proposals. Please include Fig. 1 or a representative figure and its licence, plus the imaging modality and its key numbers.</p>
+      <button class="btn" id="copyTpl" type="button">Copy submission template</button><span class="ok" id="copied" hidden>Copied</span>
+      <p style="margin:8px 0 0;color:var(--muted);font-size:12.5px">Editor address will be listed at launch.</p>
+    </div>
+  </aside>
+</main>
+
+<footer><div class="wrap"><span>BioImaging News · updated daily, new issue every Monday · thumbnails are each article's own preview image or the journal cover, with credit, otherwise a modality sketch · titles link to the original articles · layout after <a href="https://forestbin-raman.github.io/VibraNews/" style="text-decoration:underline">VibraNews</a></span><a href="#top">Back to top</a></div></footer>
+
+<!--FEMTO_DATA-->
+<script>
+const GROUPS = [
+  {name:"Modalities", zh:"成像模态", cls:"c-mod", cats:["Multiphoton Microscopy", "Harmonic Generation", "Coherent Raman & Vibrational", "Light-Sheet & Oblique Plane", "Super-Resolution & Nanoscopy", "Confocal & Widefield Fluorescence", "Fluorescence Lifetime & Spectral", "OCT & OCM", "Photoacoustic & Optoacoustic", "Diffuse Optics & NIR-II", "Endoscopy & Fiber Imaging", "Label-Free Phase & Holographic", "Computational Imaging", "Adaptive Optics & Deep Tissue", "Miniaturized & Wearable", "Other Imaging"]},
+  {name:"Methods", zh:"方法", cls:"c-meth", cats:["AI, Denoising & Restoration", "Probes & Contrast Agents", "Instrumentation & Optical Design", "Quantitative Analysis & Modeling", "Quantum & Novel Contrast"]},
+  {name:"Applications", zh:"生物应用", cls:"c-app", cats:["Neuroscience", "Oncology & Pathology", "Cell Biology", "Developmental Biology & Organoids", "Ophthalmology", "Cardiovascular & Hemodynamics", "Dermatology & Surgery", "Immunology & Inflammation", "Microbiology & Plants", "Clinical Translation"]},
+  {name:"Miscellaneous", zh:"其他", cls:"c-misc", cats:["News & Highlights", "Reviews", "Protocols & Resources", "Jobs & Studentships", "Student Theses"]}
+];
+const ZH = {"Multiphoton Microscopy": "多光子显微", "Harmonic Generation": "谐波成像 (SHG/THG)", "Coherent Raman & Vibrational": "相干拉曼与振动成像", "Light-Sheet & Oblique Plane": "光片与斜平面显微", "Super-Resolution & Nanoscopy": "超分辨与纳米显微", "Confocal & Widefield Fluorescence": "共聚焦与宽场荧光", "Fluorescence Lifetime & Spectral": "荧光寿命与光谱成像", "OCT & OCM": "光学相干层析 (OCT/OCM)", "Photoacoustic & Optoacoustic": "光声成像", "Diffuse Optics & NIR-II": "漫射光学与近红外二区", "Endoscopy & Fiber Imaging": "内窥与光纤成像", "Label-Free Phase & Holographic": "无标记相位与全息成像", "Computational Imaging": "计算成像", "Adaptive Optics & Deep Tissue": "自适应光学与深层组织", "Miniaturized & Wearable": "微型化与可穿戴", "Other Imaging": "其他成像", "AI, Denoising & Restoration": "AI、去噪与复原", "Probes & Contrast Agents": "探针与造影剂", "Instrumentation & Optical Design": "仪器与光学设计", "Quantitative Analysis & Modeling": "定量分析与建模", "Quantum & Novel Contrast": "量子与新型衬度", "Neuroscience": "神经科学", "Oncology & Pathology": "肿瘤与病理", "Cell Biology": "细胞生物学", "Developmental Biology & Organoids": "发育生物学与类器官", "Ophthalmology": "眼科", "Cardiovascular & Hemodynamics": "心血管与血流动力学", "Dermatology & Surgery": "皮肤与外科", "Immunology & Inflammation": "免疫与炎症", "Microbiology & Plants": "微生物与植物", "Clinical Translation": "临床转化", "News & Highlights": "新闻与亮点", "Reviews": "综述", "Protocols & Resources": "实验方案与资源", "Jobs & Studentships": "招聘与招生", "Student Theses": "学位论文"};
+const CLS = {}; GROUPS.forEach(g=>g.cats.forEach(c=>CLS[c]=g.cls));
+let LANG = "en";
+try{ if(localStorage.getItem("bioimaging-lang")==="zh") LANG="zh"; }catch(e){}
+const L = c => LANG==="zh" ? (ZH[c]||c) : c;
+
+let ARTS = [], CONFS = [], ISSUES = [], ISSUE = null;
+
+function fromIssue(x, issue){
+  const {y,m,d} = P(issue.date);
+  const prefix = x.feature ? `Feature of the Week ${m}/${d}/${String(y).slice(2)}: ` : "";
+  return {id:x.id, d:x.date, t:prefix + x.title, cats:x.categories||[], inst:x.institutions||[], au:x.authors||"",
+    j:x.journal||"", doi:x.doi||"", link:x.url || (x.doi ? "https://doi.org/"+x.doi : "#"), oa:!!x.oa, license:x.license||"",
+    abs:x.summary||"", why:x.why||"", glyph:x.glyph||"cell", featured:!!(x.feature||x.pick), feature:!!x.feature, notable:x.tier==="notable", fig:x.fig||null};
+}
+
+const PAGE=40;
+const MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+const esc = s => String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const P = iso => { const [y,m,d]=iso.split("-").map(Number); return {y,m,d}; };
+const longDate = iso => { const {y,m,d}=P(iso); return `${MONTHS[m-1]} ${d}, ${y}`; };
+
+let filter=null, query="", shown=PAGE, showAll=false;
+const visible = a => (!filter || (filter.type==="cat" ? a.cats.includes(filter.value) : a.inst.includes(filter.value))) &&
+  (!query || (a.t+" "+a.au+" "+a.j+" "+a.abs+" "+a.inst.join(" ")+" "+a.cats.join(" ")+" "+a.cats.map(c=>ZH[c]||"").join(" ")).toLowerCase().includes(query));
+
+function figHTML(a){
+  if(a.fig && a.fig.src){
+    const cap = a.fig.kind==="cover" ? "Journal cover" : `Fig. · ${a.fig.credit||""}`;
+    const src = /^https?:/.test(a.fig.src) ? a.fig.src : (window.FEMTO_ASSET_BASE||"") + a.fig.src;
+    return `<figure class="fig"><a class="frame" href="${esc(a.link)}"><img src="${esc(src)}" alt="${esc(a.fig.kind==="cover"?("Cover of "+a.j):("Representative figure from "+a.t))}" loading="lazy"></a><figcaption>${esc(cap)}</figcaption></figure>`;
+  }
+  return `<figure class="fig"><div class="frame"><canvas class="thumb" data-glyph="${esc(a.glyph)}" aria-hidden="true"></canvas></div></figure>`;
+}
+function artHTML(a){
+  const tag = a.feature ? `<div class="fotw-tag">Feature of the Week</div>` : "";
+  return `<article class="art${a.feature?" fotw":""}" id="${esc(a.id)}">${tag}
+    <h3><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a>${a.oa?'<span class="oa" title="Open access">OA</span>':""}</h3>
+    <div class="meta"><time datetime="${a.d}">${longDate(a.d)}</time> | ${a.cats.map(c=>`<button type="button" class="${CLS[c]||"c-misc"}" data-cat="${esc(c)}" title="${esc(LANG==="zh"?c:(ZH[c]||""))}">${esc(L(c))}</button>`).join(", ")}${a.inst.length?" | "+a.inst.map(i=>`<button type="button" class="inst" data-inst="${esc(i)}">${esc(i)}</button>`).join(", "):""}</div>
+    ${a.au?`<div class="authors">${esc(a.au)}</div>`:""}
+    <div class="abs">${figHTML(a)}${esc(a.abs)}
+      ${a.why?`<div class="why"><b>Why it matters:</b> ${esc(a.why)}</div>`:""}
+      <div class="src">${esc(a.j)}${a.doi?` · <a href="${esc(a.link)}" target="_blank" rel="noopener">doi:${esc(a.doi)}</a>`:` · <a href="${esc(a.link)}" target="_blank" rel="noopener">journal page</a>`}</div>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const feat = ARTS.filter(a=>a.featured && visible(a)).sort((x,y)=>(y.feature?1:0)-(x.feature?1:0)||y.d.localeCompare(x.d));
+  const filtering = filter || query;
+  const tiered = ARTS.some(a=>a.notable);
+  const selectedOnly = tiered && !showAll && !filtering;
+  const rec = ARTS.filter(a=>!a.featured && visible(a) && (!selectedOnly || a.notable)).sort((x,y)=>y.d.localeCompare(x.d));
+  document.getElementById("featured").hidden = !feat.length;
+  document.getElementById("featList").innerHTML = feat.map(artHTML).join("");
+  document.getElementById("recTitle").textContent = filter ? `${filter.type==="cat"?"Topic":"Institution"}: ${filter.type==="cat"?L(filter.value):filter.value}` : (query ? "Search Results" : (selectedOnly ? "Selected Papers" : "All Papers"));
+  const total = ARTS.filter(a=>!a.featured).length;
+  const toggle = tiered && !filtering ? (selectedOnly
+      ? ` // ${rec.length} selected by the editor · <a href="#recent" id="allT">show all ${total} papers</a>`
+      : ` // <a href="#recent" id="allT">show selected papers only</a>`) : "";
+  document.getElementById("pager").innerHTML = filtering
+    ? `${rec.length+feat.length} matching paper${rec.length+feat.length===1?"":"s"} // <a href="#top" id="clearF">Show all papers</a>`
+    : (ISSUE.updated
+        ? `Issue No. ${ISSUE.number} · week of ${longDate(ISSUE.date)} · updated daily, last ${longDate(ISSUE.updated)} · ${total+feat.length} papers`
+        : `Issue No. ${ISSUE.number} · ${longDate(ISSUE.date)} · ${total+feat.length} papers`) + toggle;
+  const at=document.getElementById("allT"); if(at) at.onclick=e=>{ e.preventDefault(); showAll=!showAll; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); };
+  const cf=document.getElementById("clearF"); if(cf) cf.onclick=e=>{ e.preventDefault(); filter=null; query=""; document.getElementById("q").value=""; render(); };
+  document.getElementById("recList").innerHTML = rec.length
+    ? rec.slice(0,shown).map(artHTML).join("") + (rec.length>shown ? `<button class="btn more" id="more" type="button">Show more papers (${rec.length-shown} more)</button>` : "")
+    : (feat.length?"":`<p class="empty">No papers match. Try another topic or search term.</p>`);
+  const mb=document.getElementById("more"); if(mb) mb.onclick=()=>{ shown+=PAGE; render(); };
+  renderCats(); drawThumbs();
+}
+
+function renderCats(){
+  const n = {}; ARTS.forEach(a=>a.cats.forEach(c=>n[c]=(n[c]||0)+1));
+  document.getElementById("cats").innerHTML = GROUPS.map(g=>`<p><b>${LANG==="zh"?g.zh:g.name}:</b> ${g.cats.map((c,k)=>
+    `<span style="white-space:nowrap"><button type="button" class="${g.cls}${n[c]?"":" none"}" data-cat="${esc(c)}" aria-pressed="${!!(filter&&filter.type==="cat"&&filter.value===c)}" title="${esc((LANG==="zh"?c:(ZH[c]||c)) + (n[c]?` · ${n[c]} this issue`:" · no papers this issue"))}">${esc(L(c))}</button>${k<g.cats.length-1?",":""}</span>`).join(" ")}</p>`).join("");
+  const lb=document.getElementById("langBtn"); lb.textContent = LANG==="zh" ? "EN" : "中文";
+  lb.setAttribute("aria-label", LANG==="zh" ? "Show topic names in English" : "Show topic names in Chinese");
+}
+
+function renderRail(){
+  const fl = ARTS.filter(a=>a.featured).sort((x,y)=>(y.feature?1:0)-(x.feature?1:0)||y.d.localeCompare(x.d));
+  document.getElementById("weekList").innerHTML = (fl.length?fl:[...ARTS].sort((x,y)=>y.d.localeCompare(x.d)).slice(0,15))
+    .map(a=>`<li><a href="#${esc(a.id)}">${esc(a.t.replace(/^Feature of the Week [^:]+:\s*/,""))}</a></li>`).join("");
+  const m={}; ARTS.forEach(a=>a.inst.forEach(i=>m[i]=(m[i]||0)+1));
+  document.getElementById("orgs").innerHTML = Object.entries(m).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,25)
+    .map(([i,n])=>`<li><button type="button" data-inst="${esc(i)}">${esc(i)}</button> · ${n} paper${n>1?"s":""}</li>`).join("");
+  const today=new Date(); today.setHours(0,0,0,0);
+  document.getElementById("confs").innerHTML = CONFS.map(c=>{
+    const a=P(c.s), b=P(c.e); const M=x=>MONTHS[x-1].slice(0,3);
+    const range = a.m===b.m ? `${M(a.m)} ${a.d}–${b.d}, ${a.y}` : `${M(a.m)} ${a.d} – ${M(b.m)} ${b.d}, ${b.y}`;
+    const days=Math.round((new Date(a.y,a.m-1,a.d)-today)/86400000);
+    const soon = days>=0&&days<=14?` · in ${days} day${days===1?"":"s"}`:"";
+    return `<li><a href="${esc(c.u)}" target="_blank" rel="noopener">${esc(c.t)}</a><br><span>${range} · ${esc(c.w)}${soon}</span></li>`;
+  }).join("");
+}
+
+/* ---------- sketches used when no licensed figure is available ---------- */
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+function rnd(seed){ let x = Math.sin(seed*999.13)*43758.5453; return x - Math.floor(x); }
+function glyphKit(g, col){
+  const soft = css("--fig-line"), grid = css("--grid"), ink = css("--muted");
+  const line=(pts,c=col,w=1.6)=>{ g.beginPath(); pts.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y)); g.strokeStyle=c; g.lineWidth=w; g.stroke(); };
+  const dot=(x,y,r,c=col,a=1)=>{ g.globalAlpha=a; g.beginPath(); g.arc(x,y,r,0,7); g.fillStyle=c; g.fill(); g.globalAlpha=1; };
+  const ring=(x,y,r,c=col,w=1.4,a=1)=>{ g.globalAlpha=a; g.beginPath(); g.arc(x,y,r,0,7); g.strokeStyle=c; g.lineWidth=w; g.stroke(); g.globalAlpha=1; };
+  const slab=(x,y,w,h)=>{ g.fillStyle=grid; g.fillRect(x,y,w,h); g.strokeStyle=soft; g.lineWidth=1; g.strokeRect(x+.5,y+.5,w-1,h-1); };
+  const cone=(cx,y0,y1,half,a=.22)=>{ g.beginPath(); g.moveTo(cx-half,y0); g.lineTo(cx+half,y0); g.lineTo(cx,y1); g.closePath(); g.fillStyle=col; g.globalAlpha=a; g.fill(); g.globalAlpha=1; };
+  const arrow=(x0,y0,x1,y1,c=col)=>{ line([[x0,y0],[x1,y1]],c,1.4); const a=Math.atan2(y1-y0,x1-x0); line([[x1-6*Math.cos(a-.5),y1-6*Math.sin(a-.5)],[x1,y1],[x1-6*Math.cos(a+.5),y1-6*Math.sin(a+.5)]],c,1.4); };
+  const phaseRing=(x,y,r,w,charge=1,rx=1,ry=1)=>{ for(let k=0;k<72;k++){ const a0=k/72*2*Math.PI, a1=(k+1.2)/72*2*Math.PI; g.beginPath(); g.ellipse(x,y,r*rx,r*ry,0,a0,a1); g.strokeStyle=`hsl(${(k/72*360*charge)%360} 70% 52%)`; g.lineWidth=w; g.stroke(); } };
+  return {soft, grid, ink, line, dot, ring, slab, cone, arrow, phaseRing};
+}
+const GLYPH = {
+  cell:["Imaging","--mod"], multiphoton:["Multiphoton","--mod"], shg:["SHG / THG","--mod"], raman:["Raman / SRS","--mod"], lightsheet:["Light-sheet","--mod"],
+  superres:["Nanoscopy","--mod"], oct:["OCT","--mod"], pa:["Photoacoustic","--mod"], flim:["FLIM","--mod"], diffuse:["Diffuse / NIR-II","--mod"],
+  endo:["Endoscopy","--mod"], qpi:["Phase imaging","--mod"], comp:["Computational","--mod"], ao:["Adaptive optics","--mod"], mini:["Miniscope","--mod"],
+  confocal:["Confocal","--mod"], ai:["AI / denoising","--meth"], probe:["Probe","--meth"], quantum:["Quantum","--meth"], instrument:["Instrument","--meth"], model:["Modeling","--meth"]
+};
+function drawGlyph(g, kind, W, H){
+  const [label, tok] = GLYPH[kind] || GLYPH.cell;
+  const col = css(tok), hot = css("--hot"); const K = glyphKit(g, col); const {line, dot, ring, slab, cone, arrow, ink, soft, grid} = K;
+  g.fillStyle=css("--fig-bg"); g.fillRect(0,0,W,H); g.lineCap="round"; g.lineJoin="round";
+  const cell=(x,y,rx,ry)=>{ g.beginPath(); g.ellipse(x,y,rx,ry,0,0,7); g.strokeStyle=ink; g.lineWidth=1.2; g.globalAlpha=.6; g.stroke(); g.globalAlpha=1; dot(x-rx*.2,y,ry*.45,hot,.35); };
+  switch(kind){
+    case "multiphoton": slab(10,40,112,46); cone(66,8,62,22); dot(66,62,3,col); for(let k=0;k<9;k++) dot(20+rnd(k)*92, 46+rnd(k+9)*36, 2, col, .45); break;
+    case "shg": for(let k=0;k<6;k++) line(Array.from({length:50},(_,i)=>[10+i*2.25, 26+k*10+3*Math.sin(i/4+k)]),k%2?hot:col,1.4); break;
+    case "raman": line([[10,80],[122,80]],soft,1); line(Array.from({length:110},(_,i)=>{ const x=i/109; let v=0; [[.25,.5,.02],[.48,1,.012],[.62,.4,.02],[.82,.75,.03]].forEach(([c,a,w])=>v+=a*w*w/((x-c)**2+w*w)); return [11+i, 78-v*52]; }),col,1.5); break;
+    case "lightsheet": g.globalAlpha=.25; g.fillStyle=col; g.fillRect(10,50,112,5); g.globalAlpha=1; line([[10,52],[122,52]],col,1.4); cone(66,10,48,14,.15); line([[52,10],[80,10]],ink,2); cell(40,52,9,7); cell(92,52,8,6); break;
+    case "superres": g.globalAlpha=.25; g.beginPath(); g.arc(38,52,18,0,7); g.fillStyle=col; g.fill(); g.globalAlpha=1; [[90,46],[98,56],[86,60],[102,44],[94,50]].forEach(([x,y])=>dot(x,y,2.4,col)); arrow(60,52,76,52,ink); break;
+    case "oct": line([[10,80],[122,80]],soft,1); line(Array.from({length:110},(_,i)=>{ const x=i/109, e=Math.exp(-(((x-.35)/.06)**2))+.6*Math.exp(-(((x-.7)/.05)**2)); return [11+i, 52-24*e*Math.cos(i*1.6)]; }),col,1.2); break;
+    case "pa": arrow(14,20,48,46,hot); dot(58,54,5,hot); for(let r=10;r<=40;r+=10) { g.beginPath(); g.arc(58,54,r,-.9,.9); g.strokeStyle=col; g.globalAlpha=1-r/50; g.lineWidth=1.6; g.stroke(); g.globalAlpha=1; } slab(112,24,8,58); break;
+    case "flim": line([[14,82],[122,82]],soft,1); line([[14,82],[14,20]],soft,1); line(Array.from({length:100},(_,i)=>[15+i*1.05, 82-58*Math.exp(-i/14)]),col,1.6); line(Array.from({length:100},(_,i)=>[15+i*1.05, 82-58*Math.exp(-i/36)]),hot,1.6); break;
+    case "diffuse": slab(8,36,116,50); dot(30,36,4,hot); dot(102,36,4,col); g.beginPath(); g.moveTo(30,38); g.quadraticCurveTo(66,96,102,38); g.strokeStyle=col; g.globalAlpha=.5; g.lineWidth=10; g.stroke(); g.globalAlpha=1; break;
+    case "endo": line([[10,30],[70,30],[92,52]],ink,4); cone(110,52,52,0); g.globalAlpha=.2; g.beginPath(); g.moveTo(92,52); g.lineTo(124,36); g.lineTo(124,68); g.closePath(); g.fillStyle=col; g.fill(); g.globalAlpha=1; break;
+    case "qpi": for(let k=5;k>0;k--){ g.beginPath(); g.ellipse(66,52,k*9,k*6,0,0,7); g.fillStyle=`hsl(${150+k*30} 60% ${40+k*8}%)`; g.globalAlpha=.55; g.fill(); } g.globalAlpha=1; break;
+    case "comp": for(let i=0;i<6;i++) for(let j=0;j<5;j++) g.fillStyle=`hsl(140 30% ${30+rnd(i*7+j)*50}%)`, g.fillRect(12+i*8,26+j*8,7,7); arrow(64,46,80,46,ink); cell(102,46,14,11); break;
+    case "ao": line(Array.from({length:30},(_,i)=>[14+i*1.4, 52+10*Math.sin(i/3)]),hot,1.6); slab(60,26,6,52); line([[76,26],[76,78]],col,1.6); line([[88,26],[88,78]],col,1.6); dot(112,52,4,col); break;
+    case "mini": g.beginPath(); g.ellipse(66,72,40,16,0,Math.PI,0); g.strokeStyle=ink; g.globalAlpha=.6; g.lineWidth=1.4; g.stroke(); g.globalAlpha=1; slab(56,24,20,32); line([[66,56],[66,64]],col,3); dot(66,64,3,col); break;
+    case "confocal": cone(66,10,46,18); line([[48,10],[84,10]],ink,2); g.fillStyle=ink; g.fillRect(40,66,22,3); g.fillRect(70,66,22,3); line([[66,46],[66,86]],col,1); dot(66,46,3,col); break;
+    case "ai": { const L1=[30,52,74], L2=[24,42,60,78], L3=[40,64]; L1.forEach(a=>L2.forEach(b=>line([[30,a],[66,b]],soft,1))); L2.forEach(a=>L3.forEach(b=>line([[66,a],[102,b]],soft,1))); L1.forEach(y=>dot(30,y,4,ink)); L2.forEach(y=>dot(66,y,4,col)); L3.forEach(y=>dot(102,y,4,ink)); break; }
+    case "probe": g.beginPath(); for(let t=0;t<7;t++){ const a=Math.PI/6+t*Math.PI/3; g.lineTo(54+12*Math.cos(a),52+12*Math.sin(a)); } g.strokeStyle=col; g.lineWidth=1.6; g.stroke(); line([[66,52],[84,52]],col,1.6); dot(92,52,9,hot,.3); dot(92,52,4,hot); break;
+    case "quantum": for(let r=0;r<4;r++) for(let c=0;c<7;c++) dot(20+c*15+(r%2)*7,30+r*14,1.8,ink); dot(65,51,5,col); ring(65,51,10,col,1.4,.4); break;
+    case "instrument": g.beginPath(); g.moveTo(48,18); g.lineTo(84,18); g.lineTo(80,58); g.lineTo(52,58); g.closePath(); g.fillStyle=grid; g.fill(); g.strokeStyle=soft; g.stroke(); g.fillStyle=col; g.fillRect(52,58,28,6); line([[60,64],[72,64]],ink,2); break;
+    case "model": for(let k=0;k<6;k++) line([[12,26+k*10],[120,26+k*10]],grid,1); line(Array.from({length:50},(_,i)=>[14+i*2.1, 80-48*Math.exp(-i/9)]),col,1.8); line(Array.from({length:50},(_,i)=>[14+i*2.1, 80-30*(1-Math.exp(-i/12))]),hot,1.8); break;
+    default: cell(48,50,22,16); cell(90,58,14,11); dot(52,44,2,col); dot(86,52,2,col);
+  }
+  g.font="600 10.5px "+css("--font-mono"); g.fillStyle=col; g.textAlign="left"; g.fillText(label,7,14);
+}
+function drawThumbs(){
+  document.querySelectorAll("canvas.thumb").forEach(cv=>{
+    const r=cv.getBoundingClientRect(), W=Math.round(r.width)||132, H=Math.round(r.height)||92, dpr=window.devicePixelRatio||1;
+    cv.width=W*dpr; cv.height=H*dpr;
+    const g=cv.getContext("2d"); g.setTransform(dpr*W/132,0,0,dpr*H/92,0,0);
+    drawGlyph(g, cv.dataset.glyph, 132, 92);
+  });
+}
+
+/* ---------- banner: a two-channel field of view, neurons in green with nuclei in magenta, and a 1 µm scale bar ---------- */
+function drawBanner(){
+  const cv=document.getElementById("pulse"), r=cv.getBoundingClientRect(); if(!r.width) return;
+  const dpr=window.devicePixelRatio||1; cv.width=r.width*dpr; cv.height=r.height*dpr;
+  const g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0);
+  const W=r.width, H=r.height, x1=W*(W<460?0.48:0.55);
+  const blob=(x,y,rad,h)=>{ const gr=g.createRadialGradient(x,y,0,x,y,rad); gr.addColorStop(0,`hsla(${h},90%,72%,.95)`); gr.addColorStop(1,`hsla(${h},90%,50%,0)`); g.fillStyle=gr; g.beginPath(); g.arc(x,y,rad,0,7); g.fill(); };
+  for(let k=0;k<14;k++){ const x=8+rnd(k)*(x1-16), y=6+rnd(k+40)*(H-12);
+    g.strokeStyle="hsla(140,80%,55%,.45)"; g.lineWidth=1; g.beginPath(); g.moveTo(x,y); g.bezierCurveTo(x+18*rnd(k+3)-9,y+20,x+30*rnd(k+5)-15,y+30,x+40*rnd(k+7)-20,y+H); g.stroke();
+    blob(x,y,7+5*rnd(k+11),140); blob(x+1,y+1,3.2,312); }
+  g.fillStyle=css("--band-ink"); g.fillRect(x1-46,H-10,34,2.5); g.font="500 9px "+css("--font-mono"); g.textAlign="center"; g.fillText("20 µm", x1-29, H-14);
+}
+document.addEventListener("click", e=>{
+  const c=e.target.closest("[data-cat]"), i=e.target.closest("[data-inst]"), r=e.target.closest("[data-reset]");
+  if(c){ const v=c.dataset.cat; filter=(filter&&filter.type==="cat"&&filter.value===v)?null:{type:"cat",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(i){ const v=i.dataset.inst; filter=(filter&&filter.type==="inst"&&filter.value===v)?null:{type:"inst",value:v}; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); }
+  else if(r){ filter=null; query=""; shown=PAGE; document.getElementById("q").value=""; render(); }
+  if(e.target.closest(".menu ul a")) closeMenu();
+});
+document.getElementById("searchForm").addEventListener("submit", e=>{ e.preventDefault(); query=document.getElementById("q").value.trim().toLowerCase(); filter=null; shown=PAGE; render(); document.getElementById("recent").scrollIntoView(); });
+document.getElementById("q").addEventListener("input", e=>{ if(!e.target.value){ query=""; render(); } });
+document.getElementById("langBtn").addEventListener("click", ()=>{ LANG = LANG==="zh"?"en":"zh"; try{ localStorage.setItem("bioimaging-lang", LANG); }catch(e){} render(); });
+const menu=document.getElementById("menu"), burger=document.getElementById("burger");
+function closeMenu(){ menu.classList.remove("open"); burger.setAttribute("aria-expanded","false"); }
+burger.addEventListener("click", ()=>{ const o=menu.classList.toggle("open"); burger.setAttribute("aria-expanded", String(o)); });
+document.getElementById("copyTpl").addEventListener("click", async ()=>{
+  const tpl="BioImaging News — Submit a Paper\nType (journal article / in-press / preprint / protocol / thesis / job / Feature of the Week):\nTitle:\nAuthors:\nInstitutions:\nJournal & DOI:\nAbstract or summary:\nImaging modality and key numbers (resolution, depth, speed, field of view):\nFig. 1 / representative figure (attach) and its licence (e.g. CC BY 4.0):\nTopics (e.g. Multiphoton Microscopy, Neuroscience):\nContact:\n";
+  const ok=document.getElementById("copied");
+  try{ await navigator.clipboard.writeText(tpl); ok.textContent="Copied"; }catch(err){ ok.textContent="Copy was blocked by the browser"; }
+  ok.hidden=false; setTimeout(()=>ok.hidden=true,2000);
+});
+
+function renderArchive(){
+  document.getElementById("archive").innerHTML = ISSUES.map(i=>
+    `<li><a href="#issue-${i.id}"${ISSUE&&i.id===ISSUE.id?' aria-current="page"':''}>No. ${i.number} · ${longDate(i.date)}</a> <span>· ${i.count} papers</span></li>`).join("");
+}
+async function loadIssue(id){
+  const meta = ISSUES.find(i=>i.id===id) || ISSUES[0];
+  if(!meta) throw new Error("no issues");
+  const EMB = window.FEMTO_DATA;
+  if(EMB && EMB.issues && EMB.issues[meta.id]) ISSUE = EMB.issues[meta.id];
+  else {
+    const r = await fetch(`data/issues/${meta.id}.json`, {cache:"no-cache"});
+    if(!r.ok) throw new Error(`issue ${meta.id}: HTTP ${r.status}`);
+    ISSUE = await r.json();
+  }
+  ARTS = ISSUE.articles.map(x=>fromIssue(x, ISSUE));
+  filter=null; query=""; document.getElementById("q").value="";
+  render(); renderRail(); renderArchive();
+}
+async function init(){
+  drawBanner();
+  try{
+    const EMB = window.FEMTO_DATA;   /* set in BioImagingNews.html, the double-click version built by scraper/build_standalone.py */
+    let idx, meet;
+    if(EMB){ idx = EMB.index; meet = EMB.meetings; }
+    else {
+      const [ri, rm] = await Promise.all([fetch("data/issues/index.json",{cache:"no-cache"}), fetch("data/meetings.json",{cache:"no-cache"})]);
+      idx = await ri.json(); meet = rm.ok ? await rm.json() : {};
+    }
+    ISSUES = (idx && idx.issues) || [];
+    CONFS = ((meet && meet.meetings)||[]).map(m=>({s:m.start,e:m.end,t:m.title,w:m.where,u:m.url}));
+    const want = (location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/)||[])[1];
+    await loadIssue(want);
+  }catch(err){
+    document.getElementById("recList").innerHTML = `<p class="empty">Could not load the issue data (${esc(err.message)}). If you opened index.html directly, open BioImagingNews.html instead, or serve the folder over HTTP, for example with <code>python -m http.server</code>.</p>`;
+  }
+}
+addEventListener("hashchange", ()=>{ const m=location.hash.match(/^#issue-(\d{4}-\d{2}-\d{2})$/); if(m && (!ISSUE || m[1]!==ISSUE.id)) loadIssue(m[1]); });
+init();
+addEventListener("resize", drawBanner);
+const redraw = ()=>{ drawBanner(); if(ARTS.length) drawThumbs(); };
+document.fonts && document.fonts.ready.then(redraw);
+try{ matchMedia("(prefers-color-scheme: dark)").addEventListener("change", redraw); }catch(e){}
+new MutationObserver(redraw).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+</script>
+</body>
+</html>

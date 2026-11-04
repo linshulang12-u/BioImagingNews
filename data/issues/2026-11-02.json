@@ -1,0 +1,428 @@
+{
+  "id": "2026-11-02",
+  "number": 1,
+  "date": "2026-11-02",
+  "window": [
+    "2026-10-19",
+    "2026-11-04"
+  ],
+  "articles": [
+    {
+      "id": "10-1038-s41592-026-03251-2-2b547e",
+      "date": "2026-10-28",
+      "title": "Cellular-resolution three-photon ultra-deep imaging (TrUDI) of neuronal population activity at 2-mm depth in the mammalian brain",
+      "authors": "Kalyan Santra, Kevin Barber, Francesca Logiacco, M. Agustina Frechou, Arash Bellafard, Jyun-you Liou, Alipasha Vaziri",
+      "institutions": [
+        "Rockefeller University",
+        "Max Planck Institute for Biology of Ageing",
+        "University of California, Los Angeles",
+        "Weill Cornell Medicine"
+      ],
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-026-03251-2",
+      "url": "https://doi.org/10.1038/s41592-026-03251-2",
+      "oa": true,
+      "license": "green OA",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Adaptive Optics & Deep Tissue",
+        "Neuroscience"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Three-photon microscopy reaches deeper than two-photon imaging, but cellular-resolution recordings of neuronal activity had stopped at about 1.2 mm in the mouse brain. TrUDI extends this to 2.1 mm, reaching the hippocampus and striatum through intact cortex. It delivers fewer but more energetic pulses and fires the laser only on the neurons being recorded, which cuts light exposure by up to 80% and raises efficiency about 250-fold. The authors found no sign of inflammation or DNA damage from the imaging.",
+      "why": "Population imaging of deep brain structures without removing the cortex above them.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable",
+      "feature": true
+    },
+    {
+      "id": "10-1038-s41467-026-79103-6-93bce6",
+      "date": "2026-11-01",
+      "title": "Volumetric scattering microscopy",
+      "authors": "Zijun Gao, Keyi Han, Zhi Ling, Hongmanlin Zhang, Edward A. Botchwey, Wenhao Liu, Xuanwen Hua, Shuyi Nie, Shu Jia",
+      "institutions": [
+        "Georgia Institute of Technology",
+        "Emory University",
+        "Tohoku University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79103-6",
+      "url": "https://doi.org/10.1038/s41467-026-79103-6",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Computational Imaging",
+        "Developmental Biology & Organoids"
+      ],
+      "glyph": "comp",
+      "summary": "Scattering in tissue scrambles both the position and the direction of fluorescence light, which limits 3D imaging, and existing computational corrections need wavefront sensing or heavy hardware. Volumetric scattering microscopy (VSM) is scan-free: an aperture-segmented Fourier light-field set-up records the volume in one shot and a feature-based descattering step reconstructs it, with no wavefront measurement or mechanical scanning. The authors show reconstructions in phantoms, cells, ex vivo muscle and intact Xenopus embryos with preserved resolution and better optical sectioning.",
+      "why": "Scan-free 3D fluorescence imaging through scattering tissue with simple hardware.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s44303-026-00214-2-ba33aa",
+      "date": "2026-10-31",
+      "title": "Stain-free three-dimensional organ imaging by serial optical coherence microscopy and tissue clearing: toward comprehensive histopathology",
+      "authors": "Myungju Kim, Kibeom Park, Eunjung Min, Andrey Vavilin, Kitae Kim, Geoseong Na, Hyunmo Yang, Eunji Lee, Sangjin Lee, Yujin Ahn, Yeonwoo Baek, Sunghoe Chang, Woonggyu Jung",
+      "institutions": [
+        "Ulsan National Institute of Science and Technology",
+        "Korea Photonics Technology Institute",
+        "Seoul National University",
+        "University of Illinois Urbana-Champaign"
+      ],
+      "journal": "npj Imaging",
+      "doi": "10.1038/s44303-026-00214-2",
+      "url": "https://doi.org/10.1038/s44303-026-00214-2",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "OCT & OCM",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "Serial optical coherence microscopy images a tissue block section by section using its intrinsic scattering contrast. Combined with tissue clearing, it produces whole-organ 3D images with no stains, as a route toward comprehensive 3D histopathology.",
+      "why": "Label-free whole-organ 3D histology.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78699-z-17769b",
+      "date": "2026-10-30",
+      "title": "Video-rate volumetric chemical imaging via mid-infrared photothermal optical diffraction tomography",
+      "authors": "Masato Fukushima, Keiichiro Toda, Yusei Sugawara, Shotaro Kawano, Takuro Ideguchi",
+      "institutions": [
+        "The University of Tokyo",
+        "RIKEN"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78699-z",
+      "url": "https://doi.org/10.1038/s41467-026-78699-z",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Coherent Raman & Vibrational",
+        "Label-Free Phase & Holographic",
+        "Cell Biology"
+      ],
+      "glyph": "raman",
+      "summary": "Mid-infrared photothermal (MIP) imaging reads molecular vibrations through the slight heating they cause, and optical diffraction tomography (ODT) maps the 3D refractive index of cells. Combining the two, the authors record volumetric chemical images at 19.2 volumes per second, about 400 times faster than before, with a signal-to-noise ratio above 70, and sweep 300 cm⁻¹ of spectrum within one second.",
+      "why": "Label-free chemical imaging of whole cells at video rate, fast enough to follow dynamics.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78848-4-a85f2c",
+      "date": "2026-10-30",
+      "title": "Minimally invasive topological light manipulation with lensless fiber endomicroscope",
+      "authors": "Xiaotan Lu, Zhuoyi Wang, Junan Zhu, Yiyi Hang, Xingyuan Lu, Jiawei Sun, Yangjian Cai, Chengliang Zhao",
+      "institutions": [
+        "Soochow University",
+        "University of Science and Technology of China",
+        "Shandong Normal University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78848-4",
+      "url": "https://doi.org/10.1038/s41467-026-78848-4",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Endoscopy & Fiber Imaging",
+        "Computational Imaging"
+      ],
+      "glyph": "endo",
+      "summary": "A lensless fiber endomicroscope built on a 10,000-core fiber with a 350 µm tip shapes topological light fields at its far end without any distal optics. The authors report shaping errors below 0.055%.",
+      "why": "Structured-light control inside a probe thin enough for minimally invasive use.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1364-boe-612810-739fb2",
+      "date": "2026-10-26",
+      "title": "Extended-focus second-harmonic generation microscopy of biological tissues using a two-axicon Bessel-beam shaper",
+      "authors": "Bhawna Bhawna, Fariborz Ehteshami, Jysiane Cardot, Eva Gierski, Jaskaran Singh, Cameron Brown, Shunmoogum A. Patten, Isabelle Plante, François Légaré, Arash Aghigh",
+      "institutions": [],
+      "journal": "Biomedical Optics Express",
+      "doi": "10.1364/boe.612810",
+      "url": "https://doi.org/10.1364/boe.612810",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Harmonic Generation",
+        "Instrumentation & Optical Design"
+      ],
+      "glyph": "shg",
+      "summary": "A shaper made of two axicons turns the excitation beam into a Bessel beam with an extended focus, so second-harmonic generation microscopy covers a long depth range of tissue at once.",
+      "why": "Faster volumetric SHG imaging of tissue structure with a simple add-on.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78971-2-a91794",
+      "date": "2026-10-24",
+      "title": "Label-free, real-time optical biopsy with a handheld quantitative phase microscope",
+      "authors": "Zhe Guang, Srinidhi Bharadwaj, Zhaobin Zhang, Zhenmin Li, Stewart G. Neill, Jeffrey J. Olson, Francisco E. Robles",
+      "institutions": [
+        "Georgia Institute of Technology",
+        "Emory University",
+        "Winship Cancer Institute",
+        "Cedars-Sinai Medical Center",
+        "St. Jude Children's Research Hospital"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78971-2",
+      "url": "https://doi.org/10.1038/s41467-026-78971-2",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "Miniaturized & Wearable",
+        "Oncology & Pathology"
+      ],
+      "glyph": "qpi",
+      "summary": "Quantitative oblique back-illumination microscopy (qOBM) recovers phase images of thick tissue in reflection, with no staining or sectioning. This handheld version images at 0.8 µm lateral and 5 µm axial resolution over a 300 × 300 µm field at 25 frames per second, producing histology-like views of fresh tissue in real time for assessing biopsies during surgery.",
+      "why": "Label-free, real-time optical biopsy in a probe a surgeon can hold.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78585-8-37ca25",
+      "date": "2026-10-20",
+      "title": "Three-photon population imaging of subcortical brain regions",
+      "authors": "Hadas Frostig, Amy H. Monasterio, Hongjie Xia, Urvi Mishra, Siria Coello, Rebecca L. Suthard, Baldwin Britton, John T. Giblin, Steve Ramirez, Jerome C. Mertz, Benjamin B. Scott",
+      "institutions": [
+        "Boston University",
+        "Thorlabs"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78585-8",
+      "url": "https://doi.org/10.1038/s41467-026-78585-8",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Neuroscience"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Three-photon microscopy usually trades field of view for depth. This system images over more than 3 mm², records over 1,500 neurons at once and reaches subcortical regions 1.2 mm deep in the rat brain.",
+      "why": "Large-population recordings below the cortex, alongside this week's depth record.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41592-026-03245-0-c9f440",
+      "date": "2026-10-19",
+      "title": "Multi-immersion oblique plane microscope (miOPM): a reconfigurable platform for high-resolution light-sheet fluorescence microscopy",
+      "authors": "Bingying Chen, Alfred Millett-Sikking, Bo-Jui Chang, Seweryn Gałecki, Stephan Daetwyler, Jenny Jiou, Jim Monistrol, Qionghua Shen, Felix Zhou, Hsin-Yu Lin, Edward M. Jenkins, Miriam C. Stein, Madeleine Marlar-Pavey, Gabriel Sturm, Alexander L. Li, Qiaosi Tang, Brian Y. Feng, Ulises Diaz, Yannan Chen, Aryaman Shalizi et al.",
+      "institutions": [
+        "UT Southwestern Medical Center",
+        "Calico Life Sciences",
+        "University of California, San Francisco",
+        "Princeton University",
+        "Columbia University"
+      ],
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-026-03245-0",
+      "url": "https://doi.org/10.1038/s41592-026-03245-0",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Light-Sheet & Oblique Plane",
+        "Instrumentation & Optical Design",
+        "Cell Biology"
+      ],
+      "glyph": "lightsheet",
+      "summary": "Oblique plane microscopes image a tilted light sheet through a single objective, but each design is usually tied to one immersion medium. miOPM is a reconfigurable platform that works with oil, water or air objectives and accepts samples with refractive indices from 1.33 to 1.51, so one instrument covers aqueous live specimens as well as index-matched ones at high resolution.",
+      "why": "One light-sheet set-up for very different samples lowers the barrier to high-resolution OPM.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1126-sciadv-aei5334-2d83b5",
+      "date": "2026-10-16",
+      "title": "Extended field-of-view two-photon imaging in the deep brain of freely behaving mice using lightweight microfabricated corrective optics",
+      "authors": "Chiara Nardin, Andrea Sattin, Sebastiano Curreli, Giorgio Letti, Laura Maddalena, Leonardo Nacci, Tommaso Fellin",
+      "institutions": [
+        "Italian Institute of Technology",
+        "University of Genoa"
+      ],
+      "journal": "Science Advances",
+      "doi": "10.1126/sciadv.aei5334",
+      "url": "https://doi.org/10.1126/sciadv.aei5334",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Miniaturized & Wearable",
+        "Neuroscience"
+      ],
+      "glyph": "mini",
+      "summary": "Two-photon imaging of deep brain areas in freely moving mice relies on implanted GRIN lenses, whose aberrations shrink the usable field of view. Lightweight microfabricated corrective optics added to the lens restore image quality and enlarge the field of view more than fourfold.",
+      "why": "Wider deep-brain views during natural behaviour, with optics light enough for a moving mouse.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41592-026-03255-y-68a77b",
+      "date": "2026-10-13",
+      "title": "Near-infrared photochromic miniprotein enables photoacoustic molecular imaging of acute inflammation and intracellular antigens",
+      "authors": "Olena S. Oliinyk, Yirui Xu, Jinhuan Luo, Kateryna Tokarchuk, Kyrylo Yu. Manoilov, Josie Van De Klashorst, Matthew P. Eyring, Mu-En Wang, Ming Chen, Pengfei Song, John W. Hickey, Junjie Yao, Vladislav V. Verkhusha",
+      "institutions": [
+        "University of Helsinki",
+        "Duke University",
+        "Albert Einstein College of Medicine"
+      ],
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-026-03255-y",
+      "url": "https://doi.org/10.1038/s41592-026-03255-y",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Probes & Contrast Agents",
+        "Immunology & Inflammation"
+      ],
+      "glyph": "pa",
+      "summary": "Photoacoustic imaging sees deep into tissue, but its genetically encoded reporters are usually large proteins. This near-infrared photochromic miniprotein, smaller than 19 kDa, can be switched with light, which separates its signal from the blood background, and it enables photoacoustic molecular imaging of acute inflammation and of intracellular antigens.",
+      "why": "A small, switchable reporter opens photoacoustic imaging to molecular targets deep in tissue.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78580-z-d7d3dc",
+      "date": "2026-10-11",
+      "title": "Time-lapse RESOLFT nanoscopy empowered by deep learning",
+      "authors": "Guillaume Minet, Anirban Ray, Francesca Pennacchietti, Giovanna Coceano, Florian Jug, Ilaria Testa",
+      "institutions": [
+        "KTH Royal Institute of Technology",
+        "Science for Life Laboratory",
+        "Human Technopole",
+        "Technische Universität Dresden"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78580-z",
+      "url": "https://doi.org/10.1038/s41467-026-78580-z",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "AI, Denoising & Restoration",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "RESOLFT nanoscopy switches fluorescent proteins on and off with modest light levels, but long time-lapse series still bleach the sample. A deep-learning restoration step lets the microscope run with about ten times less light, extending live-cell time-lapse recordings fivefold, and a parallelized variant (Fast-MoNaLISA) raises the frame rate fourfold.",
+      "why": "Longer, gentler super-resolution movies of living cells.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1038-s41467-026-78321-2-a8f272",
+      "date": "2026-10-10",
+      "title": "Quantum-sensing-based super-resolution live cell microenvironment imaging",
+      "authors": "Yuxian Lu, Yibo Yang, Ke Xu, Zihan Mao, Lu Yin, Yang Xu, Zengrong Zhou, Xin Wang, Chi Zhang, Wenxin Zhu, Jiandong Feng",
+      "institutions": [
+        "Zhejiang University",
+        "Zhejiang Normal University",
+        "China Jiliang University"
+      ],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-78321-2",
+      "url": "https://doi.org/10.1038/s41467-026-78321-2",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Quantum & Novel Contrast",
+        "Cell Biology"
+      ],
+      "glyph": "quantum",
+      "summary": "Nitrogen-vacancy (NV) centres in diamond report physical parameters of their surroundings. Combining NV quantum sensing with structured illumination microscopy, the authors map the microenvironment of living cells at 136 nm resolution and 150 ms per frame over a 180 × 180 µm² field.",
+      "why": "Adds quantitative physical sensing to live-cell super-resolution imaging.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    },
+    {
+      "id": "10-1073-pnas-2613174123-6ab090",
+      "date": "2026-10-08",
+      "title": "Physics-informed single-frame end-to-end learning for denoising and background removal in fluorescence imaging",
+      "authors": "Xinxiang You, Shuyue Xie, Chengen Li, Ke Hu, Xueyang Fu, Cuifang Kuang, Longhua Tang, Ziyi Lu, Chuanhai Fu, Zheng-Jun Zha, Xu Liu, Douguo Zhang",
+      "institutions": [
+        "University of Science and Technology of China",
+        "Zhejiang University"
+      ],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2613174123",
+      "url": "https://doi.org/10.1073/pnas.2613174123",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "ai",
+      "summary": "A physics-informed network removes noise and out-of-focus background from a single fluorescence frame, with the image-formation physics built into end-to-end training.",
+      "why": "Cleaner fluorescence images without extra exposures or hardware.",
+      "fig": null,
+      "source": "editor",
+      "reviewed": true,
+      "pick": true,
+      "pick_date": "2026-11-04",
+      "tier": "notable"
+    }
+  ],
+  "removed": [],
+  "curated": "2026-11-04",
+  "updated": "2026-11-04"
+}

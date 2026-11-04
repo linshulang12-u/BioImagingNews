@@ -1,0 +1,140 @@
+epmc:
+  title: Three-photon microscopy of hippocampal neurons through the intact mouse cortex
+  abstract: Deep imaging of neuronal activity remains difficult. We use three-photon microscopy at 1300 nm to record calcium activity of hippocampal neurons through the intact cortex in awake mice.
+  categories:
+  - Multiphoton Microscopy
+  - Neuroscience
+  glyph: multiphoton
+  order:
+  - Multiphoton Microscopy
+  - Neuroscience
+noise:
+  title: Cryo-electron microscopy structure of a bacterial transporter
+  abstract: Single-particle cryo-EM at 2.8 Å resolution reveals the transport cycle.
+crossref:
+  doi: 10.1364/BOE.999001
+  title: Visible-light optical coherence tomography of the human retina
+  journal: Biomedical Optics Express
+  issn: 2156-7085
+  abstract: We report visible-light OCT of the human retina with 1.3 µm axial resolution.
+openalex:
+  strong_once:
+    title: Mapping lipid metabolism in single living cells
+    abstract: Stimulated Raman scattering microscopy with deuterium labels follows lipid synthesis.
+    category: Coherent Raman & Vibrational
+  dup_abstract: Visible-light OCT of the human retina.
+  passing:
+    title: High-entropy oxide cathodes for sodium batteries
+    abstract: Samples were characterised by XRD, SEM and fluorescence imaging; capacity retention reached 92%.
+  old:
+    title: Light-sheet microscopy of zebrafish hearts
+    abstract: Light sheets.
+core:
+  doi: 10.1117/1.NPH.13.4.045001
+  title: Cortical haemodynamics during whisker stimulation
+  journal: Neurophotonics
+  issn: 2329-423X
+arxiv:
+  title: Self-supervised denoising for adaptive optics two-photon microscopy
+  summary: We demonstrate self-supervised denoising of two-photon microscopy volumes corrected by adaptive optics.
+  glyph: multiphoton
+  old_title: Old microscopy paper outside the window
+inbox_title: miniaturized light-sheet microscope
+relevance:
+- title: Polymer membranes
+  abstract: Membranes were imaged by fluorescence microscopy.
+  keep: false
+- title: Tumour margins
+  abstract: Stimulated Raman histology identifies tumour infiltration.
+  keep: true
+- title: Battery electrodes
+  abstract: Electrodes were checked by optical microscopy and SEM.
+  keep: false
+- title: Neural circuits
+  abstract: Calcium imaging tracks neurons. Calcium imaging was done for weeks.
+  keep: true
+directions:
+- - Light-sheet microscopy of whole cleared mouse brains
+  - ''
+  - true
+  - Light-Sheet & Oblique Plane
+  - lightsheet
+- - MINFLUX nanoscopy of synaptic proteins
+  - ''
+  - true
+  - Super-Resolution & Nanoscopy
+  - superres
+- - Photoacoustic tomography of breast tumour hypoxia
+  - ''
+  - true
+  - Photoacoustic & Optoacoustic
+  - pa
+- - Optical coherence tomography endoscope for the airway
+  - ''
+  - true
+  - OCT & OCM
+  - oct
+- - Fluorescence lifetime imaging of metabolism in organoids
+  - ''
+  - true
+  - Fluorescence Lifetime & Spectral
+  - flim
+- - Quantitative phase imaging of red blood cells
+  - ''
+  - true
+  - Label-Free Phase & Holographic
+  - qpi
+- - MRI of liver fibrosis in patients
+  - ''
+  - false
+  - null
+  - null
+- - Cryo-EM structure of a membrane protein
+  - ''
+  - false
+  - null
+  - null
+- - NIR-II fluorescence imaging-guided photothermal therapy with nanozymes
+  - ''
+  - false
+  - null
+  - null
+once:
+- - Brain mapping
+  - Recorded by two-photon microscopy in awake mice.
+  - true
+- - Battery cathodes
+  - Characterised by SEM and fluorescence imaging.
+  - false
+extra_topics:
+  'yes':
+  - - Bright near-infrared fluorescent proteins for deep-tissue imaging
+    - ''
+  'no':
+  - - Bright near-infrared probes for photothermal therapy imaging
+    - Probes for photothermal therapy and theranostic imaging.
+clutter:
+  drop:
+  - Satellite remote sensing of crop health
+  - Efficient perovskite light-emitting diodes
+  keep:
+  - Adaptive optics two-photon microscopy of the spinal cord
+  - Handheld photoacoustic microscopy of skin vasculature
+routine:
+  drop:
+  - 'Retinal nerve fiber layer thickness measured by optical coherence tomography in glaucoma patients: a retrospective cohort'
+  keep:
+  - Visible-light optical coherence tomography with adaptive optics
+technique:
+  strong:
+    title: Choroidal thickness by optical coherence tomography in patients
+    abstract: Here we develop a new swept-source OCT imaging system and report choroidal thickness in 40 patients.
+  one_mention:
+    title: A compact device
+    abstract: We demonstrate a handheld microscope for imaging skin in vivo.
+  routine:
+    title: Macular thickness by optical coherence tomography in a retrospective cohort
+    abstract: Retrospective review of 200 eyes.
+  excluded:
+    title: Cryo-electron tomography of synapses
+    abstract: We develop a cryo-ET workflow with electron microscopy.

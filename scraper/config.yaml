@@ -1,0 +1,394 @@
+# BioImaging News — scraper configuration (biophotonic imaging)
+# Same pipeline as FemtoNews (adapted from VibraNews by ForestBin-Raman). Edit this file to change what the crawl looks for.
+
+site:
+  name: BioImaging News
+  url: https://linshulang12-u.github.io/BioImagingNews/   # used in the bot User-Agent
+
+http:
+  user_agent: "BioImagingNewsBot/1.0 (+{site_url}; weekly literature digest)"
+  timeout_s: 20
+  delay_s: 1.0
+  api_delay_s: 0.2
+  respect_robots_txt: true
+
+sources:
+  europepmc: true
+  openalex: true
+  crossref: true
+  arxiv: true
+  max_results_per_query: 400
+  max_europepmc: 6000
+  max_crossref_rows: 1000
+  max_openalex_per_term: 6000
+
+# A paper is kept if its TITLE matches any include pattern, or its ABSTRACT matches one at least twice.
+include:
+  - '(two|three|multi)-?photon (microscop\w*|imaging|excitation microscop\w*|fluorescence (imaging|microscop\w*)|endoscop\w*|calcium|voltage|population imaging|ultra-?deep)|\b(2PEF|3PEF|MPM)\b'
+  - '(second|third)[- ]harmonic generation (microscop\w*|imaging)|\b(SHG|THG) (microscop\w*|imaging)'
+  - 'light[- ]sheet|\bLSFM\b|\bSPIM\b|oblique plane microscop|lattice light|selective plane illumination'
+  - 'super-?resolution (microscop\w*|imaging|fluorescence|optical)|nanoscop\w*|\bSTED\b|\bRESOLFT\b|\bSMLM\b|\bMINFLUX\b|\bMINSTED\b|structured illumination microscop|expansion microscop|single-molecule localization|localization microscop|\bSOFISM?\b'
+  - 'confocal (microscop\w*|imaging|endomicroscop\w*|laser scanning)|fluorescence (microscop\w*|imaging|lifetime imaging|endoscop\w*|tomograph\w*|guided surgery)|\bFLIM\b|wide-?field fluorescence|epi-?fluorescence'
+  - 'optical coherence (tomograph\w*|microscop\w*|elastograph\w*)|\bOCT\b|\bOCTA\b|\bOCM\b|swept-source'
+  - 'photo-?acoustic (imaging|tomograph\w*|microscop\w*|endoscop\w*|arthroscop\w*|molecular imaging)|opto-?acoustic (imaging|tomograph\w*)|\bMSOT\b|\bRSOM\b'
+  - '(stimulated|coherent) Raman (scattering )?(microscop\w*|imaging|histolog\w*|spectromicroscop\w*)|\b(SRS|CARS) (microscop\w*|imaging)|Raman (imaging|microscop\w*|histolog\w*)|stimulated Raman histolog|vibrational (imaging|microscop\w*)|photothermal (microscop\w*|imaging|optical diffraction)|mid-?infrared photothermal'
+  - 'quantitative phase (imaging|microscop\w*)|\bQPI\b|digital holographic microscop|optical diffraction tomograph|label-free (imaging|microscop\w*|optical|histolog\w*)|oblique back-?illumination|scattering microscop'
+  - 'diffuse (optical|correlation) (tomograph\w*|spectroscop\w*|imaging)|near-?infrared spectroscopy system|NIR-?II (fluorescence )?(imaging|window|microscop\w*)|short-?wave infrared (fluorescence )?imaging|laser speckle (contrast )?imaging|speckle contrast'
+  - 'endoscop\w*|endomicroscop\w*|fib(er|re) (bundle|probe|endoscop\w*) imaging|multimode fib(er|re) (imaging|endoscop\w*)|lensless (fib\w*|endoscop\w*|imaging|microscop\w*)|capsule endoscop|GRIN (lens|endoscop\w*|microendoscop\w*)|miniscope|head-mounted (microscop\w*|imaging)|miniaturi[sz]ed (microscope|two-photon|imaging)'
+  - 'adaptive optics (microscop\w*|imaging|ophthalm\w*|two-photon|scanning)|deep[- ]tissue (imaging|microscop\w*|nanoscop\w*)|(wavefront shaping|focusing) (in|through) (biological )?tissue|through (scattering|turbid) (tissue|media)'
+  - 'calcium imaging|voltage imaging|neural activity imaging|functional (optical )?imaging|neurophotonic|hemodynamic (imaging|mapping)|intravital (imaging|microscop\w*)|in vivo (optical |fluorescence )?(imaging|microscop\w*)'
+  - 'computational (imaging|microscop\w*)|lens-?free (on-chip )?microscop|ptychograph\w*|light[- ]field microscop|Fourier light-?field|snapshot (hyperspectral )?(imaging|microscop\w*)|single-pixel imaging'
+  - 'virtual (staining|histolog\w*|H&E)|slide-free|optical biopsy|stain-free'
+  - 'genetically encoded (indicators?|sensors?|reporters?)|\b(GECI|GEVI)s?\b|fluorescent (probes?|proteins?|indicators?|reporters?) for (imaging|microscop\w*|nanoscop\w*)'
+  - 'biophotonic|biomedical optic|optical imaging|tissue optics|ophthalmic imaging|retinal imaging|scanning laser ophthalmoscop|\bAOSLO\b'
+  - '(denois\w*|deconvol\w*|restoration|super-resolution reconstruction|segmentation)\W+(\w+\W+){0,4}(fluorescence|microscop\w*|light-sheet|two-photon|calcium imaging)'
+
+strong_include:
+  - 'three-photon microscop'
+  - 'two-photon (microscop\w*|imaging|excitation)'
+  - 'light-sheet'
+  - 'oblique plane microscop'
+  - '\bSTED\b'
+  - '\bRESOLFT\b'
+  - '\bMINFLUX\b'
+  - 'expansion microscop'
+  - 'optical coherence tomograph'
+  - 'photo-?acoustic (tomograph\w*|microscop\w*|imaging)'
+  - 'stimulated Raman (scattering )?(microscop\w*|imaging|histolog\w*)'
+  - 'coherent anti-?Stokes Raman (scattering )?(microscop\w*|imaging)'
+  - 'quantitative phase (imaging|microscop\w*)'
+  - 'optical diffraction tomograph'
+  - 'fluorescence lifetime imaging'
+  - 'miniscope'
+  - 'calcium imaging'
+  - 'light-field microscop'
+  - 'Fourier ptychograph'
+  - 'NIR-II (fluorescence )?imaging'
+  - 'diffuse optical tomograph'
+  - 'endomicroscop'
+  - 'super-resolution (microscop\w*|imaging)'
+  - 'structured illumination microscop'
+  - 'photothermal (microscop\w*|imaging)'
+  - 'voltage imaging'
+  - 'adaptive optics'
+
+title_only: []   # every include pattern is already specific; generic words never count on their own
+
+characterisation_list: '(?:\b(?:XRD|XPS|SEM|TEM|EDS|AFM|FTIR|UV-?vis|DLS|TGA|NMR|confocal|fluorescence)\b(?:\s*(?:microscopy|spectroscopy|imaging|analysis))?\s*(?:,|/|;|\band\b)\s*){2,}(?:\band\s+)?\b(?:XRD|XPS|SEM|TEM|EDS|AFM|FTIR|UV-?vis|DLS|TGA|NMR|confocal|fluorescence)\b'
+
+exclude_sources: ['zenodo', 'figshare', 'mendeley data', 'dryad', 'harvard dataverse', 'pangaea']
+
+extra_topics:
+  - name: Imaging probes and reporters
+    title:
+      - '(photoswitch\w*|photochromic|bright|near-infrared|NIR) (fluorescent )?(proteins?|probes?|reporters?|indicators?)\W+(\w+\W+){0,5}(imaging|microscop\w*|nanoscop\w*|tomograph\w*)'
+    abstract:
+      - 'genetically encoded (calcium|voltage) indicator'
+    exclude: ['photothermal therapy', 'photodynamic therapy', 'chemodynamic', 'nanozyme', 'theranostic']
+
+core_journals:
+  issn: ['2156-7085', '1083-3668', '1560-2281', '2329-423X', '2329-4248', '2213-5979', '1864-063X', '1864-0648']
+  titles: ['biomedical optics express', 'journal of biomedical optics', 'neurophotonics', 'photoacoustics', 'journal of biophotonics']
+
+max_age_days: 180
+
+exclude:
+  - '(?s)^(?!.*(photo-?acoustic|opto-?acoustic|optical|fluoresc|microscop|\bOCT\b|Raman|photon|light)).*(ultrasound|ultrasonograph|\bMRI\b|magnetic resonance|computed tomography|\bCT\b|\bPET\b|\bSPECT\b|radiograph|mammograph|X-ray)'
+  - '(?s)^(?!.*(fluoresc|optical|light|photon|Raman|confocal|correlative)).*(electron microscop\w*|\bSEM\b|\bTEM\b|cryo-?EM|cryo-?ET|atomic force microscop\w*|\bAFM\b|scanning tunneling)'
+  - 'satellite|remote sensing|\bUAV\b|galax(y|ies)|telescope|astronom|exoplanet|land[- ]cover'
+  - 'food (science|quality|safety)|meat|fruit|grain|tea leaves|adulterat|pesticide residue'
+  - 'photovoltaic|solar cells?|perovskite (LED|solar)|light-emitting diodes?|lasing|photodetectors?'
+
+technique:
+  terms:
+    - 'microscop|imaging|tomograph|endoscop|nanoscop|photo-?acoustic|optical coherence|Raman|fluorescen|light-sheet|miniscope|ophthalmoscop|histolog'
+  cues:
+    - '\b(we|here,? we|this work|this paper|this study)\s+(\w+\s+){0,3}(develop|demonstrat|present|introduc|report|propos|realiz|build|construct|design|invent|engineer)\w*\s+(\S+\s+){0,8}?(microscop\w*|imaging (system|platform|modality|method|technique|approach|framework|pipeline|workflow)|tomograph\w*|endoscop\w*|nanoscop\w*|probes?|reporters?|indicators?|sensors?|cameras?|instrument\w*|algorithm|network|framework|method|workflow|platform)'
+  strong_cues:
+    - '\b(we|here,? we|this work|this study)\s+(\w+\s+){0,2}(develop|demonstrat|present|introduc|report|propos|realiz|invent|engineer)\w*\s+(a|an|the first)\s+(\S+\s+){0,6}?(microscope|microscopy|imaging (system|platform|modality|method|technique|approach)|tomograph\w*|endoscope|nanoscop\w*|probe|reporter|indicator|camera|instrument|platform|framework|method|workflow)\b'
+    - '\b(video-rate|volumetric|ultra-?deep|record (depth|speed)|\d+(\.\d+)?[- ]?mm depth|freely (moving|behaving)|whole-?brain|first-in-human|\d+ ?volumes? per second|\d+-fold (faster|deeper|larger))\b'
+  journals: ['nature methods', 'nature photonics', 'light: science', 'nature communications', 'science advances', '^optica\b', 'biomedical optics express', 'journal of biomedical optics', 'neurophotonics', 'photoacoustics', 'journal of biophotonics', 'apl photonics', 'advanced photonics', '^elight', 'laser & photonics', 'npj imaging', 'chemical & biomedical imaging', 'optics letters', 'optics express', 'nature biomedical engineering', 'proceedings of the national academy', 'elife', 'cell reports methods', 'nano letters', 'acs photonics', 'analytical chemistry', 'view', 'biophotonics discovery']
+
+# Routine clinical studies that use OCT/OCTA as a measuring tool (method papers are unaffected)
+routine_application:
+  domain:
+    - 'metrics|biometric|measured (by|with)|reproducibility|repeatability|agreement|patients?|eyes\b|cohort|retrospective|prospective|case (series|report|description)|follow-?up|outcomes?|prevalence|risk factors?|association (between|of|with)|children|adults|cross-sectional|clinical (study|trial)'
+    - 'classification|segmentation|diagnosis of|grading'
+  method:
+    - 'optical coherence tomography( angiography)?|\bOCTA?\b|fundus|retinal (thickness|nerve fib\w*|layers?)|choroidal (thickness|vascular)|macular|foveal avascular'
+
+exclude_title:
+  - '^comment on\b|^reply to\b|^erratum|^correction|call for papers|editorial board|issue information'
+  - 'photothermal therapy|photodynamic therapy|chemodynamic|nanozyme|synergistic (therapy|PTT|PDT|CDT)'
+
+soft_exclude:
+  patterns:
+    - 'theranostic|imaging-guided|nanoplatforms?|nanomedicine|tumou?r therapy|antitumou?r|drug delivery|nanocarriers?'
+  unless_title: ['microscop', 'tomograph', 'imaging system', 'camera', 'instrument', 'optical coherence', 'light-sheet', 'endoscop', 'nanoscop', 'super-resolution']
+
+# Venue filter (same publisher whitelist as FemtoNews)
+venues:
+  min_h_index: 40
+  trusted_doi_prefixes:
+    - '10.48550'   # arXiv
+    - '10.1101'    # bioRxiv / medRxiv
+    - '10.64898'   # bioRxiv / medRxiv (new prefix)
+    - '10.26434'   # ChemRxiv
+    - '10.1016'    # Elsevier / Cell Press
+    - '10.1021'    # ACS
+    - '10.1039'    # RSC
+    - '10.1002'    # Wiley
+    - '10.1111'    # Wiley
+    - '10.1155'    # Hindawi (Wiley)
+    - '10.1007'    # Springer
+    - '10.1038'    # Nature Portfolio
+    - '10.1186'    # BMC
+    - '10.1140'    # EPJ
+    - '10.1557'    # MRS
+    - '10.1364'    # Optica
+    - '10.1117'    # SPIE
+    - '10.1063'    # AIP
+    - '10.1103'    # APS
+    - '10.1088'    # IOP
+    - '10.1109'    # IEEE
+    - '10.1126'    # Science / AAAS
+    - '10.34133'   # Science Partner Journals
+    - '10.1073'    # PNAS
+    - '10.1093'    # Oxford UP
+    - '10.1017'    # Cambridge UP
+    - '10.1080'    # Taylor & Francis
+    - '10.1177'    # SAGE (Applied Spectroscopy, JNIRS)
+    - '10.3390'    # MDPI
+    - '10.3389'    # Frontiers
+    - '10.1371'    # PLOS
+    - '10.7554'    # eLife
+    - '10.1515'    # De Gruyter
+    - '10.1055'    # Thieme
+    - '10.1142'    # World Scientific
+    - '10.1108'    # Emerald
+    - '10.1149'    # ECS
+    - '10.1146'    # Annual Reviews
+    - '10.1152'    # American Physiological Society
+    - '10.1128'    # ASM
+    - '10.1158'    # AACR
+    - '10.1161'    # AHA
+    - '10.1172'    # SNMMI
+    - '10.3171'    # J Neurosurgery
+    - '10.1001'    # JAMA
+    - '10.1056'    # NEJM
+    - '10.1136'    # BMJ
+    - '10.1029'    # AGU
+    - '10.5194'    # Copernicus
+    - '10.2138'    # Mineralogical Society of America
+    - '10.1130'    # GSA
+    - '10.2113'    # GSA (Lithosphere)
+    - '10.1180'    # Mineralogical Society
+    - '10.1051'    # EDP Sciences (A&A, EPJ)
+    - '10.1360'    # Science China
+    - '10.26599'   # Tsinghua UP (Nano Research)
+    - '10.31635'   # CCS Chemistry
+    - '10.37188'   # Light: Advanced Manufacturing
+    - '10.3762'    # Beilstein
+    - '10.3791'    # JoVE
+    - '10.1246'    # Chemical Society of Japan
+    - '10.7567'    # JJAP
+    - '10.1209'    # JPSJ
+    - '10.1143'    # Japan Society of Applied Physics
+    - '10.21273'   # ASHS (HortScience)
+    - '10.5713'    # Animal Bioscience
+    - '10.3724'    # Acta Biochim Biophys Sin
+    - '10.20517'   # OAE Publishing
+  blocked_doi_prefixes:
+    - '10.21203'   # Research Square
+    - '10.20944'   # Preprints.org
+    - '10.22541'   # Authorea
+    - '10.31219'   # OSF Preprints
+    - '10.17605'   # OSF
+    - '10.31224'   # OSF / EarthArXiv
+    - '10.24412'   # CyberLeninka
+    - '10.5281'    # Zenodo
+    - '10.13140'   # ResearchGate
+    - '10.6084'    # figshare
+    - '10.9734'    # Sciencedomain (Asian Journal of ...)
+    - '10.22271'   # AkiNik (J Pharmacognosy & Phytochemistry)
+  blocked_journals: ['web of conferences', '^DOAJ', 'cyberlenin']
+  # preprint servers recognised by name when a record carries no DOI
+  trusted_journals: ['^arxiv', 'biorxiv', 'medrxiv', 'chemrxiv']
+
+europepmc_terms:
+  - '"two-photon microscopy"'
+  - '"three-photon"'
+  - '"multiphoton microscopy"'
+  - '"light-sheet"'
+  - '"super-resolution microscopy"'
+  - '"STED"'
+  - '"expansion microscopy"'
+  - '"optical coherence tomography"'
+  - '"photoacoustic imaging"'
+  - '"photoacoustic tomography"'
+  - '"stimulated Raman"'
+  - '"coherent Raman"'
+  - '"quantitative phase imaging"'
+  - '"fluorescence lifetime imaging"'
+  - '"calcium imaging"'
+  - '"voltage imaging"'
+  - '"adaptive optics"'
+  - '"endomicroscopy"'
+  - '"miniscope"'
+  - '"NIR-II imaging"'
+  - '"diffuse optical tomography"'
+  - '"light-field microscopy"'
+  - '"second harmonic generation microscopy"'
+  - '"label-free imaging"'
+
+openalex_terms:
+  - two-photon microscopy
+  - three-photon microscopy
+  - multiphoton imaging
+  - light-sheet microscopy
+  - oblique plane microscopy
+  - super-resolution microscopy
+  - STED nanoscopy
+  - single-molecule localization microscopy
+  - expansion microscopy
+  - structured illumination microscopy
+  - confocal microscopy imaging system
+  - fluorescence lifetime imaging
+  - optical coherence tomography system
+  - photoacoustic tomography
+  - photoacoustic microscopy
+  - stimulated Raman scattering microscopy
+  - coherent Raman imaging
+  - photothermal microscopy
+  - quantitative phase imaging
+  - optical diffraction tomography
+  - label-free optical imaging
+  - NIR-II fluorescence imaging
+  - diffuse optical tomography
+  - fiber endomicroscopy
+  - miniscope imaging
+  - adaptive optics microscopy
+  - calcium imaging microscope
+  - voltage imaging
+  - light-field microscopy
+  - computational microscopy
+  - second harmonic generation microscopy
+  - fluorescence microscopy denoising deep learning
+openalex_lookback_days: 30
+
+crossref_queries:
+  - two-photon microscopy
+  - three-photon imaging
+  - light-sheet microscopy
+  - super-resolution microscopy
+  - STED microscopy
+  - optical coherence tomography system
+  - photoacoustic imaging system
+  - stimulated Raman scattering imaging
+  - quantitative phase imaging
+  - fluorescence lifetime imaging
+  - endomicroscopy
+  - adaptive optics microscopy
+  - NIR-II fluorescence imaging
+  - label-free imaging tissue
+  - computational microscopy
+  - calcium imaging miniscope
+
+arxiv_terms:
+  - microscopy
+  - '"two-photon"'
+  - '"three-photon"'
+  - '"light-sheet"'
+  - '"super-resolution"'
+  - '"optical coherence tomography"'
+  - '"photoacoustic"'
+  - '"Raman imaging"'
+  - '"quantitative phase"'
+  - '"fluorescence lifetime"'
+  - '"adaptive optics"'
+  - '"endoscopy"'
+  - '"deep tissue"'
+  - '"biomedical imaging"'
+
+arxiv_categories: [physics.optics, physics.bio-ph, physics.med-ph, eess.IV, q-bio.QM]
+
+figures:
+  mode: oa_figure_else_cover
+  max_width: 400
+  max_height: 280
+  min_side_px: 120
+  reject_url_patterns: ['logo', 'favicon', 'default', 'placeholder', 'sprite', 'icon', 'blank']
+
+journal_covers: {}
+
+categories:
+  Modalities:
+    Multiphoton Microscopy: ['two-photon (microscop\w*|imaging|excit\w*|fluoresc\w*|calcium|endoscop\w*)', 'three-photon', 'multi-?photon', '\b(2P|3P|2PEF|3PEF|MPM|2PM|3PM)\b', 'TrUDI']
+    Harmonic Generation: ['second[- ]harmonic', 'third[- ]harmonic', '\bSHG\b', '\bTHG\b']
+    Coherent Raman & Vibrational: ['stimulated Raman', 'coherent anti-?Stokes', '\bSRS\b', '\bCARS\b', 'Raman (imaging|microscop\w*|histolog\w*|spectromicroscop\w*|mapping)', '\bSRH\b', 'photothermal (microscop\w*|imaging|infrared|optical)', '\bMIP\b', '\bO-?PTIR\b', 'vibrational (imaging|microscop\w*)', 'mid-?infrared photothermal']
+    Light-Sheet & Oblique Plane: ['light[- ]sheet', '\bLSFM\b', '\bSPIM\b', 'oblique plane', '\bOPM\b', 'lattice light']
+    Super-Resolution & Nanoscopy: ['super-?resol', 'nanoscop', '\bSTED\b', '\bRESOLFT\b', '\bSMLM\b', '\bPALM\b', '\bSTORM\b', 'MINFLUX', 'expansion microscop', 'single-molecule localization', 'localization microscop', '\bSOFI(SM)?\b', 'structured illumination microscop', 'sub-?diffraction', 'subdiffraction']
+    Confocal & Widefield Fluorescence: ['confocal', 'wide-?field fluoresc', 'epi-?fluoresc', 'spinning[- ]disk', '(?<!light-sheet )(?<!light sheet )fluorescence microscop', '(?<!light-sheet )fluorescence imaging']
+    Fluorescence Lifetime & Spectral: ['fluorescence lifetime', '\bFLIM\b', 'spectral (imaging|unmixing|microscop\w*)', 'hyperspectral', 'multispectral', '\bFRET\b', 'phasor', 'excitation-resolved', 'luminescence-decay']
+    OCT & OCM: ['optical coherence', '\bOCTA?\b', '\bOCM\b', '\bOCE\b', 'swept-?source', 'spectral-?domain OCT', 'dynamic OCT']
+    Photoacoustic & Optoacoustic: ['photo-?acoustic', 'opto-?acoustic', '\bPAT\b', '\bPAM\b', '\bMSOT\b', '\bRSOM\b', 'thermoacoustic', 'ultrasound localization']
+    Diffuse Optics & NIR-II: ['diffuse (optic\w*|correlation|reflectance)', '\bDOT\b', '\bDCS\b', 'near-?infrared spectroscop', '\bfNIRS\b', 'NIR-?II', 'second near-?infrared', 'short-?wave(length)? infrared', '\bSWIR\b', 'laser speckle', 'speckle contrast', '\bLSCI\b', 'tissue (oximetry|water)']
+    Endoscopy & Fiber Imaging: ['endoscop', 'endomicroscop', 'arthroscop', 'fib(er|re) (bundle|probe|imaging|endoscop\w*|tip)', 'multi-?core fib', 'multimode fib', 'lensless (fib\w*|endoscop\w*)', 'capsule', 'catheter', 'GRIN', 'intravascular', 'intracochlear']
+    Label-Free Phase & Holographic: ['quantitative phase', '\bQPI\b', 'digital hologra', 'holographic (microscop\w*|incoherent)', 'optical diffraction tomograph', '\bODT\b', 'label-?free', '\bqOBM\b', 'oblique back', 'interference reflection', 'scattering microscop', 'dark-?field', 'stain-free']
+    Computational Imaging: ['computational (imaging|microscop\w*)', 'lens-?free', 'lensless', 'ptychograph', 'light[- ]field microscop', 'Fourier light-?field', 'compressive', 'single-pixel', 'scan-free', 'neural fields?', 'diffraction tomography using']
+    Adaptive Optics & Deep Tissue: ['adaptive optics', 'aberration', 'wave-?front (shaping|correction|sensing)', 'deep[- ]tissue', 'scattering (tissue|media|medium)', 'descatter', 'ultra-?deep', '\d+(\.\d+)?[- ]?mm depth', 'penetration depth', 'transcranial', 'corrective optics', 'subcortical']
+    Miniaturized & Wearable: ['miniscope', 'head-?mounted', 'miniaturi[sz]ed', 'wearable', 'freely (moving|behaving)', 'handheld', 'portable', 'point-of-care', 'smartphone', 'low-?cost']
+    Other Imaging: ['a^']
+  Methods:
+    AI, Denoising & Restoration: ['deep learning', 'neural networks?', 'machine learning', 'denois', 'self-supervised', 'deconvol', 'restoration', 'segmentation', 'diffusion models?', 'transformer', 'artificial intelligence', '\bAI\b', 'zero-?shot', 'physics-informed', 'virtual staining', 'DivNoising', 'learning-based']
+    Probes & Contrast Agents: ['probes?', 'fluorophores?', '\bdyes?\b', 'fluorescent proteins?', 'indicators?', 'reporters?', '\bGECIs?\b', '\bGEVIs?\b', 'nanoparticles?', 'quantum dots?', 'upconver', 'contrast agents?', 'nano-?agents?', 'photoswitch', 'photochromic', 'nanobod']
+    Instrumentation & Optical Design: ['objectives?', 'scan(ning)? (module|head|mirror|system)', 'galvo', 'resonant scanner', 'detectors?', '\bSPAD\b', 'cameras?', 'light sources?', 'laser sources?', 'optical design', 'custom-built', 'open-source', 'transducers?', 'immersion', 'off-the-shelf']
+    Quantitative Analysis & Modeling: ['quantif', 'simulat', 'model(l)?ing', 'Monte Carlo', 'sensitivity (comparison|analysis|framework)', 'benchmark', '\bPSF\b', 'point spread', 'Bayesian']
+    Quantum & Novel Contrast: ['quantum', '\bNV\b', 'nitrogen-vacancy', 'undetected (photon|light)', 'entangl', 'correlation (imaging|microscop\w*)', 'single-photon avalanche']
+  Applications:
+    Neuroscience: ['brain', '\bneur', 'cortex', 'cortical', 'hippocamp', 'thalam', 'striatum', 'calcium (imaging|activity|transients)', 'voltage', 'synap', 'astrocyt', 'optogenet', 'neurovascular', 'glia', 'head-direction']
+    Oncology & Pathology: ['cancer', 'tumou?r', 'carcinoma', 'oncolog', 'metasta', 'glioma', 'glioblastoma', 'histopatholog', 'patholog', 'biops', 'surgical margin', '\bH&E\b', 'melanoma', 'sarcoma']
+    Cell Biology: ['live[- ]cell', 'living cells?', 'organelle', 'mitochond', 'vesicle', 'actin', 'cytoskelet', 'membrane', 'lipid droplets?', 'single[- ]cell', 'intracellular', 'nuclear', 'chromatin']
+    Developmental Biology & Organoids: ['embryo', 'zebrafish', 'Xenopus', 'Drosophila', 'organoid', 'spheroid', 'developmental', 'larva', 'whole organism']
+    Ophthalmology: ['retin', 'ophthalm', 'cornea', '\beyes?\b', 'choroid', 'macula', 'glaucoma', 'fundus', 'ophthalmoscop', 'Bowman']
+    Cardiovascular & Hemodynamics: ['vascul', 'blood (flow|vessels?)', 'hemodynam', 'angiograph', 'cardiac', 'heart', 'perfusion', 'oxygen saturation', 'plaque', 'capillar', 'lymphatic']
+    Dermatology & Surgery: ['skin', 'dermat', 'intraoperative', 'surgical', 'surgery', 'neurosurg', 'wound', 'keloid']
+    Immunology & Inflammation: ['immun', 'inflamm', 'T cells?', 'macrophage', 'antigen', 'lymph']
+    Microbiology & Plants: ['bacteri', 'microb', 'virus', 'plants?\b', 'leaf', 'roots?\b', 'yeast', 'pathogen']
+    Clinical Translation: ['clinical', 'patients?', 'human (skin|subjects|volunteers|brain)', 'in humans?', 'first-in-human', 'point-of-care', 'bedside']
+  Miscellaneous:
+    News & Highlights: ['a^']
+    Reviews: ['^review', '\breview of\b', 'a review', 'mini[- ]review', '\bperspective\b', 'tutorial', 'recent (advances|progress)', 'state of the art', 'from principles to applications']
+    Protocols & Resources: ['protocol', 'open-source', 'dataset', 'tutorial', 'guide to']
+    Jobs & Studentships: ['a^']
+    Student Theses: ['\bthesis\b|dissertation']
+
+category_limits: {Modalities: 2, Methods: 1, Applications: 1, Miscellaneous: 1}
+default_category: Other Imaging
+
+glyphs:
+  - [Multiphoton Microscopy, multiphoton]
+  - [Harmonic Generation, shg]
+  - [Coherent Raman & Vibrational, raman]
+  - [Light-Sheet & Oblique Plane, lightsheet]
+  - [Super-Resolution & Nanoscopy, superres]
+  - [OCT & OCM, oct]
+  - [Photoacoustic & Optoacoustic, pa]
+  - [Fluorescence Lifetime & Spectral, flim]
+  - [Diffuse Optics & NIR-II, diffuse]
+  - [Endoscopy & Fiber Imaging, endo]
+  - [Label-Free Phase & Holographic, qpi]
+  - [Computational Imaging, comp]
+  - [Adaptive Optics & Deep Tissue, ao]
+  - [Miniaturized & Wearable, mini]
+  - [Confocal & Widefield Fluorescence, confocal]
+  - ["AI, Denoising & Restoration", ai]
+  - [Probes & Contrast Agents, probe]
+  - [Quantum & Novel Contrast, quantum]
+  - [Instrumentation & Optical Design, instrument]
+  - [Quantitative Analysis & Modeling, model]
+
+default_glyph: cell        # sketch drawn when no glyph rule matches
+
+daily_lookback_days: 3
+summary_max_chars: 700
