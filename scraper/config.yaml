@@ -34,7 +34,7 @@ include:
   - '(stimulated|coherent) Raman (scattering )?(microscop\w*|imaging|histolog\w*|spectromicroscop\w*)|\b(SRS|CARS) (microscop\w*|imaging)|Raman (imaging|microscop\w*|histolog\w*)|stimulated Raman histolog|vibrational (imaging|microscop\w*)|photothermal (microscop\w*|imaging|optical diffraction)|mid-?infrared photothermal'
   - 'quantitative phase (imaging|microscop\w*)|\bQPI\b|digital holographic microscop|optical diffraction tomograph|label-free (imaging|microscop\w*|optical|histolog\w*)|oblique back-?illumination|scattering microscop'
   - 'diffuse (optical|correlation) (tomograph\w*|spectroscop\w*|imaging)|near-?infrared spectroscopy system|NIR-?II (fluorescence )?(imaging|window|microscop\w*)|short-?wave infrared (fluorescence )?imaging|laser speckle (contrast )?imaging|speckle contrast'
-  - 'endoscop\w*|endomicroscop\w*|fib(er|re) (bundle|probe|endoscop\w*) imaging|multimode fib(er|re) (imaging|endoscop\w*)|lensless (fib\w*|endoscop\w*|imaging|microscop\w*)|capsule endoscop|GRIN (lens|endoscop\w*|microendoscop\w*)|miniscope|head-mounted (microscop\w*|imaging)|miniaturi[sz]ed (microscope|two-photon|imaging)'
+  - 'endoscop\w* (imaging|microscop\w*|OCT|optical coherence|probes?)|(optical|fluorescence|OCT|confocal|photo-?acoustic|Raman|capsule|fib(er|re)|lensless|multimode) endoscop\w*|endomicroscop\w*|fib(er|re) (bundle|probe|endoscop\w*) imaging|multimode fib(er|re) (imaging|endoscop\w*)|lensless (fib\w*|endoscop\w*|imaging|microscop\w*)|capsule endoscop|GRIN (lens|endoscop\w*|microendoscop\w*)|miniscope|head-mounted (microscop\w*|imaging)|miniaturi[sz]ed (microscope|two-photon|imaging)'
   - 'adaptive optics (microscop\w*|imaging|ophthalm\w*|two-photon|scanning)|deep[- ]tissue (imaging|microscop\w*|nanoscop\w*)|(wavefront shaping|focusing) (in|through) (biological )?tissue|through (scattering|turbid) (tissue|media)'
   - 'calcium imaging|voltage imaging|neural activity imaging|functional (optical )?imaging|neurophotonic|hemodynamic (imaging|mapping)|intravital (imaging|microscop\w*)|in vivo (optical |fluorescence )?(imaging|microscop\w*)'
   - 'computational (imaging|microscop\w*)|lens-?free (on-chip )?microscop|ptychograph\w*|light[- ]field microscop|Fourier light-?field|snapshot (hyperspectral )?(imaging|microscop\w*)|single-pixel imaging'
@@ -43,6 +43,8 @@ include:
   - 'biophotonic|biomedical optic|optical imaging|tissue optics|ophthalmic imaging|retinal imaging|scanning laser ophthalmoscop|\bAOSLO\b'
   - '(denois\w*|deconvol\w*|restoration|super-resolution reconstruction|segmentation)\W+(\w+\W+){0,4}(fluorescence|microscop\w*|light-sheet|two-photon|calcium imaging)'
 
+  # broad: a title that names any optical imaging method (outside imaging journals this is what keeps a paper)
+  - 'microscop(y|e|es|ic)\b|nanoscop\w*|bioimaging|diffraction tomograph\w*|photo-?acoustic|opto-?acoustic|fluorescence lifetime|(sensors?|biosensors?|probes?|indicators?|reporters?) for (live-cell |in vivo |intravital )?imaging|\bSTORM\b|\bPALM\b|single[- ]molecule (localization|fluorescence|imaging|tracking)|single-particle tracking|super[- ]?resolution (mapping|analysis|reconstruction|imaging|microscop\w*)|nanoscale imaging|fluorescent proteins?|\bRaman\b|phase retrieval|\bimager\b|label-free|hyperspectral (imaging|microscop\w*)|(fluorescence|single-molecule|lifetime|Raman|optical|photoacoustic|spectral|3D|three-dimensional|volumetric|in vivo|intravital|whole-(brain|body|organ)|deep-brain|cortical|neuronal|live-cell) imaging|imaging (pipeline|platform|system|toolbox|method|probe)|optical (sectioning|clearing|electrophysiology)|all-optical'
 strong_include:
   - 'three-photon microscop'
   - 'two-photon (microscop\w*|imaging|excitation)'
@@ -107,7 +109,9 @@ technique:
   strong_cues:
     - '\b(we|here,? we|this work|this study)\s+(\w+\s+){0,2}(develop|demonstrat|present|introduc|report|propos|realiz|invent|engineer)\w*\s+(a|an|the first)\s+(\S+\s+){0,6}?(microscope|microscopy|imaging (system|platform|modality|method|technique|approach)|tomograph\w*|endoscope|nanoscop\w*|probe|reporter|indicator|camera|instrument|platform|framework|method|workflow)\b'
     - '\b(video-rate|volumetric|ultra-?deep|record (depth|speed)|\d+(\.\d+)?[- ]?mm depth|freely (moving|behaving)|whole-?brain|first-in-human|\d+ ?volumes? per second|\d+-fold (faster|deeper|larger))\b'
-  journals: ['nature methods', 'nature photonics', 'light: science', 'nature communications', 'science advances', '^optica\b', 'biomedical optics express', 'journal of biomedical optics', 'neurophotonics', 'photoacoustics', 'journal of biophotonics', 'apl photonics', 'advanced photonics', '^elight', 'laser & photonics', 'npj imaging', 'chemical & biomedical imaging', 'optics letters', 'optics express', 'nature biomedical engineering', 'proceedings of the national academy', 'elife', 'cell reports methods', 'nano letters', 'acs photonics', 'analytical chemistry', 'view', 'biophotonics discovery']
+  # imaging / optics journals: here one abstract mention is enough. Elsewhere a paper needs the modality in its
+  # title or a method claim (see abstract_needs_field_journal)
+  journals: ['nature methods', 'nature photonics', 'light: science', '^optica\b', 'biomedical optics express', 'journal of biomedical optics', 'neurophotonics', 'photoacoustics', 'journal of biophotonics', 'apl photonics', 'advanced photonics', '^elight', 'laser & photonics', 'npj imaging', 'chemical & biomedical imaging', 'optics letters', 'optics express', 'acs photonics', '^view$', 'biophotonics discovery', 'cell reports methods', 'journal of microscopy', 'communications engineering', 'ieee transactions on medical imaging', 'medical image analysis', 'methods in microscopy', 'journal of optics', 'optics and lasers in engineering', 'ultrafast science']
 
 # Routine clinical studies that use OCT/OCTA as a measuring tool (method papers are unaffected)
 routine_application:
@@ -117,9 +121,16 @@ routine_application:
   method:
     - 'optical coherence tomography( angiography)?|\bOCTA?\b|fundus|retinal (thickness|nerve fib\w*|layers?)|choroidal (thickness|vascular)|macular|foveal avascular'
 
+# Abstract-only matches count only in the journals listed under technique.journals; a biology or clinical
+# paper elsewhere must name the imaging method in its title or claim a new method / probe / instrument.
+abstract_needs_field_journal: true
+
 exclude_title:
   - '^comment on\b|^reply to\b|^erratum|^correction|call for papers|editorial board|issue information'
   - 'photothermal therapy|photodynamic therapy|chemodynamic|nanozyme|synergistic (therapy|PTT|PDT|CDT)'
+  - '(?i)mass spectrometry imaging|MALDI|\bX-ray\b|neutron|electron (microscop\w*|tomograph\w*|bremsstrahlung)|cathodolumines\w*|\bSEM\b|synthetic aperture radar|\bSAR\b|magnetic particle imaging|seismic|image fusion|infrared and (low-light )?visible|^(?!.*photo-?acoustic).*ultrasound localization microscopy|positron|free-electron|\bMRI\b'
+  - 'case report|case series|a case of|masquerad|mimicking|following (uneventful )?(cataract|surgery)|quality indicators|health services|microwave imaging|magnetic resonance|perfusion imaging|positron emission|radiolog\w*|imaging findings|molecular dynamics'
+  - 'endoscopic (submucosal|dissection|surgery|decompression|treatment|therapy|findings|resection|ultrasound|retrograde|sinus|repair|variceal|cyanoacrylate)|full-endoscopic|biportal|laparoscop\w*|arthroplasty|denervation'
 
 soft_exclude:
   patterns:

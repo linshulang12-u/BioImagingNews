@@ -1,3 +1,15 @@
 # Submissions: one DOI per line (a comment after # is fine). The next crawl adds each paper to the
 # current issue regardless of the keyword filter, then removes the line. Saving this file on GitHub
 # starts a crawl straight away.
+10.1038/s41467-026-78613-7
+10.1016/j.pacs.2026.100899
+10.1093/noajnl/vdag267
+10.1016/j.ijpharm.2026.127543
+10.1364/oe.609819
+10.1117/1.jbo.31.10.106004
+10.1364/boe.614912
+10.1364/boe.612909
+10.1021/cbmi.6c00168
+10.3390/diagnostics16203315
+10.1002/nap2.70333
+10.1038/s44303-026-00192-5

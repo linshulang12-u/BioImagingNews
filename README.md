@@ -41,6 +41,7 @@
 全部在 `scraper/config.yaml`：
 
 - **收录**：各类光学成像模态及其方法学（探针、仪器、重建算法、AI 去噪），拉曼 / SRS、OCT 照收。Biomedical Optics Express、JBO、Neurophotonics、Photoacoustics、Journal of Biophotonics 五种核心期刊每篇都收（`core_journals`）。
+- **只是“用到”成像的论文不收**：成像 / 光学期刊之外（生物、临床期刊），论文标题要写出成像方法，或摘要里声明提出了新方法、探针、仪器，才收录；只在摘要里提一句 “用双光子 / 共聚焦成像” 的生物学论文不收（`abstract_needs_field_journal`）。
 - **排除**：非光学的影像（MRI、CT、PET、超声单独成像）、电镜 / AFM（除非结合光学）、遥感、食品检测、LED / 光伏；光热 / 光动力治疗、纳米酶这类 “治疗为主、成像为辅” 的论文只有标题里有成像方法时才收；常规临床 OCT 测量、队列统计类论文不收。
 - **期刊质量**（`venues`）：主流出版社和 arXiv / bioRxiv 直接收；其他期刊 OpenAlex h-index ≥ 40 才收。
 
