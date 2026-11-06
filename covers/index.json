@@ -163,5 +163,15 @@
     "src": "covers/brain-structure-and-function.jpg",
     "kind": "cover",
     "credit": "Journal cover · Brain Structure and Function"
+  },
+  "bmc medical imaging": {
+    "src": "covers/bmc-medical-imaging.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · BMC Medical Imaging"
+  },
+  "nature materials": {
+    "src": "covers/nature-materials.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nature Materials"
   }
 }
