@@ -158,5 +158,10 @@
     "src": "covers/journal-of-crop-health.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Crop Health"
+  },
+  "brain structure and function": {
+    "src": "covers/brain-structure-and-function.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Brain Structure and Function"
   }
 }
