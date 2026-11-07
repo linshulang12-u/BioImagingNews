@@ -173,5 +173,10 @@
     "src": "covers/nature-materials.jpg",
     "kind": "cover",
     "credit": "Journal cover · Nature Materials"
+  },
+  "annals of surgical oncology": {
+    "src": "covers/annals-of-surgical-oncology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Annals of Surgical Oncology"
   }
 }
