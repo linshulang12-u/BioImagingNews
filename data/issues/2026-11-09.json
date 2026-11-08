@@ -1,0 +1,120 @@
+{
+  "id": "2026-11-09",
+  "number": 2,
+  "date": "2026-11-09",
+  "window": [
+    "2026-11-09",
+    "2026-11-09"
+  ],
+  "articles": [
+    {
+      "id": "10-1038-s41598-026-79627-3-f5a3f5",
+      "date": "2026-11-07",
+      "title": "Design and characterization of beta-cyclodextrin/chitosan-coated zeolitic imidazolate framework-8 to enhance luteolin solubility and anticancer efficacy: bioinformatic and biologic assessment",
+      "authors": "Fatemeh Kharazmi, Masoud Homayouni Tabrizi, Mojtaba Jafarinia",
+      "institutions": [
+        "Islamic Azad University, Marvdasht",
+        "Islamic Azad University, Mashhad"
+      ],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79627-3",
+      "url": "https://doi.org/10.1038/s41598-026-79627-3",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Probes & Contrast Agents",
+        "Oncology & Pathology"
+      ],
+      "glyph": "probe",
+      "summary": "Colorectal cancer remains a cause of cancer-related mortality, while luteolin, a flavonoid, is limited by poor aqueous solubility, rapid metabolism, and low bioavailability. This study developed a luteolin-loaded β-cyclodextrin/chitosan-coated zeolitic imidazolate framework-8 (Lut@β-CD/CS/ZIF-8) nanocarrier intended to improve drug retention, pH-responsive release, and anticancer activity against colorectal cancer cells. ZIF-8 nanoparticles were synthesized by room-temperature precipitation, coated sequentially with β-cyclodextrin and chitosan, crosslinked using sodium tripolyphosphate, and loaded with luteolin by post-synthetic incubation. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-26434-chemrxiv-15011543-v2-64828c",
+      "date": "2026-11-02",
+      "title": "Self-Evolving Laboratories Through Persistent Digital and Physical Adaptation",
+      "authors": "Renjie Li, Yuanhao Zhou, Yinqi Zeng, Edward Lukhanin, Huan Liu, Carter McNear, Daniel Ceballos, Mohamed Eshan, Olamide Ogunjobi, Owen Funke, Yu Liu, Yuxing Wang, Gregory Victor Lowry, Paul J. Braun, Lynford L. Goddard",
+      "institutions": [
+        "University of Illinois Urbana-Champaign",
+        "Carnegie Mellon University",
+        "Northeastern University"
+      ],
+      "journal": "ChemRxiv",
+      "doi": "10.26434/chemrxiv.15011543/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15011543/v2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Turning a scientific idea into an experiment often requires researchers to build, configure and repeatedly adapt the laboratory around it. This work demands resources and specialized expertise that can place ambitious experiments beyond reach. Here we introduce a self-evolving laboratory framework that connects computation, physical experiments and AI models through persistent cycles of observation and revision. GPT Astra uses camera observations and physical feedback to adapt robotic actions, digital twins and CAD designs. These changes are retained as reusable skills and infrastructure, allowing the laboratory to develop alongside its scientific tasks. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-xops-2026-101462-36c8c3",
+      "date": "2026-11-01",
+      "title": "Pointwise Prediction of Pattern Deviation Probability Maps from Wide-Field Volumetric OCT Scans",
+      "authors": "Deming Wang, Diping Song, Zefeng Yang, 周新荣, Zihan Li, Jiaxuan Jiang, Kangjie Kong, Jingwen Jiang, Zige Fang, Xiaoyi Liu, Bin Xie, Guihua Xu, Xiulan Zhang, Fei Li",
+      "institutions": [
+        "Sun Yat-sen University",
+        "State Key Laboratory of Ophthalmology",
+        "Zhongshan Ophthalmic Center, Sun Yat-sen University"
+      ],
+      "journal": "Ophthalmology Science",
+      "doi": "10.1016/j.xops.2026.101462",
+      "url": "https://doi.org/10.1016/j.xops.2026.101462",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "OCT & OCM",
+        "AI, Denoising & Restoration",
+        "Ophthalmology",
+        "Protocols & Resources"
+      ],
+      "glyph": "oct",
+      "summary": "Purpose To develop and evaluate a deep learning (DL) system based on wide-field (WF) volumetric optical coherence tomography (OCT) for pointwise prediction of 24-2 visual field (VF) sensitivity and complete pattern deviation probability (PDP) maps in glaucoma. Design Multicenter cross-sectional model development and validation study with prospectively collected external test data. Participants A total of 4,055 same-day OCT-VF pairs from 2,552 participants, including glaucoma and non-glaucoma eyes. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-talanta-2026-130910-ffcf3a",
+      "date": "2026-11-01",
+      "title": "Experimental Design-Guided Deep Learning for Microscopy-Based Qualitative Classification of Assay-Referenced Glipizide Powder-Blend States: A Proof-of-Concept Study",
+      "authors": "Swayamprakash Patel, Shubham Sutradhar, Jagruti Desai, Amit Thakkar, Abhishek Patel",
+      "institutions": [],
+      "journal": "Talanta",
+      "doi": "10.1016/j.talanta.2026.130910",
+      "url": "https://doi.org/10.1016/j.talanta.2026.130910",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "ai",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-09"
+}
