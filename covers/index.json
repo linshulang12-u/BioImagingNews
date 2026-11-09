@@ -178,5 +178,10 @@
     "src": "covers/annals-of-surgical-oncology.jpg",
     "kind": "cover",
     "credit": "Journal cover · Annals of Surgical Oncology"
+  },
+  "korean journal of ophthalmology": {
+    "src": "covers/korean-journal-of-ophthalmology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Korean Journal of Ophthalmology"
   }
 }
