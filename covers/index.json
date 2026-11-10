@@ -183,5 +183,30 @@
     "src": "covers/korean-journal-of-ophthalmology.jpg",
     "kind": "cover",
     "credit": "Journal cover · Korean Journal of Ophthalmology"
+  },
+  "molecular imaging and biology": {
+    "src": "covers/molecular-imaging-and-biology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Molecular Imaging and Biology"
+  },
+  "japanese journal of radiology": {
+    "src": "covers/japanese-journal-of-radiology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Japanese Journal of Radiology"
+  },
+  "plant physiology reports": {
+    "src": "covers/plant-physiology-reports.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Plant Physiology Reports"
+  },
+  "informatics studies": {
+    "src": "covers/informatics-studies.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Informatics Studies"
+  },
+  "journal of cataract &amp; refractive surgery": {
+    "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
   }
 }
