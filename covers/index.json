@@ -208,5 +208,20 @@
     "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
     "kind": "cover",
     "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
+  },
+  "biogeosciences": {
+    "src": "covers/biogeosciences.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Biogeosciences"
+  },
+  "metrologia": {
+    "src": "covers/metrologia.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Metrologia"
+  },
+  "the astrophysical journal": {
+    "src": "covers/the-astrophysical-journal.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · The Astrophysical Journal"
   }
 }
