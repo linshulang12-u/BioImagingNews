@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-12"
+    "2026-11-13"
   ],
   "articles": [
     {
@@ -69,6 +69,29 @@
         "Quantitative Analysis & Modeling"
       ],
       "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-mineng-2026-111020-a7da9a",
+      "date": "2027-02-01",
+      "title": "A fluorescence imaging system for the identification and quantification of spodumene",
+      "authors": "C. Wilske, D. Beniwal, J.E. Moffatt, H. Holfeld, J. Asp, T.B. Payten, A. Eskdale, T.M. Slattery, G. Tsiminis, E.P. Schartner, N.A. Spooner",
+      "institutions": [],
+      "journal": "Minerals Engineering",
+      "doi": "10.1016/j.mineng.2026.111020",
+      "url": "https://doi.org/10.1016/j.mineng.2026.111020",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Quantitative Analysis & Modeling"
+      ],
+      "glyph": "confocal",
       "summary": "",
       "why": "",
       "pick": false,
@@ -166,6 +189,587 @@
       "summary": "Multiplexed profiling of diverse biomarkers is essential for precision diagnostics, but remains challenging for label-free sensors because signals typically scale with analyte mass. Here, we present a dynamic plasmonic imaging platform based on electromechanically driven nano-oscillators for multiplexed, label-free quantification of nucleic acids, proteins, and small molecules within a unified sensing architecture. Size-encoded nanoparticles tethered to a plasmonic surface are electrically actuated to oscillate vertically within the evanescent field and tracked by distance-resolved surface plasmon resonance imaging. …",
       "why": "",
       "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1242-jcs-265363-9b75c4",
+      "date": "2026-11-12",
+      "title": "LiSIUM - a light sheet bioimaging hub in South America",
+      "authors": "Vargas AA, Fuentealba LM, Lovy A, Court FA, Valdivia LE",
+      "institutions": [
+        "Center for Integrative Biology",
+        "Center for Vision Research at SUNY Upstate Medical University",
+        "Center for Aging Research and Healthy Longevity"
+      ],
+      "journal": "Journal of cell science",
+      "doi": "10.1242/jcs.265363",
+      "url": "https://doi.org/10.1242/jcs.265363",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Light-Sheet & Oblique Plane",
+        "Developmental Biology & Organoids"
+      ],
+      "glyph": "lightsheet",
+      "summary": "Light sheet microscopy has revolutionized biological imaging, yet prohibitive procurement costs and technical demands have restricted its availability in South America, creating a persistent technological gap for regional biomedical research. The Light Sheet Imaging at Universidad Mayor initiative (LiSIUM) has established a framework for regional access, capitalizing on a fully operational, state-of-the-art light sheet platform. In this Essay, we describe the implementation of LiSIUM and its core framework for expanding advanced imaging access across South America. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-prj-608344-e68a50",
+      "date": "2026-11-12",
+      "title": "Phase-resolved wide-field CARS microscopy with speckle illumination",
+      "authors": "Federico Vernuccio, Pascal Berto, Baptiste Marthy, Guillaume Baffou, Sandro Heuke, Randy Bartels, Pierre Bon, Herve Rigneault",
+      "institutions": [],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.608344",
+      "url": "https://doi.org/10.1364/prj.608344",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Coherent Raman & Vibrational"
+      ],
+      "glyph": "raman",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-diagnostics16223749-bba65c",
+      "date": "2026-11-12",
+      "title": "Calibration and Cross-Dataset Behavior in Malaria Microscopy with Parameter-Efficient Fine-Tuning: A Matched LoRA–PiSSA Evaluation",
+      "authors": "Sorio Boit, Rajvardhan Patil, Tiehang Duan",
+      "institutions": [
+        "College of Computing"
+      ],
+      "journal": "Diagnostics",
+      "doi": "10.3390/diagnostics16223749",
+      "url": "https://doi.org/10.3390/diagnostics16223749",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Background/Objectives: Reliable evaluation of deep-learning methods for malaria microscopy requires assessing both classification performance and the quality of predicted infection probabilities across datasets. We compared low-rank adaptation (LoRA) and principal singular values and singular vectors adaptation (PiSSA) under matched parameter-efficient fine-tuning (PEFT). Methods: An ImageNet-pretrained vision transformer (ViT-B/16) was adapted at ranks 2, 4, 8, and 16 using 27,558 National Institutes of Health (NIH) malaria cell images. One NIH grouped partition was held fixed across paired training seeds 42, 123, and 456. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-jacs-6c17841-3df67a",
+      "date": "2026-11-12",
+      "title": "Specific Amino Acid Imaging of Protein Condensates in Live Cells by Stimulated Raman Scattering Microscopy",
+      "authors": "Ruifeng Sun, Ruowei Zhang, Fanghao Hu",
+      "institutions": [
+        "Tsinghua University"
+      ],
+      "journal": "Journal of the American\nChemical Society",
+      "doi": "10.1021/jacs.6c17841",
+      "url": "https://doi.org/10.1021/jacs.6c17841",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Coherent Raman & Vibrational",
+        "Confocal & Widefield Fluorescence",
+        "Oncology & Pathology"
+      ],
+      "glyph": "raman",
+      "summary": "Intracellular protein condensates formed by liquid–liquid phase separation have gained increasing attention in recent years due to their key roles in many physiological and pathological processes. However, fluorescence imaging of protein condensates is limited by the bulky fluorescent tags that could perturb the protein localization and interaction. Imaging techniques that can visualize protein condensates in live cells with minimal perturbations remain lacking. Here, we develop a strategy to image intracellular protein condensates by coupling stimulated Raman scattering (SRS) microscopy to specific amino acid labeling. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-analchem-6c03342-4963e2",
+      "date": "2026-11-12",
+      "title": "A New Perspective on Electrochemistry at The ITIES - Combining μITIES and Confocal Microscopy Using a Gelled Organic Phase in a Glass Membrane",
+      "authors": "Julia Maciejewska-Komorowska, Damien W. M. Arrigan, Martin Jönsson-Niedziółka",
+      "institutions": [
+        "Institute of Physical Chemistry",
+        "Curtin University"
+      ],
+      "journal": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c03342",
+      "url": "https://doi.org/10.1021/acs.analchem.6c03342",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Probes & Contrast Agents",
+        "Cell Biology",
+        "Reviews"
+      ],
+      "glyph": "confocal",
+      "summary": "Ion transfer voltammetry using arrays of micro-interfaces between two immiscible electrolyte solutions (μITIES) has emerged as a promising tool for analysis of environmental samples. Here we show that using a gelled organic phase, we can combine μITIES electrochemistry with ex situ techniques, such as confocal fluorescence microscopy. By investigating the transfer of the ionized fluorophore fluorescein, we can use fluorescence confocal microscopy to evaluate the distribution of ions in the organic phase after transfer. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-smll-76452-b68f8f",
+      "date": "2026-11-12",
+      "title": "Quantitative Imaging of Water Diffusion in Brain Parenchyma at Cellular Resolution Using Stimulated Raman Scattering Microscopy (Small 63/2026)",
+      "authors": "Wakana Ozaki, Ayano Suzuki, Satoshi Ii, Masato Yasui, Mutsuo Nuriya",
+      "institutions": [
+        "Department of Pharmacology Keio University School of Medicine Shinjuku Tokyo Japan",
+        "School of Engineering Institute of Science Tokyo Meguro‐ku Tokyo Japan"
+      ],
+      "journal": "Small",
+      "doi": "10.1002/smll.76452",
+      "url": "https://doi.org/10.1002/smll.76452",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Coherent Raman & Vibrational",
+        "Label-Free Phase & Holographic",
+        "Neuroscience"
+      ],
+      "glyph": "raman",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fpain-2026-2002187-de41c6",
+      "date": "2026-11-12",
+      "title": "Corneal confocal microscopy identifies small nerve fibre damage in patients with isolated mesh associated pain syndrome",
+      "authors": "Hawra Badri, Maryam Ferdousi, Raabya Pasha, Azita Rajai, Handrean Soran, Richard Edmondson, Fiona Reid",
+      "institutions": [
+        "Saint Mary's Hospital",
+        "Manchester Academic Health Science Centre (MAHSC)",
+        "School of Medical Sciences"
+      ],
+      "journal": "Frontiers in Pain Research",
+      "doi": "10.3389/fpain.2026.2002187",
+      "url": "https://doi.org/10.3389/fpain.2026.2002187",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Instrumentation & Optical Design",
+        "Neuroscience"
+      ],
+      "glyph": "confocal",
+      "summary": "Introduction Surgery using polypropylene mesh devices was the gold-standard procedure for stress urinary incontinence (SUI). Use of vaginally placed mesh devices has been restricted due to rising rates of complications of which pain is the most prevalent. The aetiology of Isolated Mesh Associated Pain Syndrome (I-MAPS) remains elusive. There is growing evidence to support the involvement of a neuropathically-mediated process with the possibility of systemic effects. Objectives To objectively identify small nerve fibre injury in patients with I-MAPS and correlate this against women with painless devices and a healthy control group. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1073-pnas-2616212123-dc167d",
+      "date": "2026-11-12",
+      "title": "Diffusional depth profiling using electrochemiluminescence microscopy",
+      "authors": "Samuel P. Nortz, Brady R. Layman, Megan L. Hill, Ashutosh Rana, Jeffrey E. Dick",
+      "institutions": [
+        "Purdue University",
+        "Elmore Family School of Electrical and Computer Engineering"
+      ],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2616212123",
+      "url": "https://doi.org/10.1073/pnas.2616212123",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Quantitative Analysis & Modeling",
+        "Developmental Biology & Organoids"
+      ],
+      "glyph": "model",
+      "summary": "Electrochemiluminescence (ECL) microscopy has emerged as a powerful 2D imaging technique with exceptional spatial resolution, enabling visualization of biological entities, nanomaterials, and multiphase systems. Conventional ECL experiments rely on coreactant concentrations in large excess of the luminophore to generate a bright signal in the vicinity of the electrode. While effective for surface interrogation, this confinement limits resolution in the z-dimension, making 3D imaging challenging. Here, we show that introducing an excess of luminophore enables access to 3D information through diffusion of the emission layer away from the electrode. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-jimaging12110571-9de349",
+      "date": "2026-11-12",
+      "title": "VTOI-GAN: An Enhanced Pix2Pix Model for Infrared Image Generation",
+      "authors": "Ting Liu, Xiangyi Lu, Changshui Li, Yupeng Jia",
+      "institutions": [
+        "College of Marine Engineering",
+        "Dalian Scientific Test and Control Technology Institute"
+      ],
+      "journal": "Journal of Imaging",
+      "doi": "10.3390/jimaging12110571",
+      "url": "https://doi.org/10.3390/jimaging12110571",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Protocols & Resources"
+      ],
+      "glyph": "cell",
+      "summary": "Infrared imaging techniques are capable of providing reliable visual information across varying lighting conditions, particularly in environments with low or no illumination. However, traditional infrared image generation methods still face limitations in scene adaptability, image quality, and efficiency. To address this, this paper proposes VTOI-GAN, a lightweight method based on an Enhanced Pix2Pix model. Firstly, a residual dense Unet generator with multiscale feature fusion is constructed to enhance the extraction and reconstruction of image features. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-photonics13111074-1bd743",
+      "date": "2026-11-12",
+      "title": "Eliminating Dual-Frame Redundancy in Binary DCT Single-Pixel Imaging via Zero-Threshold Modulation",
+      "authors": "Shubin Liu, Zeyong Lin, Zhan Yu, Luhong Que, Jianqiang Yang",
+      "institutions": [
+        "College of Physics and Information Engineering",
+        "College of Computer Science and Cyber Security"
+      ],
+      "journal": "Photonics",
+      "doi": "10.3390/photonics13111074",
+      "url": "https://doi.org/10.3390/photonics13111074",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Computational Imaging"
+      ],
+      "glyph": "comp",
+      "summary": "Discrete cosine transform-based single-pixel imaging (DCT-SPI) enables high-quality sub-Nyquist imaging owing to its strong energy compaction properties. However, its reliance on grayscale modulation is incompatible with binary high-speed digital micromirror devices (DMDs), and existing binary adaptations introduce dual-frame redundancy, severely limiting imaging speed. Here, we propose a two-dimensional compressive binary DCT-SPI framework. By applying a zero-threshold binarization strategy to the discrete cosine patterns, binary illumination patterns are generated that completely eliminate dual-frame redundancy. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s10967-026-11291-3-be0a5c",
+      "date": "2026-11-12",
+      "title": "PGNAA single-pixel imaging based on coding modulation and CNN-based restoration: a simulation study",
+      "authors": "Lucheng Yang, Mingfei Yan, Xubin Zhang, Jingru Chen, Wenxuan Zhang, Rui Jia",
+      "institutions": [],
+      "journal": "Journal of Radioanalytical and Nuclear Chemistry",
+      "doi": "10.1007/s10967-026-11291-3",
+      "url": "https://doi.org/10.1007/s10967-026-11291-3",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Computational Imaging",
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "comp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/journal-of-radioanalytical-and-nuclear-chemistry.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Journal of Radioanalytical and Nuclear Chemistry"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-14445-23488549-ijece-v13i10p101-99fe81",
+      "date": "2026-11-12",
+      "title": "Rail-Guided IoT Imaging System for Leaf-Level Monitoring in Small-Scale Citrus Plots",
+      "authors": "José Fabián Huamaní Zegarra, German Alberto Echaiz Espinoza, Daniel Domingo Yanyachi Aco Cardenas, Andrés Ortiz Salazar",
+      "institutions": [],
+      "journal": "International Journal of Electronics and Communication Engineering",
+      "doi": "10.14445/23488549/ijece-v13i10p101",
+      "url": "https://doi.org/10.14445/23488549/ijece-v13i10p101",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Miniaturized & Wearable",
+        "Instrumentation & Optical Design",
+        "Microbiology & Plants",
+        "Protocols & Resources"
+      ],
+      "glyph": "mini",
+      "summary": "This paper presents a rail-guided IoT imaging system designed to overcome the difficulty of obtaining consistent, leaf-level citrus images for long-term agricultural monitoring by combining deterministic electromechanical positioning, embedded control, edge computing, and cloud-based data management. It incorporates a cable-suspended linear actuation mechanism together with two inclined cameras, motion control based on ESP32 microcontrollers, a Raspberry Pi 5 for processing, and AWS S3 for cloud services to automate the processes of image acquisition, synchronization, storage, and remote visualization. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-jacs-6c14836-200196",
+      "date": "2026-11-12",
+      "title": "Anti -Dihydroxylation-Enabled Dual-Resolution Profiling and Imaging of Fatty Acid C═C Bond Isomers",
+      "authors": "Zhijun Zhu, Shuling Xu, William J. Heelan, Penghsuan Huang, Hua Zhang, Gaoyuan Lu, Amy B. Banta, Jason M. Peters, Lingjun Li",
+      "institutions": [
+        "University of Wisconsin-Madison"
+      ],
+      "journal": "Journal of the American\nChemical Society",
+      "doi": "10.1021/jacs.6c14836",
+      "url": "https://doi.org/10.1021/jacs.6c14836",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Cell Biology"
+      ],
+      "glyph": "cell",
+      "summary": "Lipids are essential for membrane structure, signaling, and stress adaptation. Their diverse biological roles are largely dictated by the presence of C═C bonds in unsaturated fatty acids (FAs), which vary in both position and geometry. However, unambiguous characterization and in situ mapping of these two structural features have remained longstanding analytical challenges. Here, we present a stereochemistry-preserved chemical derivatization strategy coupled with trapped ion mobility spectrometry-tandem MS (TIMS-MS/MS), enabling complete resolution of both FA C═C bond position and geometry within a single workflow. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fmars-2026-1969343-e1378f",
+      "date": "2026-11-12",
+      "title": "An autonomous imaging system for reef fish monitoring in the southern Gulf of Mexico",
+      "authors": "Edlin José Guerra-Castro, Miguel Ángel Plata-Díaz, Víctor Eduardo Gómez-Bretón, Damián Alejandro Cedillo-Reyna, Rodrigo Contreras-Chávez, Arturo Sanchez-Porras, Ilse Ruiz-Mercado, Vanesa Papiol, Ximena Isabel Pérez-Meza, Yoalli Quetzalli Hernández-Díaz, Alan Javier Ramírez-Menéndez, Ángela Randazzo-Eisemann, Nuno Simoes",
+      "institutions": [
+        "Instituto de Ciencias del Mar y Limnología",
+        "Harte Research Institute for Gulf Studies"
+      ],
+      "journal": "Frontiers in Marine Science",
+      "doi": "10.3389/fmars.2026.1969343",
+      "url": "https://doi.org/10.3389/fmars.2026.1969343",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "probe",
+      "summary": "Introduction Reef fish assemblages are widely used as indicators of coral reef condition. Yet, diver-based surveys provide limited temporal resolution and are constrained by logistical demands. We evaluated an autonomous underwater imaging system based on cameras programmed for unattended image acquisition to monitor reef fish assemblages in the southern Gulf of Mexico. Methods Five terrestrial trail cameras adapted for underwater deployment were operated at Bajo de Diez reef during two seasonal deployments in 2024 and 2025, yielding 191,758 valid underwater images at a nominal 3-min interval. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ome-620065-c3896c",
+      "date": "2026-11-12",
+      "title": "Magnetic gold nanorods as plasmonic contrast agents in magnetomotive optical coherence tomography",
+      "authors": "Amy Josefsberg, Mehedi Rizvi, Joseph Tracy",
+      "institutions": [],
+      "journal": "Optical Materials Express",
+      "doi": "10.1364/ome.620065",
+      "url": "https://doi.org/10.1364/ome.620065",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1167-iovs-67-13-21-a29db3",
+      "date": "2026-11-12",
+      "title": "Detection of Abnormalities in the RPE in Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase Deficiency Chorioretinopathy Using Optical Coherence Tomography–Derived Optical Attenuation Coefficients",
+      "authors": "Xiaohui Hua, Tristan T. Hormel, Jie Wang, An-Lun Wu, Dongseok Choi, Mark E. Pennesi, Melanie B. Gillingham, Yali Jia",
+      "institutions": [
+        "Casey Eye Institute",
+        "Oregon Health & Science University",
+        "OHSU-PSU School of Public Health"
+      ],
+      "journal": "Investigative Ophthalmology &amp; Visual Science",
+      "doi": "10.1167/iovs.67.13.21",
+      "url": "https://doi.org/10.1167/iovs.67.13.21",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-79569-w-2b10c6",
+      "date": "2026-11-12",
+      "title": "Spatial mapping of defensive toxins in the cutaneous glands of toad (Rhinella icterica) using optical coherence tomography and Raman microspectroscopy",
+      "authors": "Lucas Antonio de Sousa Ribeiro, Patrick J. Spencer, Pedro Luiz Mailho-Fontana, Anselmo Sigari Moriscot, Luis D. Chinait, Marta Maria Antoniazzi, Carlos Jared, Daniel Carvalho Pimenta, Niklaus Ursus Wetter, Anderson Zanardi Freitas",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79569-w",
+      "url": "https://doi.org/10.1038/s41598-026-79569-w",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "OCT & OCM"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2967-jnumed-126-273209-51765d",
+      "date": "2026-11-12",
+      "title": "Donor Site Evaluation Using Multispectral Optoacoustic Tomography in Patients with Head and Neck Cancer Who Require Free Flap Transplant Surgery",
+      "authors": "Jonas V. Wolf, Adrian Buehler, Lars-Philip Paulus, Briain Haney, Moritz Schillinger, Christopher-Philipp Nobis, Manuel Weber, Joachim Wölfle, Ulrich Rother, Ferdinand Knieling, Adrian P. Regensburger, Marco R. Kesting, Felix Wachter",
+      "institutions": [],
+      "journal": "Journal of Nuclear Medicine",
+      "doi": "10.2967/jnumed.126.273209",
+      "url": "https://doi.org/10.2967/jnumed.126.273209",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Photoacoustic & Optoacoustic",
+        "Oncology & Pathology"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-analchem-6c06805-b1736b",
+      "date": "2026-11-12",
+      "title": "CRISPR/Cas12a-Triggered Dual-Mode Electrochemical and Raman-Silent Surface-Enhanced Raman Scattering Biosensing for Sensitive HBV DNA Detection",
+      "authors": "Zhenjie Zheng, Xinyu Zhou, Xiaoyi Chen, Mengqi Ma, Xianghui Li, Zhenyu Lin, Tony Ye Hu, Fang Luo",
+      "institutions": [
+        "Fuzhou University",
+        "Tsinghua University",
+        "Xiamen University"
+      ],
+      "journal": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c06805",
+      "url": "https://doi.org/10.1021/acs.analchem.6c06805",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Probes & Contrast Agents",
+        "Microbiology & Plants"
+      ],
+      "glyph": "probe",
+      "summary": "Sensitive and reliable quantification of hepatitis B virus (HBV) DNA is important for monitoring viral replication and therapeutic response. Electrochemical (EC) sensing offers simple quantitative readout, but resolving current changes at low target concentrations remains challenging. Surface-enhanced Raman scattering (SERS), in contrast, provides signal amplification but generally requires specialized optical instrumentation and may suffer from matrix interference. To accommodate different analytical requirements, we developed a CRISPR/Cas12a-triggered dual-mode EC/SERS biosensing platform. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s42003-026-11344-z-b87d0a",
+      "date": "2026-11-12",
+      "title": "Interpreting NADH fluorescence lifetime across timescales",
+      "authors": "Gianmarco Ferri, Francesco Cardarelli",
+      "institutions": [],
+      "journal": "Communications Biology",
+      "doi": "10.1038/s42003-026-11344-z",
+      "url": "https://doi.org/10.1038/s42003-026-11344-z",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Label-Free Phase & Holographic",
+        "Ophthalmology",
+        "Reviews"
+      ],
+      "glyph": "flim",
+      "summary": "NADH fluorescence lifetime imaging is a widely used, label-free way to visualize cell metabolism, typically read as a balance between glycolysis and oxidative respiration. This reading assumes that the effective NADH-binding landscape remains sufficiently stable during the experiment. This assumption is generally best protected during brief perturbations, but can fail in two ways: slowly, as prolonged treatments or differentiation reshape the identity and abundance of NADH-binding enzymes over hours to days; and rapidly, as metabolites can transiently alter their engagement with NADH even without changes in protein abundance. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-jpcc-6c05653-58d14a",
+      "date": "2026-11-12",
+      "title": "Single-Molecule Fluorescence Reveals Catalytic Heterogeneity and Active Species in Copper Nanoparticle-Catalyzed Click Reactions",
+      "authors": "Koki Sekioka, Nazanin Mosleh, Richard Hailstone, Xiangcheng Sun",
+      "institutions": [
+        "Rochester Institute of Technology"
+      ],
+      "journal": "The Journal of Physical\nChemistry C",
+      "doi": "10.1021/acs.jpcc.6c05653",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c05653",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "probe",
+      "summary": "The copper-catalyzed azide–alkyne cycloaddition (CuAAC) is a cornerstone of click chemistry and has been widely employed in many applications. However, its mechanism with heterogeneous catalysts remains incompletely understood. Catalytic reactions mediated by metal nanoparticles may occur on the nanoparticle surface via a heterogeneous catalysis pathway and/or through metal ion leaching that leads to a homogeneous reaction pathway. In this work, we developed a novel fluorogenic CuAAC reaction based on a naphthalimide probe that enables single-molecule visualization using total internal reflection fluorescence (TIRF) microscopy. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-jbo-31-11-113501-aa1a47",
+      "date": "2026-11-12",
+      "title": "Frontiers in Biophotonics",
+      "authors": "",
+      "institutions": [],
+      "journal": "Journal of Biomedical Optics",
+      "doi": "10.1117/1.jbo.31.11.113501",
+      "url": "https://doi.org/10.1117/1.jbo.31.11.113501",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Clinical Translation",
+        "Reviews"
+      ],
+      "glyph": "cell",
+      "summary": "Biophotonics is poised to play a central role in the transition toward personalized, data-driven healthcare by enabling increasingly sensitive, quantitative, and minimally invasive measurements of biological systems. This editorial examines interconnected frontiers shaping the field, and highlights how advances across these areas can collectively accelerate clinical translation. Its perspective emphasizes education, interdisciplinary collaboration, and the development of future researchers as the foundation for converting technological progress into meaningful healthcare impact.",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-optcon-604832-7c683c",
+      "date": "2026-11-12",
+      "title": "Phase-Stability Characterization of MEMS-VCSEL Swept Sources and Acquisition Techniques for High-Speed OCT",
+      "authors": "Patrick Bachor, Jonas Franke, Gereon Hüttmann, Florian Mathieu",
+      "institutions": [],
+      "journal": "Optics Continuum",
+      "doi": "10.1364/optcon.604832",
+      "url": "https://doi.org/10.1364/optcon.604832",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -701,6 +1305,302 @@
       "glyph": "flim",
       "summary": "SignificanceFluorescence lifetime imaging (FLIM) analysis commonly involves multi-exponential fitting of fluorescence decays, which requires relatively high signal-to-noise ratios (SNRs). However, autofluorescence presents a weaker signal compared with exogenous fluorophores, which can make fitting challenging. Becker & Hickl’s SPCImage (SPCI) is commonly used for bi-exponential fitting of NAD(P)H autofluorescence decays, but its accuracy has not been robustly evaluated.AimWe evaluate the accuracy of bi-exponential modeling of NAD(P)H FLIM data from live cells and provide an alternative fitting algorithm that allows for photon binning of whole cells for low SNR …",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-64898-2026-11-09-764980-b573f8",
+      "date": "2026-11-11",
+      "title": "A protocol for cortical and deep-brain calcium imaging in freely moving mice with the Mini2P system",
+      "authors": "Tello Garcia IA, Alhassen S, Portera-Cailliau C, Zeiger W",
+      "institutions": [
+        "University of California, Los Angeles"
+      ],
+      "journal": "bioRxiv",
+      "doi": "10.64898/2026.11.09.764980",
+      "url": "https://doi.org/10.64898/2026.11.09.764980",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Miniaturized & Wearable",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Two-photon calcium imaging has transformed our understanding of neuronal circuit function, yet conventional approaches require head fixation, limiting the study of neural activity during natural behavior. Miniaturized two-photon microscopy (Mini2P) overcomes this constraint by enabling calcium imaging in freely moving animals while preserving the optical single-cell resolution of conventional two-photon microscopy. However, its implementation requires the careful integration of multiple technically demanding procedures, presenting substantial challenges for laboratories adopting this approach. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-64898-2026-11-09-763563-85c1a3",
+      "date": "2026-11-11",
+      "title": "CoReg, tracking-based motion compensation for in vivo calcium imaging",
+      "authors": "Neubig L, Palm M, Attardo A, Donovan JC, Markov D, Soba P, Dhiman N, Ghosh S, Rupprecht P, Kist AM",
+      "institutions": [],
+      "journal": "bioRxiv",
+      "doi": "10.64898/2026.11.09.763563",
+      "url": "https://doi.org/10.64898/2026.11.09.763563",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Instrumentation & Optical Design",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "confocal",
+      "summary": "In vivo calcium imaging enables the observation of neural activity with high spatial and temporal resolution. However, recordings are frequently affected by motion artifacts caused by animal movement, physiological processes, tissue drift, or instability of the imaging setup. These artifacts make signal extraction harder and reduce the consistency of downstream analyses. Current registration methods can correct rigid and non-rigid motion, but often estimate motion from individual frames or image patches and make limited use of temporal information. In addition, activity-driven fluorescence changes can make it difficult to distinguish changes in image appearance from actual motion. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1080-08820538-2026-2761423-4f7ba3",
+      "date": "2026-11-11",
+      "title": "120° Widefield SS-OCTA Assessment of Retinal and Choroidal Vascular Changes After Panretinal Photocoagulation in Severe NPDR",
+      "authors": "Zhong J, Tang C, Hu K, Hu R",
+      "institutions": [
+        "The First Affiliated Hospital of Chongqing Medical University"
+      ],
+      "journal": "Seminars in ophthalmology",
+      "doi": "10.1080/08820538.2026.2761423",
+      "url": "https://doi.org/10.1080/08820538.2026.2761423",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "To investigate retinal and choroidal blood vascular changes before and after panretinal photocoagulation (PRP) in severe non-proliferative diabetic retinopathy (NPDR) patients using widefield swept-source optical coherence tomography angiography (SS-OCTA) covering 120° fundus. A prospective longitudinal study enrolled 55 patients with type 2 diabetes mellitus and severe non-proliferative diabetic retinopathy (NPDR), contributing 95 eyes scheduled for PRP, which was administered in four weekly sessions. SS-OCTA scanning (6 mm × 6 mm and 24 mm × 20 mm mode) was performed pre- and 3 months post-PRP. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-64898-2026-11-09-765233-f3ba2c",
+      "date": "2026-11-11",
+      "title": "A high-throughput all-optical platform for mapping gene perturbations to electrophysiology",
+      "authors": "Zhang J, Gong D, Barrios AM, Itkis DG, Sahni K, Fandl H, Uenaka T, Walton RT, Plutkis SE, Lavis L, Blainey PC, Wernig M, Nehme R, Lee RT, Fraenkel E, Farhi SL, Cohen AE",
+      "institutions": [
+        "Harvard University",
+        "Broad Institute",
+        "Massachusetts Institute of Technology"
+      ],
+      "journal": "bioRxiv",
+      "doi": "10.64898/2026.11.09.765233",
+      "url": "https://doi.org/10.64898/2026.11.09.765233",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantitative Analysis & Modeling",
+        "Neuroscience"
+      ],
+      "glyph": "model",
+      "summary": "Electrical phenotyping remains a bottleneck in linking genes to cellular function. We developed a high-throughput all-optical electrophysiology platform combining an engineered human induced pluripotent stem cell (hiPSC) line, wide-field voltage imaging, and automated analysis. The hiPSC line integrates inducible NGN2, CRISPR interference, and degron-gated expression of Voltron2 and CheRiff, enabling neuronal differentiation, targeted gene knockdown, and optical electrophysiology. The microscope records approximately 1,500 spiking glutamatergic neurons at 800 Hz across a 4x4 mm field, with larger fields supporting approximately 3,000 neurons at 660 Hz. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1007-s00424-026-03227-3-3340bb",
+      "date": "2026-11-11",
+      "title": "Structural compatibility enables functional co-assembly of Kir2.1 channels and the voltage-sensing domain of voltage-sensitive phosphatases",
+      "authors": "Nair AG, Rühl P, Seeber L, Hoshi T, Schönherr R, Heinemann SH",
+      "institutions": [
+        "Jena University Hospital",
+        "Friedrich Schiller University Jena",
+        "University of Pennsylvania"
+      ],
+      "journal": "Pflugers Archiv : European journal of physiology",
+      "doi": "10.1007/s00424-026-03227-3",
+      "url": "https://doi.org/10.1007/s00424-026-03227-3",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Probes & Contrast Agents",
+        "Neuroscience"
+      ],
+      "glyph": "probe",
+      "summary": "Voltage-sensing domains (VSDs), which are integral parts of voltage-gated K+ channel (KV) proteins, are highly modular protein components that function largely independently of ion-conducting pores - a property exploited in genetically encoded voltage indicators (GEVIs). Conversely, inward-rectifier K+ channels such as Kir2.1 possess a pore-only architecture and lack a VSD. Here, we demonstrate an unexpected and functionally relevant structural compatibility between the independently evolved pore-only and VSD-only membrane protein families. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/pflugers-archiv-european-journal-of-physiology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Pflugers Archiv : European journal of physiology"
+      },
+      "source": "europepmc"
+    },
+    {
+      "id": "10-64898-2026-11-10-765799-a2fb28",
+      "date": "2026-11-11",
+      "title": "SubCellSeg: A generalist model for subcellular structure segmentation in 3D fluorescence microscopy",
+      "authors": "Suraj Mishra, Ashwin Samudre, Amil Khan, Caroline Hookway, Antoine Borensztejn, Derek J. Thirstrup, Jianxu Chen, Susanne Rafelski, Matheus Palhares Viana",
+      "institutions": [
+        "Allen Institute",
+        "University of California, Santa Barbara",
+        "Leibniz Institute for Analytical Sciences - ISAS"
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "doi": "10.64898/2026.11.10.765799",
+      "url": "https://doi.org/10.64898/2026.11.10.765799",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "AI, Denoising & Restoration",
+        "Immunology & Inflammation"
+      ],
+      "glyph": "confocal",
+      "summary": "Three-dimensional (3D) segmentation of subcellular structures from fluorescence microscopy images is the foundation of many analyses in quantitative cell biology. The prevailing approach addresses 3D segmentation one structure at a time, with a separate model trained for each structure type. By developing SubCellSeg, we demonstrate that a single model, trained jointly across a diverse range of structures, substantially and consistently outperforms structure-specific specialist models. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116883-317a2a",
+      "date": "2026-11-11",
+      "title": "Spectral-consistency-driven Z-calibration for ptychography",
+      "authors": "Siying Jia, Yingjie Zhou, Jin Zhang, Haojie Xia, Chuangchuang Chen",
+      "institutions": [
+        "Hefei University of Technology"
+      ],
+      "journal": "Optics & Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116883",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116883",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Computational Imaging"
+      ],
+      "glyph": "comp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-aws2-70069-b7155a",
+      "date": "2026-11-11",
+      "title": "Method Development, Interlaboratory Study, and Quality Control Criteria for Flow Imaging Microscopy Analysis of Phytoplankton in Freshwater",
+      "authors": "Hunter Adams, Polly Barrowman, Katie Kohoutek, Christiane Hoppe‐Jones, Susheera Pochiraju, Margaret Spoo‐Chupka, Patricia Klonicki, Eric Johnson, Michael F. Delaney, Steve Morton, William Mausbach, Benjamin Colvin, Mollie Edwards, Jonathan Langlois, Cassidi Rosenkrance, Trellany Roberts, Meiyin Wu, Louise Brogan, Rachel Copeland, Charlie Loewen et al.",
+      "institutions": [
+        "City of Wichita Falls Cypress Environmental Laboratory Wichita Falls Texas USA",
+        "Department of Biology Montclair State University Montclair New Jersey USA",
+        "Evolution and Organismal Biology Iowa State University Ames Iowa USA"
+      ],
+      "journal": "AWWA Water Science",
+      "doi": "10.1002/aws2.70069",
+      "url": "https://doi.org/10.1002/aws2.70069",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Microbiology & Plants",
+        "Protocols & Resources"
+      ],
+      "glyph": "cell",
+      "summary": "Flow imaging microscopy (FIM) is used for rapid characterization of phytoplankton in water; however, standardized quality control (QC) and interlaboratory validation are lacking. This study presents the development of Standard Method 10210 for FIM: method optimization, QC criteria, and a multi‐laboratory validation study (10 laboratories and 13 analysts). Standardized protocols were established using microbead reference materials and applied to source water samples. Interlaboratory testing demonstrated strong reproducibility, with relative standard deviations (RSDs) for non‐fluorescent microbeads analyzed in AutoImage Mode < 10% (30–70 μm) and < 20% (10 μm). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-jbo-31-11-115002-923b33",
+      "date": "2026-11-11",
+      "title": "Protocol-optimized wide-field optical redox imaging for T cell activation and its potential for immunological research",
+      "authors": "Yu Yvonne Wen, Lin Zhijie Li",
+      "institutions": [
+        "University of Pennsylvania"
+      ],
+      "journal": "Journal of Biomedical Optics",
+      "doi": "10.1117/1.jbo.31.11.115002",
+      "url": "https://doi.org/10.1117/1.jbo.31.11.115002",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Confocal & Widefield Fluorescence",
+        "Cell Biology",
+        "Protocols & Resources"
+      ],
+      "glyph": "multiphoton",
+      "summary": "SignificanceT cell activation and function are tightly linked to metabolic reprogramming, yet accessible, label-free methods to monitor these changes remain limited. Optical redox imaging (ORI) with two-photon microscopy has been utilized for studying metabolic functions and activation of immune cells, but this approach requires complex systems and is not as accessible and low-cost as single-photon wide-field fluorescence microscopy.AimWe aim to develop and validate wide-field ORI for assessing metabolic states and heterogeneity in human T cells.ApproachA wide-field inverted fluorescence microscope was used to perform ORI in vitro to evaluate and differentiate between unstimulated T cells …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1371-journal-pcbi-1014904-0360b0",
+      "date": "2026-11-11",
+      "title": "PhysInfer: A physics-constrained neural network for adaptive inference of transcriptional bursting from single-cell RNA-seq",
+      "authors": "Xiaodong Zeng, Jingwen Zhang, Shan Li, Haohua Wang",
+      "institutions": [
+        "Hainan University"
+      ],
+      "journal": "PLOS Computational Biology",
+      "doi": "10.1371/journal.pcbi.1014904",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014904",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Single-cell RNA sequencing (scRNA-seq) has established that gene expression is driven by stochastic transcriptional bursting. However, inferring burst dynamics from static scRNA-seq snapshots is fundamentally constrained by parameter unidentifiability and model topology mismatch. Here, we propose PhysInfer, an unsupervised framework that integrates a physics-constrained neural network with adaptive model selection and parameter decoupling. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1371-journal-pcbi-1014883-d0ae41",
+      "date": "2026-11-11",
+      "title": "FDTest: Fluctuation-dissipation theorem as a test for memory effects in brain dynamics",
+      "authors": "Sebastian Manuel Geli, Juan Manuel Monti, Adrián Ponce-Alvarez, Gustavo Deco, Yonatan Sanz Perl",
+      "institutions": [
+        "Universitat Pompeu Fabra",
+        "Instituto de Física Rosario CONICET-UNR",
+        "Polytechnic University of Catalonia"
+      ],
+      "journal": "PLOS Computational Biology",
+      "doi": "10.1371/journal.pcbi.1014883",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014883",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Neuroscience"
+      ],
+      "glyph": "cell",
+      "summary": "A central challenge in neuroscience is to understand how the brain flexibly balances local and distributed information processing to support diverse cognitive and conscious states. We hypothesize that a key signature of this balance is the presence of memory effects, which arise when a brain region’s future activity depends not only on its current state, but also on past information fed back from the wider network. Here we introduce the FDTest, a method for assessing local memory effects in multidimensional systems by measuring violations of a generalized Fluctuation–dissipation theorem (FDT). …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -1359,6 +2259,116 @@
       ],
       "glyph": "confocal",
       "summary": "Comprehensive Summary Fluorescence imaging in the second near‐infrared (NIR‐II) window has emerged as a powerful tool for noninvasive in vivo and in situ visualization in both fundamental research and clinical applications. However, the development of high‐brightness NIR‐II fluorophores for in vivo imaging remains challenging. Herein, we report novel Aza‐BODIPY‐based NIR‐II organic fluorophores featuring pronounced aggregation‐induced emission (AIE) feature. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-nanolett-6c03563-0d01e0",
+      "date": "2026-11-10",
+      "title": "Direct Visualization of Na,K-ATPase Clustering by 3D DNA-PAINT MINFLUX Nanoscopy",
+      "authors": "Stojcic B, Agostinho A, Panconi L, Blom H, Brismar H",
+      "institutions": [
+        "Science for Life Laboratory"
+      ],
+      "journal": "Nano letters",
+      "doi": "10.1021/acs.nanolett.6c03563",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c03563",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Quantitative Analysis & Modeling",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "The sodium-potassium pump (Na,K-ATPase) is an essential plasma-membrane transporter that consumes 20%-30% of cellular energy, and up to approximately 50% in the kidneys. Whether it assembles into defined oligomers in its native membrane has been debated for decades. Resolving this question demands imaging precision at molecular length scales. Here, we combine 3D MINFLUX nanoscopy with DNA-PAINT to map EGFP-tagged Na,K-ATPase α1 and β1 subunits in mammalian cells with 3-5 nm localization precision. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-64898-2026-11-10-26367486-3488d1",
+      "date": "2026-11-10",
+      "title": "Handheld, quantitative phase imaging probe for skin evaluation at subcellular resolution in vivo, in real-time, and in 3D",
+      "authors": "Bharadwaj S, Guang Z, Clark LA, Callaway JP, Li Z, Suhr CL, Lucas SN, Serafini C, Garcia-Nuno J, Wolner Z, Khan MK, Thomas SN, Robles FE",
+      "institutions": [
+        "Georgia Institute of Technology",
+        "Cedars-Sinai Medical Center",
+        "University of North Carolina at Chapel Hill"
+      ],
+      "journal": "medRxiv",
+      "doi": "10.64898/2026.11.10.26367486",
+      "url": "https://doi.org/10.64898/2026.11.10.26367486",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "Miniaturized & Wearable",
+        "Probes & Contrast Agents",
+        "Oncology & Pathology"
+      ],
+      "glyph": "qpi",
+      "summary": "Skin cancer is the most common malignancy in the United States. The gold standard for diagnosis of skin cancer is histopathological analysis via tissue biopsy. However, identifying which lesions to biopsy remains a significant clinical challenge, particularly at early stages of disease. In this work, we present a volumetric quantitative oblique back-illumination microscopy (qOBM) probe, a highly maneuverable, handheld imaging system capable of providing high-resolution, 3D visualization of the skin microstructure. We show the probe is capable of visualizing the dynamic, layered microstructure of the epidermis and the top of the dermis across all Fitzpatrick skin types in human skin in vivo. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s44303-026-00212-4-92b96c",
+      "date": "2026-11-10",
+      "title": "Lightweight deep learning framework for astrocyte-centric 3D reconstruction across normal and stress-associated ultrastructural states",
+      "authors": "Bowen Deng, Jeong Gwang-Jin, 노슬기, Ji Young Mun, Na Young Kim",
+      "institutions": [
+        "University of Waterloo",
+        "Daegu Gyeongbuk Institute of Science and Technology",
+        "Korea Brain Research Institute"
+      ],
+      "journal": "npj Imaging",
+      "doi": "10.1038/s44303-026-00212-4",
+      "url": "https://doi.org/10.1038/s44303-026-00212-4",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "The morphology of astrocytes is closely associated with their ability to support and modulate neural circuit functions; however, its reconstruction from volume electron microscopy (vEM) data remains labor-intensive and computationally resource-intensive, placing substantial barriers on its broader adoption and scalability despite the high spatial resolution of vEM. We present AstroSeg-vEM, a lightweight, astrocyte-centric framework for morphology-preserving astrocyte segmentation, 3D reconstruction, and quantitative morphological analysis in vEM images. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-jbio-70390-c3fecc",
+      "date": "2026-11-10",
+      "title": "Noninvasive Intracranial Compliance Monitoring Following Hand‐Applied Photobiomodulation and Ultrasound in Fibromyalgia: A Pilot Study",
+      "authors": "Matheus Henrique Camargo Antonio, Tiago Zuccolotto Rodrigues, Ana Carolina Negraes Canelada, Fernanda Mansano Carbinatto, Vanessa Garcia, Vanderlei Salvador Bagnato, Antonio Eduardo de Aquino Junior",
+      "institutions": [
+        "Instituto de Ensino e Pesquisa (IEP)",
+        "Physics Institute of São Carlos",
+        "M University College Station Texas USA"
+      ],
+      "journal": "Journal of Biophotonics",
+      "doi": "10.1002/jbio.70390",
+      "url": "https://doi.org/10.1002/jbio.70390",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Neuroscience"
+      ],
+      "glyph": "cell",
+      "summary": "Fibromyalgia (FM) is associated with chronic pain and altered neurophysiological regulation. This exploratory pilot study examined intracranial pulse waveform parameters and clinical outcomes following combined photobiomodulation therapy (PBMT) and therapeutic ultrasound (TUS) applied bilaterally to the hands. Twenty women participated (FM, n = 10; healthy comparators, n = 10); both groups received 10 sessions over 5 weeks. Noninvasive measurements included waveform morphology, P2/P1 ratio, and time to peak. Pain intensity, Fibromyalgia Impact Questionnaire, and Pittsburgh Sleep Quality Index scores were also assessed. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -2460,6 +3470,33 @@
       "source": "arxiv"
     },
     {
+      "id": "10-1021-acsanm-6c03095-7d2b81",
+      "date": "2026-11-09",
+      "title": "Laser Photoacoustic Spectroscopy for Nanoscale Chiroptical Sensing in Strongly Absorbing and Resonant Environments",
+      "authors": "Claudia Skubisz, Imene Kouicem, Hanan Ali, Sonia Freddi, Stylianos Efstatoglou, Roberto Li Voti, Grigore Leahu, Luca Anzi, Roman Sordan, Monica Bollani, Lucio Andreani, Emilija Petronijevic",
+      "institutions": [
+        "Sapienza Università di Roma",
+        "University of El Oued",
+        "University of Pavia"
+      ],
+      "journal": "ACS Applied Nano Materials",
+      "doi": "10.1021/acsanm.6c03095",
+      "url": "https://doi.org/10.1021/acsanm.6c03095",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Quantitative Analysis & Modeling"
+      ],
+      "glyph": "pa",
+      "summary": "Chiroptical detection at the nanoscale remains particularly challenging when the chiral response originates from a nanostructured object embedded in a strongly absorbing and optically dispersive environment. This limitation is especially relevant for plasmonic metasurfaces, where substrate absorption and resonant optical backgrounds can obscure the circular dichroism (CD) associated with the nanostructured layer. Here, we demonstrate that laser photoacoustic spectroscopy (PAS) enables the enhanced sensitivity to the chiroptical response of plasmonic elliptical nanohole arrays (ENHAs) supported by absorbing resonant Si3N4/Si substrates. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-3390-photonics13111052-6d06b7",
       "date": "2026-11-08",
       "title": "Rendering of Scattering Luminescent Phantoms with a Full-Cascade Monte Carlo Framework",
@@ -2639,6 +3676,32 @@
         "src": "covers/journal-of-cataract-amp-refractive-surgery.jpg",
         "kind": "cover",
         "credit": "Journal cover · Journal of Cataract &amp; Refractive Surgery"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-26599-nr-2026-94909312-a7bfa1",
+      "date": "2026-11-05",
+      "title": "All-optical modulator and switcher based on 2D MgB 2 nanosheets with strong nonlinear optical response",
+      "authors": "Cong Wang, Xiangrong Pan, Jiajia Zha, Yichao Bai, Chunjiang Li, Kaichen Dong, Dan Liu, Shiguo Li, Yu Lei, Zhan Zhou, Han Zhang, Chaoliang Tan",
+      "institutions": [],
+      "journal": "Nano Research",
+      "doi": "10.26599/nr.2026.94909312",
+      "url": "https://doi.org/10.26599/nr.2026.94909312",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "The Kerr nonlinearity in two-dimensional (2D) nanomaterials is emerging as an appealing research topic owing to their prominent light processing, modulation, and manipulation abilities. In this contribution, 2D magnesium diboride (MgB2) nanosheets (NSs) are employed in nonlinear photonic devices based on the spatial self-phase modulation (SSPM) method. By exploiting the Kerr nonlinearity of 2D MgB2, an all-optical phase-modulated system is proposed to realize “ON” and “OFF” states for all-optical switching. Using the same system, an optical logic gate is further demonstrated, achieving the logical “OR” operation based on 2D MgB2 NSs dispersions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/nano-research.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Nano Research"
       },
       "source": "crossref"
     },
@@ -3180,6 +4243,293 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-jbio-70379-27e376",
+      "date": "2026-11-01",
+      "title": "Label-Free Morphometric Profiling of Renal Cell Carcinoma Using Digital Holographic Microscopy and Machine Learning",
+      "authors": "Schwark ER, Almahdi YA, Farhat AA, Xhabija B",
+      "institutions": [
+        "University of Michigan-Dearborn"
+      ],
+      "journal": "Journal of biophotonics",
+      "doi": "10.1002/jbio.70379",
+      "url": "https://doi.org/10.1002/jbio.70379",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "qpi",
+      "summary": "Renal cell carcinoma (RCC) has a substantial mortality rate among urologic cancers today, and our current knowledge of the disease includes few distinct biomarkers, making early diagnosis particularly difficult. In this study, we utilized digital holographic microscopy (DHM) and quantitative phase imaging (QPI) to investigate trends in cell morphology and optical properties across 38 morphological and optical features in renal carcinoma cell lines UO-31 and SN12C, and renal epithelial cell line HK2. Dimensionality reduction techniques including PCA, t-SNE, and Spectral Embedding Analysis enabled clearer differentiation between cancerous and normal cells. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1021-acs-analchem-6c05223-526a27",
+      "date": "2026-11-01",
+      "title": "Enabling Photoacoustic Imaging and Photothermal Elimination of Senescent Cells via an Activatable Theranostic Probe",
+      "authors": "Zhang CH, Zeng S, Sun YY, Chen L, Hao J, Zhou H, Liu X",
+      "institutions": [],
+      "journal": "Analytical chemistry",
+      "doi": "10.1021/acs.analchem.6c05223",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05223",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Photoacoustic & Optoacoustic",
+        "Probes & Contrast Agents",
+        "Oncology & Pathology"
+      ],
+      "glyph": "pa",
+      "summary": "Excessive accumulation of senescent cells disrupts tissue homeostasis, induces chronic inflammation and tumorigenesis, and ultimately accelerates senescence-associated dysfunction and malignant progression. Developing reliable tools for the detection and elimination of senescent cells is critical for the precise diagnosis and timely intervention of aging-associated diseases. However, existing senolytic theranostic probes suffer from oxygen-dependent photodynamic therapy (PDT) efficacy and the inherent limitations of fluorescence imaging in penetration depth and spatial resolution. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1002-jbio-70383-5f1e32",
+      "date": "2026-11-01",
+      "title": "In Vivo Histological Assessment of Epidermal Modifications in Atopic Dermatitis Using LC-OCT During Systemic Treatment",
+      "authors": "Falcinelli F, Lazzeri L, D'Onghia M, Calabrese L, Cartocci A, Lopez C, Tavernier C, Rubegni P, Cinotti E",
+      "institutions": [
+        "University of Siena"
+      ],
+      "journal": "Journal of biophotonics",
+      "doi": "10.1002/jbio.70383",
+      "url": "https://doi.org/10.1002/jbio.70383",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "OCT & OCM",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "Line-field confocal optical coherence tomography (LC-OCT) is an advanced noninvasive imaging technique that enables high-resolution, three-dimensional visualization of the skin at a cellular level. While widely used for skin tumors, its application in inflammatory skin diseases is emerging. This study evaluated LC-OCT for assessing epidermal morphology and treatment response in moderate-to-severe atopic dermatitis (AD). Twenty-nine AD patients treated with biologics or JAK inhibitors were examined at baseline and after 4 and 16 weeks using LC-OCT combined with AI-based analysis. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1002-adpr-202500263-8a0ce6",
+      "date": "2026-11-01",
+      "title": "Recent Advances in Optical Methods for Characterization of Extracellular Vesicles: A Comprehensive Review",
+      "authors": "Mohammad Reza Rashidian Vaziri, Zahra Hassani, Mohammad Reza Rashidian Vaziri, Ameneh Sazgarnia",
+      "institutions": [
+        "Ferdowsi University of Mashhad",
+        "Mashhad University of Medical Sciences"
+      ],
+      "journal": "Advanced Photonics Research",
+      "doi": "10.1002/adpr.202500263",
+      "url": "https://doi.org/10.1002/adpr.202500263",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Cell Biology",
+        "Reviews"
+      ],
+      "glyph": "ai",
+      "summary": "Extracellular vesicles (EVs) are nanoscale biological particles with significant potential as diagnostic biomarkers and therapeutic carriers. Their effective translation into clinical and research applications is limited by challenges in efficient isolation and quantitative, reproducible optical characterization. This review provides a concise synthesis of state‑of‑the‑art biophotonic methodologies for EV isolation and analysis. We outline major isolation strategies, emphasizing their impact on optical signal quality and measurement accuracy. A historical perspective traces EV research from early ultrastructural imaging to advanced label‑free photonic sensing platforms. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-ins-2026-124429-e8c7b9",
+      "date": "2026-11-01",
+      "title": "An ultra-lightweight decoupled-collaborative framework for mining conveyor belt condition monitoring based on multispectral imaging",
+      "authors": "Yue Chen, Mengran Zhou, Feng Hu",
+      "institutions": [],
+      "journal": "Information Sciences",
+      "doi": "10.1016/j.ins.2026.124429",
+      "url": "https://doi.org/10.1016/j.ins.2026.124429",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-bioorg-2026-110771-8701f5",
+      "date": "2026-11-01",
+      "title": "A highly sensitive and selective fluorescence probe for imaging cysteine in living cells",
+      "authors": "Lei Wang, Xinghan Xie, Hanlin Xu, Zhongyin Zhang, Yongtao Zhang",
+      "institutions": [],
+      "journal": "Bioorganic Chemistry",
+      "doi": "10.1016/j.bioorg.2026.110771",
+      "url": "https://doi.org/10.1016/j.bioorg.2026.110771",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "probe",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-wees-2026-09-004-e00dd3",
+      "date": "2026-11-01",
+      "title": "Interface-Engineered Fluorinated Poly(amic acid) Dielectrics Enable High-Mobility, Mechanically Robust Flexible Phototransistor Arrays for Multispectral Imaging and Low-Voltage LED Array Driving",
+      "authors": "Huchao Li, Deyang Ji, Wenping Hu",
+      "institutions": [],
+      "journal": "Wearable Electronics",
+      "doi": "10.1016/j.wees.2026.09.004",
+      "url": "https://doi.org/10.1016/j.wees.2026.09.004",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Neuroscience"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-esmorw-2026-100867-1a0a9c",
+      "date": "2026-11-01",
+      "title": "52P Proof-of-concept for a novel functional imaging biomarker of homologous recombination deficiency for prediction of drug treatment response in preclinical tumour models",
+      "authors": "W. Walewski, K. Solarczyk, L. Beben, S. Koman, K. Schirmeisen, O. Wójcikowska, K. Trzos, J. Lechowski",
+      "institutions": [],
+      "journal": "ESMO Real World Data and Digital Oncology",
+      "doi": "10.1016/j.esmorw.2026.100867",
+      "url": "https://doi.org/10.1016/j.esmorw.2026.100867",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Oncology & Pathology"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-ijpharm-2026-127676-3b06b6",
+      "date": "2026-11-01",
+      "title": "Layer-by-layer machine learning-assisted hyperspectral imaging for at-line non-destructive drug content monitoring in 3D-printed medicine",
+      "authors": "Bambang V.E.B. Abdillah Akbar, Johannes Schneider, Jesline James, Yuan Zhang, Abdullah Isreb, Marcelo da Silva, Cécile A. Dreiss, Inga Niedermaier, Andrea Gill, Louise Bracken, Stephen Tomlin, Bindhumadhavan Gururajan, Sebastian W. Pattinson, Stuart A. Jones, Heba Sailem, Mohamed A. Alhnan",
+      "institutions": [],
+      "journal": "International Journal of Pharmaceutics",
+      "doi": "10.1016/j.ijpharm.2026.127676",
+      "url": "https://doi.org/10.1016/j.ijpharm.2026.127676",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-amf-2026-200439-20e2c3",
+      "date": "2026-11-01",
+      "title": "Super-resolution reconstruction methods and evaluation metrics for defect detection image in additive manufacturing: A structural integrity perspective",
+      "authors": "Jianxing Mao, Yirui Teng, Yongzhe Wang, Ziqi Dou, Jinchao Pan, Dianyin Hu, Yan Zhao, Tinglian Zhang, Rongqiao Wang",
+      "institutions": [],
+      "journal": "Additive Manufacturing Frontiers",
+      "doi": "10.1016/j.amf.2026.200439",
+      "url": "https://doi.org/10.1016/j.amf.2026.200439",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Reviews"
+      ],
+      "glyph": "superres",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-2147-eb-s670160-25b92b",
+      "date": "2026-11-01",
+      "title": "A Response to “Longitudinal Optical Coherence Tomography Indices in Pediatric Idiopathic Intracranial Hypertension” [Letter]",
+      "authors": "Isabelle Kelly",
+      "institutions": [],
+      "journal": "Eye and Brain",
+      "doi": "10.2147/eb.s670160",
+      "url": "https://doi.org/10.2147/eb.s670160",
+      "oa": true,
+      "license": "CC BY-NC 3.0",
+      "categories": [
+        "OCT & OCM"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-ultras-2026-108372-dcc6e0",
+      "date": "2026-11-01",
+      "title": "Wavenumber dispersion features of multi-wavelength photoacoustic guided waves in cortical bones",
+      "authors": "Honglei Chen, Kailiang Xu, Dean Ta",
+      "institutions": [],
+      "journal": "Ultrasonics",
+      "doi": "10.1016/j.ultras.2026.108372",
+      "url": "https://doi.org/10.1016/j.ultras.2026.108372",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Neuroscience"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-snr-2026-100538-2f2a6e",
       "date": "2026-10-29",
       "title": "AI-integrated SPRi with adaptive microwell-array recognition for high-throughput parallel readout",
@@ -3229,6 +4579,31 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-3389-fmed-2026-1897327-698c0b",
+      "date": "2026-10-27",
+      "title": "Retinal microvascular alterations assessed by OCTA in metabolic liver disease: insights into systemic microvascular dysfunction-a systematic review and semi-quantitative synthesis",
+      "authors": "Wang X, Meng ZQ",
+      "institutions": [
+        "Ruijin-Hainan Hospital"
+      ],
+      "journal": "Frontiers in medicine",
+      "doi": "10.3389/fmed.2026.1897327",
+      "url": "https://doi.org/10.3389/fmed.2026.1897327",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "OCT & OCM",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "Background Metabolic liver disease, historically characterized as nonalcoholic fatty liver disease (NAFLD) and recently redefined as metabolic dysfunction-associated steatotic liver disease (MASLD), has emerged as a global public health crisis. It is increasingly recognized not merely as a liver-specific pathology, but as a complex multisystemic disorder strongly associated with widespread systemic microvascular dysfunction. The retina, sharing similar anatomical and physiological features with the systemic microcirculation, provides a unique, * in vivo * window for non-invasive vascular assessment. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     },
     {
       "id": "https-europepmc-org-article-pmc-pmc13738736-8d2d0f",
@@ -3434,8 +4809,40 @@
       "feature": false,
       "fig": null,
       "source": "crossref"
+    },
+    {
+      "id": "10-1186-s12885-026-16752-2-aec28a",
+      "date": "2026-08-12",
+      "title": "Determination of drug sensitivity in patient derived models of breast cancer by multiparametric quantitative phase imaging",
+      "authors": "Polanco ER, Moustafa TE, Balcioglu O, Scherer SD, Cortes-Sanchez E, Remick SM, Spike BT, Welm AL, Welm BE, Bernard PS, Zangle TA",
+      "institutions": [
+        "University of Utah",
+        "Huntsman Cancer Institute",
+        "ARUP Institute for Clinical and Experimental Pathology"
+      ],
+      "journal": "BMC cancer",
+      "doi": "10.1186/s12885-026-16752-2",
+      "url": "https://doi.org/10.1186/s12885-026-16752-2",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "Quantitative Analysis & Modeling",
+        "Oncology & Pathology"
+      ],
+      "glyph": "qpi",
+      "summary": "Background Functional precision oncology aims to guide therapy selection by directly measuring drug sensitivity in patient-derived cancer samples. However, most existing functional assays require prolonged cell expansion limiting their feasibility for time-sensitive clinical decision-making. We evaluated whether multiparametric quantitative phase imaging (mQPI), a label-free single-cell imaging approach, could enable rapid assessment of therapeutic response in patient-derived breast cancer models. Methods We applied mQPI to cells derived from patient-derived xenograft organoid (PDXO) models and viably cryopreserved primary breast cancer samples. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "figs/10-1186-s12885-026-16752-2-aec28a.jpg",
+        "kind": "figure",
+        "credit": "CC BY · via link.springer.com"
+      },
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-12"
+  "updated": "2026-11-13"
 }

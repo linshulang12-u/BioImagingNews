@@ -223,5 +223,20 @@
     "src": "covers/the-astrophysical-journal.jpg",
     "kind": "cover",
     "credit": "Journal cover · The Astrophysical Journal"
+  },
+  "pflugers archiv : european journal of physiology": {
+    "src": "covers/pflugers-archiv-european-journal-of-physiology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Pflugers Archiv : European journal of physiology"
+  },
+  "journal of radioanalytical and nuclear chemistry": {
+    "src": "covers/journal-of-radioanalytical-and-nuclear-chemistry.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Radioanalytical and Nuclear Chemistry"
+  },
+  "nano research": {
+    "src": "covers/nano-research.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Nano Research"
   }
 }
