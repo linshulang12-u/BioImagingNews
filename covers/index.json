@@ -238,5 +238,10 @@
     "src": "covers/nano-research.jpg",
     "kind": "cover",
     "credit": "Journal cover · Nano Research"
+  },
+  "european journal of physics": {
+    "src": "covers/european-journal-of-physics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · European Journal of Physics"
   }
 }
