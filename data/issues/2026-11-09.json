@@ -4,7 +4,7 @@
   "date": "2026-11-09",
   "window": [
     "2026-11-09",
-    "2026-11-14"
+    "2026-11-15"
   ],
   "articles": [
     {
@@ -92,6 +92,28 @@
         "Quantitative Analysis & Modeling"
       ],
       "glyph": "confocal",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlaseng-2026-110259-1b24a8",
+      "date": "2027-02-01",
+      "title": "Design and calibration of a division-of-pupil snapshot polarization imaging system",
+      "authors": "Yize Ju, Jiahang Li, Naixi Liu, Liyong Ren, Jian Liang",
+      "institutions": [],
+      "journal": "Optics and Lasers in Engineering",
+      "doi": "10.1016/j.optlaseng.2026.110259",
+      "url": "https://doi.org/10.1016/j.optlaseng.2026.110259",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
       "summary": "",
       "why": "",
       "pick": false,
@@ -272,6 +294,164 @@
       "glyph": "oct",
       "summary": "",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1093-biolre-ioag250-bfb8f8",
+      "date": "2026-11-14",
+      "title": "Label-free imaging reveals lipid droplet dynamics during mouse preimplantation development",
+      "authors": "Sun H, Qi Y, Liang C, Zhang Y, Xiao T, Luo Y, Yu Y",
+      "institutions": [
+        "Center for Reproductive Medicine",
+        "Clinical Stem Cell Research Center"
+      ],
+      "journal": "Biology of reproduction",
+      "doi": "10.1093/biolre/ioag250",
+      "url": "https://doi.org/10.1093/biolre/ioag250",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Harmonic Generation",
+        "Label-Free Phase & Holographic",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "shg",
+      "summary": "Preimplantation embryo development is fundamental to understanding developmental biology and reproductive medicine. Its process requires precise spatiotemporal regulations in which lipid metabolism plays a crucial role. The spatiotemporal dynamics of lipid droplets (LDs), which are important components of embryonic lipid metabolism, in individual embryos remain obscure because of technical limitations. To address this challenge, we developed a submicrometre-level 3D imaging and analysis method based on a label-free imaging system (FI) to quantitatively assess lipid amounts and profiles in individual embryos. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s41598-026-79760-z-1ce217",
+      "date": "2026-11-14",
+      "title": "A deep learning framework for label-free prostate tissue classification using two-photon imaging",
+      "authors": "Kausalya Neelavara Makkithaya, Jackson Rodrigues, Gagan Raju, Macline Crecsilla Lewis, Ming-Chi Chen, Yung-Ju Yeh, Gregory J. Tsay, Nan-Shan Chang, Nirmal Mazumder, Guan-Yu Zhuo",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-79760-z",
+      "url": "https://doi.org/10.1038/s41598-026-79760-z",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Label-Free Phase & Holographic",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology",
+        "Protocols & Resources"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Prostate cancer remains one of the most prevalent malignancies among men worldwide, and accurate differentiation between malignant and benign tissue continues to pose diagnostic challenges, particularly when relying solely on conventional histopathology. In this study, we present a label‑free, high‑resolution imaging and machine learning pipeline for prostate tissue classification using two‑photon microscopy and tissue microarray (TMA) samples. Two-photon fluorescence (TPF) images were analyzed from a quality-screened dataset comprising 295 images (146 normal and 149 tumor) representing 135 tissue sample groups (71 normal and 64 tumor). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1111-jmi-70206-009550",
+      "date": "2026-11-14",
+      "title": "A practical primer on FLIM and FRET‐FLIM for quantitative bioimaging",
+      "authors": "Görkem S. Ulkar, Dinesh Beniwal, Maddy Parsons, Simon M. Ameer‐Beg",
+      "institutions": [
+        "Randall Centre for Cell and Molecular Biophysics King's College London London UK"
+      ],
+      "journal": "Journal of Microscopy",
+      "doi": "10.1111/jmi.70206",
+      "url": "https://doi.org/10.1111/jmi.70206",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "flim",
+      "summary": "Fluorescence lifetime imaging microscopy (FLIM) measures the fluorescence decay time of a fluorophore and can therefore provide information that is not available from fluorescence intensity alone. Changes in lifetime can report on the local molecular environment and, through Förster resonance energy transfer measured by FLIM (FRET‐FLIM), on interactions occurring over nanometre length scales. In this primer, we describe the basic principles of FLIM and FRET‐FLIM and introduce two widely used time‐domain acquisition approaches: time‐correlated single‐photon counting and time‐gated detection. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1111-jmi-70205-aeecb2",
+      "date": "2026-11-14",
+      "title": "Fluorescence lifetime imaging of NAD(P)H and flavin: A practical introduction to studying metabolic heterogeneity in living samples",
+      "authors": "Thomas S. Blacker",
+      "institutions": [
+        "Molecular Biology University College London London UK"
+      ],
+      "journal": "Journal of Microscopy",
+      "doi": "10.1111/jmi.70205",
+      "url": "https://doi.org/10.1111/jmi.70205",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Probes & Contrast Agents",
+        "Ophthalmology"
+      ],
+      "glyph": "flim",
+      "summary": "Fluorescence lifetime imaging microscopy (FLIM) of cellular autofluorescence allows metabolism to be visualised in living systems without exogenous labelling. By measuring the decay characteristics of NADH, NADPH and flavin autofluorescence, FLIM can be used to investigate metabolic heterogeneity within intact cells, tissues and developing organisms while preserving spatial and temporal context. Despite increasing adoption, newcomers to the field often encounter difficulties in experimental design, data analysis and metabolic interpretation. This primer therefore aims to provide a practical introduction to the principles and implementation of autofluorescence FLIM. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1186-s12880-026-03002-x-47fc61",
+      "date": "2026-11-14",
+      "title": "Multicenter evaluation of concordance between AI-assisted and hybrid AI-assisted cervical imaging systems and visual inspection with acetic acid in community-based cervical precancer screening",
+      "authors": "Rizky Ramadhan Sayyid Zenyda, Muhammad Riza Vikar Akbar Alhayat, Rajendra Maheswara Wisnu Wardhana, Qonita Adzkia, Nadiyah An Nabiylah, Muhammad Gifary Syah Zahran, Hilmi Mukhayadi, Dodi Suardi, Kemala Isnainiasih Mantilidewi, Dwi Agustian, Yudi Mulyana Hidayat",
+      "institutions": [],
+      "journal": "BMC Medical Imaging",
+      "doi": "10.1186/s12880-026-03002-x",
+      "url": "https://doi.org/10.1186/s12880-026-03002-x",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "ai",
+      "summary": "Background Visual Inspection With Acetic Acid (VIA) remains widely used for cervical precancer screening in low- and middle-income countries but is subject to operator-dependent variability. AI-assisted cervical imaging may improve consistency, although its performance across heterogeneous real-world settings remains insufficiently characterized. This study evaluated the concordance of AI-assisted and hybrid AI-assisted cervical imaging systems with routine VIA across multiple screening facilities. Methods This multicenter cross-sectional study included 253 women undergoing cervical screening at four facilities in West Java, Indonesia, between October 2025 and January 2026. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/bmc-medical-imaging.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · BMC Medical Imaging"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1117-1-jei-35-6-063009-014735",
+      "date": "2026-11-14",
+      "title": "Chromatic-aware gradient-domain guided filtering for halo-free multi-exposure fusion",
+      "authors": "Rahul Dinesh Kumar",
+      "institutions": [
+        "University of Kerala"
+      ],
+      "journal": "Journal of Electronic Imaging",
+      "doi": "10.1117/1.jei.35.6.063009",
+      "url": "https://doi.org/10.1117/1.jei.35.6.063009",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "Multi-exposure image fusion (MEF) combines differently exposed images of the same high-dynamic-range scene to produce a high-quality low-dynamic-range image. However, existing MEF methods often struggle to preserve fine details in extremely bright and dark regions and may introduce halo artifacts and edge distortions around high-contrast boundaries. To address these challenges, we propose a chromatic-aware MEF framework with dynamic parameter selection and two-scale decomposition. Specifically, we incorporate RGB chromatic gradient information into edge-aware weight refinement to enhance cross-channel structural consistency and suppress halo artifacts. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -1120,6 +1300,117 @@
       "pick": false,
       "feature": false,
       "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s10792-026-04313-2-bfd7da",
+      "date": "2026-11-13",
+      "title": "Baseline OCT Biomarkers Associated with Anatomical Response and Long-Term Reinjection Burden in Diabetic Macular Edema Treated with Intravitreal Dexamethasone Implant",
+      "authors": "Saritas O, Dundar P, Gokpinar EY, Tasci YY, Toklu Y",
+      "institutions": [
+        "Ankara Yıldırım Beyazıt University",
+        "Bilkent City Hospital",
+        "Gazi University"
+      ],
+      "journal": "International ophthalmology",
+      "doi": "10.1007/s10792-026-04313-2",
+      "url": "https://doi.org/10.1007/s10792-026-04313-2",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Quantitative Analysis & Modeling",
+        "Cell Biology"
+      ],
+      "glyph": "oct",
+      "summary": "To identify baseline optical coherence tomography (OCT) biomarkers associated with 6 month anatomical response and 36 month reinjection burden in anti-vascular endothelial growth factor (anti-VEGF)-pretreated eyes with diabetic macular edema (DME) switched to dexamethasone (DEX) implant. This retrospective single-center cohort included 130 eyes (130 patients) followed for 36 months. Good 6 month anatomical response was defined as a ≥ 20% reduction in central subfield thickness (CST) with complete resolution of intraretinal and subretinal fluid, and frequent reinjection as ≥ 5 DEX implants within 36 months. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/international-ophthalmology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · International ophthalmology"
+      },
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1117-1-apn-6-1-016010-308882",
+      "date": "2026-11-13",
+      "title": "Deep diffractive optics for high-fidelity microscopy with an extended depth-of-field network",
+      "authors": "Qiaofeng Tan, Liangcai Cao",
+      "institutions": [
+        "Tsinghua University"
+      ],
+      "journal": "Advanced Photonics Nexus",
+      "doi": "10.1117/1.apn.6.1.016010",
+      "url": "https://doi.org/10.1117/1.apn.6.1.016010",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Quantitative Analysis & Modeling"
+      ],
+      "glyph": "confocal",
+      "summary": "High-resolution microscopy is fundamentally constrained by the trade-off between lateral resolution and depth of field (DOF), which limits single-shot imaging of thick or topographically complex specimens. To address these limitations, we propose the extended depth-of-field network (EDFNet), a deep diffractive optics framework for high-fidelity extended DOF fluorescence microscopy. EDFNet jointly optimizes a pupil-plane diffractive optical element and an nonlinear activation free network (NAFNet)-based digital decoder within a fully differentiable pipeline, while incorporating fabrication-aware constraints to ensure practical feasibility. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-adhm-71917-279324",
+      "date": "2026-11-13",
+      "title": "Neuronal Uptake of Nano‐Sized PMMA Orthopedic Wear Particles in a Compartmentalized Microfluidic Model Revealed by Label‐Free Confocal Raman Microscopy",
+      "authors": "Marina Couto, Ana Carolina Monteiro, Maria Gomez‐Lazaro, Cristina Ribeiro, Estrela Neto, Daniela Pereira de Vasconcelos, Meriem Lamghari",
+      "institutions": [
+        "Instituto de Investigação e Inovação em Saúde Universidade do Porto Porto Portugal",
+        "Instituto Nacional de Engenharia Biomédica Universidade Do Porto Porto Portugal",
+        "Instituto Ciências Biomédicas Abel Salazar Universidade Do Porto Porto Portugal"
+      ],
+      "journal": "Advanced Healthcare Materials",
+      "doi": "10.1002/adhm.71917",
+      "url": "https://doi.org/10.1002/adhm.71917",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Coherent Raman & Vibrational",
+        "Confocal & Widefield Fluorescence",
+        "Neuroscience"
+      ],
+      "glyph": "raman",
+      "summary": "Periprosthetic inflammation is a major cause of implant failure and is frequently associated with persistent pain, yet prevailing models remain largely immune‐centric. Periprosthetic tissues are innervated by sensory nerve fibers, but their interaction with implant‐derived wear particles remains poorly understood. Here, we investigate the interaction of nano‐sized poly(methyl methacrylate) particles (PMMA NPs, 117 nm) with sensory neurons using compartmentalized microfluidic cultures of dissociated dorsal root ganglia (DRG) neurons and intact DRG explants. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s11801-026-5114-0-9daf9b",
+      "date": "2026-11-13",
+      "title": "Optimization of image super-resolution reconstruction network algorithm for surface defects of hot-rolled steel",
+      "authors": "Jiahao Zhu, Rucheng Wang, Peijin Yu, Dongmei Ma",
+      "institutions": [],
+      "journal": "Optoelectronics Letters",
+      "doi": "10.1007/s11801-026-5114-0",
+      "url": "https://doi.org/10.1007/s11801-026-5114-0",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Super-Resolution & Nanoscopy"
+      ],
+      "glyph": "superres",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/optoelectronics-letters.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Optoelectronics Letters"
+      },
       "source": "crossref"
     },
     {
@@ -4876,6 +5167,38 @@
       "source": "crossref"
     },
     {
+      "id": "10-21769-bioprotoc-5867-65ca8f",
+      "date": "2026-11-05",
+      "title": "Computational Approach for the Reliable Inference of Task States Encoded by Neurons Using Calcium Imaging",
+      "authors": "Huang H, Adwanikar H, Mysore SP",
+      "institutions": [
+        "Johns Hopkins University",
+        "Johns Hopkins School of Medicine",
+        "Kavli Neuroscience Discovery Institute"
+      ],
+      "journal": "Bio-protocol",
+      "doi": "10.21769/bioprotoc.5867",
+      "url": "https://doi.org/10.21769/bioprotoc.5867",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Probes & Contrast Agents",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "probe",
+      "summary": "Calcium imaging has become a widely used technique for measuring the activity of identified neurons during behavior. A key goal in such investigations is to determine whether, and to what extent, neurons preferentially encode one task-relevant state over another-a property referred to as neuronal selectivity . Despite the widespread use of calcium imaging for this purpose, no consensus exists on the parameter choices required to assess neuronal selectivity reliably: choices regarding neural data representation, behavioral position tracking, temporal binning, data balancing, and statistical shuffling all vary substantially across published studies. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/bio-protocol.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Bio-protocol"
+      },
+      "source": "europepmc"
+    },
+    {
       "id": "10-26434-chemrxiv-15011543-v2-64828c",
       "date": "2026-11-02",
       "title": "Self-Evolving Laboratories Through Persistent Digital and Physical Adaptation",
@@ -5885,6 +6208,72 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-vetpar-2026-110975-154c05",
+      "date": "2026-11-01",
+      "title": "AI-Assisted Microscopy and ddPCR as Complementary Tools for Anthelmintic Efficacy Monitoring in Sheep",
+      "authors": "Susmitha Chilamakuri, Nanxing Liu, Giulio Grandi, Johan Höglund",
+      "institutions": [],
+      "journal": "Veterinary Parasitology",
+      "doi": "10.1016/j.vetpar.2026.110975",
+      "url": "https://doi.org/10.1016/j.vetpar.2026.110975",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "ai",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-meatsci-2026-110259-529629",
+      "date": "2026-11-01",
+      "title": "Accurate prediction of beef short-rib quality through infrared spectral imaging",
+      "authors": "Jyoti P. Mishra, Alessandro Ferragina, Stephen Hegarty, Ruth M. Hamill",
+      "institutions": [],
+      "journal": "Meat Science",
+      "doi": "10.1016/j.meatsci.2026.110259",
+      "url": "https://doi.org/10.1016/j.meatsci.2026.110259",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-hazadv-2026-101762-e73a3c",
+      "date": "2026-11-01",
+      "title": "Resolving Sub-Particle Heterogeneity in Microplastics Using Raman Hyperspectral Imaging and Multivariate Unmixing",
+      "authors": "Jiro Karlo, Aman Chaurasia, Priyanshu Vijay, Sudip Mitra, Surya Pratap Singh",
+      "institutions": [],
+      "journal": "Journal of Hazardous Materials Advances",
+      "doi": "10.1016/j.hazadv.2026.101762",
+      "url": "https://doi.org/10.1016/j.hazadv.2026.101762",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-snr-2026-100538-2f2a6e",
       "date": "2026-10-29",
       "title": "AI-integrated SPRi with adaptive microwell-array recognition for high-throughput parallel readout",
@@ -5954,6 +6343,36 @@
       ],
       "glyph": "oct",
       "summary": "Background Metabolic liver disease, historically characterized as nonalcoholic fatty liver disease (NAFLD) and recently redefined as metabolic dysfunction-associated steatotic liver disease (MASLD), has emerged as a global public health crisis. It is increasingly recognized not merely as a liver-specific pathology, but as a complex multisystemic disorder strongly associated with widespread systemic microvascular dysfunction. The retina, sharing similar anatomical and physiological features with the systemic microcirculation, provides a unique, * in vivo * window for non-invasive vascular assessment. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-3390-diagnostics16213498-3a37bb",
+      "date": "2026-10-26",
+      "title": "Multimodal In Vivo Imaging of Cutaneous Angiogenesis: A Structured Narrative Review of Dermoscopy, Dynamic OCT, and Line-Field Confocal OCT",
+      "authors": "Cantisani C, Paolino G, Gonzalez S, Caruso G, Bayat A",
+      "institutions": [
+        "\"Sapienza\" University of Rome",
+        "Alcala University",
+        "San Filippo Neri Hospital of Rome"
+      ],
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "doi": "10.3390/diagnostics16213498",
+      "url": "https://doi.org/10.3390/diagnostics16213498",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "OCT & OCM",
+        "Quantitative Analysis & Modeling",
+        "Oncology & Pathology",
+        "Reviews"
+      ],
+      "glyph": "oct",
+      "summary": "Aims: This structured narrative review aimed to synthesize and critically appraise the available human evidence on in vivo assessment of cutaneous angiogenesis using dermoscopy, dynamic optical coherence tomography (D-OCT), and line-field confocal optical coherence tomography (LC-OCT), and to determine whether disease-specific microvascular phenotypes can be defined across selected neoplastic and inflammatory dermatoses. Type of review. Structured narrative review (SNAR), using SANRA as a narrative-review quality framework. The work was not designed as a systematic review of diagnostic accuracy and was not prospectively registered. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -6042,6 +6461,60 @@
       "summary": "",
       "why": "",
       "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-ol-614200-668a3f",
+      "date": "2026-10-09",
+      "title": "Intermediate-repetition-rate STED microscopy with reduced photobleaching",
+      "authors": "Wang X, Canedo K, Han KY",
+      "institutions": [
+        "The College of Optics and Photonics"
+      ],
+      "journal": "Optics letters",
+      "doi": "10.1364/ol.614200",
+      "url": "https://doi.org/10.1364/ol.614200",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Super-Resolution & Nanoscopy"
+      ],
+      "glyph": "superres",
+      "summary": "Stimulated emission depletion (STED) microscopy typically uses high-repetition-rate pulsed lasers operating at 40-80 MHz. However, high average depletion power often results in severe photobleaching, which limits STED microscopy for 3D imaging and long-term monitoring. While STED imaging at low repetition rates (0.25-1 MHz) has been demonstrated, low fluorescence yields have constrained its practical use. Here, we systematically compare fluorescence counts, spatial resolution, and photobleaching of pulsed STED imaging at repetition rates of 80, 20, and 10 MHz. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-jdin-2026-09-014-20f95c",
+      "date": "2026-10-06",
+      "title": "Reflectance confocal microscopy and line-field confocal optical coherence tomography in hair loss: A systematic review and a glossary of nomenclature",
+      "authors": "Żółkiewicz J, Spadafora M, Anderson A, Kurzeja M, Nowicki RJ, Pellacani G, Rudnicka L, Longo C",
+      "institutions": [
+        "Medical University of Gdańsk",
+        "University Clinical Center",
+        "University of Modena and Reggio Emilia"
+      ],
+      "journal": "JAAD international",
+      "doi": "10.1016/j.jdin.2026.09.014",
+      "url": "https://doi.org/10.1016/j.jdin.2026.09.014",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "OCT & OCM",
+        "Instrumentation & Optical Design",
+        "Oncology & Pathology",
+        "Reviews"
+      ],
+      "glyph": "oct",
+      "summary": "Background Reflectance confocal microscopy (RCM) and line-field confocal optical coherence tomography (LC-OCT) are emerging noninvasive imaging techniques in hair loss, potentially bridging the diagnostic gap between trichoscopy and histopathological examination. Objective To systematically summarize RCM and LC-OCT features across cicatricial and noncicatricial alopecias. Methods This systematic review was conducted according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 guidelines and was registered in the International Prospective Register of Systematic Reviews (CRD420251134481). MEDLINE and Embase were searched from inception to February 28, 2026. …",
+      "why": "",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -6290,5 +6763,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-14"
+  "updated": "2026-11-15"
 }

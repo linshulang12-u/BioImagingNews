@@ -243,5 +243,15 @@
     "src": "covers/european-journal-of-physics.jpg",
     "kind": "cover",
     "credit": "Journal cover · European Journal of Physics"
+  },
+  "bio-protocol": {
+    "src": "covers/bio-protocol.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Bio-protocol"
+  },
+  "optoelectronics letters": {
+    "src": "covers/optoelectronics-letters.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Optoelectronics Letters"
   }
 }
