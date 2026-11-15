@@ -1,0 +1,268 @@
+{
+  "id": "2026-11-16",
+  "number": 3,
+  "date": "2026-11-16",
+  "window": [
+    "2026-11-16",
+    "2026-11-16"
+  ],
+  "articles": [
+    {
+      "id": "10-1016-j-ccr-2026-218768-2ca121",
+      "date": "2027-02-01",
+      "title": "Biological membrane-targeting fluorescent probes for long-term super-resolution imaging",
+      "authors": "Zhengdong Jie, Yi Tao, Qinglong Qiao, Xinye Cui, Yongming Yang, Hao Liu, Shili Ning, Zhaochao Xu",
+      "institutions": [],
+      "journal": "Coordination Chemistry Reviews",
+      "doi": "10.1016/j.ccr.2026.218768",
+      "url": "https://doi.org/10.1016/j.ccr.2026.218768",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s44303-026-00215-1-5d6e01",
+      "date": "2026-11-15",
+      "title": "Quantitative label-free characterization of nanoparticles and subcellular structures in live cells using confocal scattering microscopy",
+      "authors": "Eric Boateng, Erik Olsén, Jonathan Wang, Frances E. Lock, Albert Kamanzi, Yao Zhang, Kyung-Mee Moon, Leonard J. Foster, Sabrina Leslie",
+      "institutions": [],
+      "journal": "npj Imaging",
+      "doi": "10.1038/s44303-026-00215-1",
+      "url": "https://doi.org/10.1038/s44303-026-00215-1",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Label-Free Phase & Holographic",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "qpi",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-80346-y-1c6b7b",
+      "date": "2026-11-15",
+      "title": "A stabilized abdominal imaging platform for intravital interrogation of preclinical omental metastatic niche models",
+      "authors": "Román García-Fuentes, Nicolás López de Aguileta, Beatrice Pinci, Daniel Moreno-Luqui, Ángela Bella, Yufei Zheng, Ainara Salgado-Pascual, Efren Juárez-Curiel, Aline Risson, María L. Chiclana-Valcarcel, Marcos Llorente-Ortega, Cristina Ederra, Ainhoa Urbiola, David Ruiz-Guillamón, Secundino Fernández, Ignacio Melero, Pedro Berraondo, Álvaro Teijeira, Fernando Aranda",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-80346-y",
+      "url": "https://doi.org/10.1038/s41598-026-80346-y",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Oncology & Pathology"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1159-res-aepag029-d3f4b7",
+      "date": "2026-11-14",
+      "title": "Needle-based Confocal Laser Endomicroscopy (nCLE) for Tool-in-Lesion Confirmation in Cone-Beam CT-guided Navigation Bronchoscopy: a Prospective Concordance Study",
+      "authors": "van Heumen S, Mets OM, de Bruin DM, Bonta PI, Daniels JMA, Heuvelmans MA, Annema JT",
+      "institutions": [],
+      "journal": "Respiration; international review of thoracic diseases",
+      "doi": "10.1159/res/aepag029",
+      "url": "https://doi.org/10.1159/res/aepag029",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Endoscopy & Fiber Imaging",
+        "Oncology & Pathology"
+      ],
+      "glyph": "endo",
+      "summary": "Positioning sampling instruments within pulmonary nodules remains a challenge during navigation bronchoscopy. Cone-beam computed tomography (CBCT) and needle-based confocal laser endomicroscopy (nCLE) enable tool positioning feedback. However, access to CBCT systems is limited and associated with radiation exposure. To date, no direct comparison between these two modalities has been reported. This study compares CBCT and nCLE for sampling tool position in navigation bronchoscopy for peripheral pulmonary nodules (PPNs). Twenty-five patients with PPNs scheduled for CBCT-guided navigation bronchoscopy were prospectively enrolled. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1021-acs-bioconjchem-6c00449-7a77ee",
+      "date": "2026-11-14",
+      "title": "Computationally Guided Design of Fluorogenic and Chemogenetic Fluorescent Zinc Indicators with Red Emission",
+      "authors": "Manon Wittwer, Giorgia Rosati, Romain Berraud‐Pache, Jean‐Maurice Mallet, Blaise Dumat",
+      "institutions": [
+        "Centre National de la Recherche Scientifique",
+        "Chimie Physique et Chimie du Vivant",
+        "Sorbonne Université"
+      ],
+      "journal": "Bioconjugate Chemistry",
+      "doi": "10.1021/acs.bioconjchem.6c00449",
+      "url": "https://doi.org/10.1021/acs.bioconjchem.6c00449",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "confocal",
+      "summary": "The concentration of biologically relevant metal cations can be monitored with subcellular precision thanks to chemogenetic fluorescent indicators that combine a small molecular probe with a recombinant protein tag, but despite a few reported examples emitting in the blue/green range, such indicators remain underexplored in the case of Zn2+ cations. Using a combination of rational and theoretical design, we report a series of hybrid fluorescent zinc indicators based on a hemicyanine scaffold with a red fluorescence emission. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1021-acssensors-6c03821-9e1eda",
+      "date": "2026-11-14",
+      "title": "Time-Resolved Surface-Enhanced Raman Spectroscopy Profiling of Peripheral Blood Mononuclear Cells Reveals Convergent Immunosuppressive Remodeling in Glioblastoma",
+      "authors": "Yasodha Kesavan, Haya Tchalabi, Rahul Juluru, Saptrshi Ghosh, Shreya Mattegunta, Saurav Kumar, Sree Deepthi Mutthukrishnan, Basit Khan, James Battiste, Rupa Haldavnekar",
+      "institutions": [
+        "University of Oklahoma",
+        "University of Oklahoma Health Campus"
+      ],
+      "journal": "ACS Sensors",
+      "doi": "10.1021/acssensors.6c03821",
+      "url": "https://doi.org/10.1021/acssensors.6c03821",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "Probes & Contrast Agents",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "qpi",
+      "summary": "Systemic immune dysfunction is a hallmark of glioblastoma (GBM) progression and therapeutic resistance, yet rapid, minimally invasive methods for sensing dynamic immune-cell state changes remain limited. Here, we introduce a label-free surface-enhanced Raman spectroscopy (SERS) immune-sensing framework that uses peripheral blood mononuclear cell (PBMC) biochemical profiles as an accessible readout of GBM-associated systemic immunosuppression. Ag nanoparticle-decorated black silicon SERS substrates were used to profile PBMCs in GBM−PBMC coculture models representing early and progressed tumor−immune interaction states over 3–72 h. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-08820538-2026-2762143-e4d53c",
+      "date": "2026-11-13",
+      "title": "Longitudinal Retinal and Choroidal Vascular Changes After Epiretinal Membrane Surgery: A 9-Month Swept-Source OCT Angiography Study",
+      "authors": "Balikoglu-Yilmaz M, Barman Kakil S, Yildirim Unal G",
+      "institutions": [
+        "Izmir Katip Celebi University Faculty of Medicine",
+        "Hatay Mustafa Kemal University Tayfur Ata Sokmen Faculty of Medicine"
+      ],
+      "journal": "Seminars in ophthalmology",
+      "doi": "10.1080/08820538.2026.2762143",
+      "url": "https://doi.org/10.1080/08820538.2026.2762143",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "Purpose To evaluate longitudinal retinal and choroidal vascular changes after epiretinal membrane (ERM) surgery using SS-OCTA and to compare postoperative trajectories between idiopathic and secondary ERM. Methods In this prospective longitudinal study, eyes with idiopathic and secondary ERM undergoing surgery were evaluated at baseline and at postoperative months 1, 3, 6, and 9. Assessments included best-corrected visual acuity (BCVA), central macular thickness (CMT), foveal avascular zone (FAZ) area, superficial and deep capillary plexus vessel density (SCP and DCP VD), subfoveal choroidal thickness (SfCT), choroidal vascularity index (CVI), and choriocapillaris flow metrics. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1002-lpor-72170-7cc517",
+      "date": "2026-11-13",
+      "title": "High‐Efficiency Tomography of High‐Dimensional Spatial Mode Entanglement",
+      "authors": "Jiaxian Zhao, Min Wang, Junlong Tu, Zhifeng Liu, Yu Ge, Chenghou Tu, Yongnan Li, Hui‐Tian Wang",
+      "institutions": [
+        "National Laboratory of Solid State Microstructures"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72170",
+      "url": "https://doi.org/10.1002/lpor.72170",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Neuroscience"
+      ],
+      "glyph": "ai",
+      "summary": "High‐dimensional (HD) entanglement of photonic spatial modes endows photon pair with greater shared information, enabling secure quantum communication even in noisy environments. However, adequately characterizing HD spatial mode entanglement remains challenging due to the exponential scaling of measurements and data processing complexity. Here, we develop and experimentally demonstrate a physics‐informed neural network for efficient quantum state tomography (QST) of HD spatial mode entanglement. Our method substantially reduces the number of coincidence counts required for QST and enables physics‐informed reconstruction from only two projective measurements. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72185-6b72ac",
+      "date": "2026-11-13",
+      "title": "Optical Möbius Snails",
+      "authors": "Qiang Wang, Pedro A. Quinto‐Su, Xi Xie, Xiangsheng Xie, Chenghou Tu, Yijie Shen",
+      "institutions": [
+        "College of Science Shantou University Shantou China",
+        "Instituto de Ciencias Nucleares Universidad Nacional Autónoma de México Cd. Mx. México",
+        "Centre for Disruptive Photonic Technologies"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72185",
+      "url": "https://doi.org/10.1002/lpor.72185",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "The exploration of topological states has emerged as a vibrant frontier across diverse physical systems. Among these, the Möbius strip stands out as a canonical structure that has recently inspired intriguing optical physics. In this work, we extend this concept into the high‐dimensional realm by using an optical analogue—the optical Möbius snail. Specifically, employing a skyrmionic beam as the input field, tight focusing yields a continuous family of Möbius strips that exist in three‐dimensional space, giving rise to a snail‐like polarization topological texture. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1080-01904167-2026-2757026-e5feef",
+      "date": "2026-11-13",
+      "title": "The effect of the amount of silver added to TiO 2 nanoparticles on spinach plants ( Spinacia oleracea L.): a photoacoustic study",
+      "authors": "Fernando Gordillo-Delgado, Daniel Felipe Casas-Castañeda",
+      "institutions": [
+        "Institute for Interdisciplinary Sciences"
+      ],
+      "journal": "Journal of Plant Nutrition",
+      "doi": "10.1080/01904167.2026.2757026",
+      "url": "https://doi.org/10.1080/01904167.2026.2757026",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Probes & Contrast Agents",
+        "Microbiology & Plants"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-16"
+}
