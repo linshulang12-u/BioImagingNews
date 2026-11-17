@@ -253,5 +253,10 @@
     "src": "covers/optoelectronics-letters.jpg",
     "kind": "cover",
     "credit": "Journal cover · Optoelectronics Letters"
+  },
+  "clinical endoscopy": {
+    "src": "covers/clinical-endoscopy.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Clinical Endoscopy"
   }
 }
