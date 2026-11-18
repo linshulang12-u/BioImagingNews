@@ -258,5 +258,15 @@
     "src": "covers/clinical-endoscopy.jpg",
     "kind": "cover",
     "credit": "Journal cover · Clinical Endoscopy"
+  },
+  "translational pediatrics": {
+    "src": "covers/translational-pediatrics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Translational Pediatrics"
+  },
+  "computational particle mechanics": {
+    "src": "covers/computational-particle-mechanics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Computational Particle Mechanics"
   }
 }
