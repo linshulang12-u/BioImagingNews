@@ -268,5 +268,15 @@
     "src": "covers/computational-particle-mechanics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Computational Particle Mechanics"
+  },
+  "geotechnical and geological engineering": {
+    "src": "covers/geotechnical-and-geological-engineering.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Geotechnical and Geological Engineering"
+  },
+  "food biophysics": {
+    "src": "covers/food-biophysics.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Food Biophysics"
   }
 }
