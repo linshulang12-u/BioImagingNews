@@ -278,5 +278,40 @@
     "src": "covers/food-biophysics.jpg",
     "kind": "cover",
     "credit": "Journal cover · Food Biophysics"
+  },
+  "methods in molecular biology (clifton, n.j.)": {
+    "src": "covers/methods-in-molecular-biology-clifton-n-j.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Methods in molecular biology (Clifton, N.J.)"
+  },
+  "mikrochimica acta": {
+    "src": "covers/mikrochimica-acta.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Mikrochimica acta"
+  },
+  "applied physics b": {
+    "src": "covers/applied-physics-b.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Applied Physics B"
+  },
+  "the journal of supercomputing": {
+    "src": "covers/the-journal-of-supercomputing.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · The Journal of Supercomputing"
+  },
+  "journal of civil structural health monitoring": {
+    "src": "covers/journal-of-civil-structural-health-monitoring.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Journal of Civil Structural Health Monitoring"
+  },
+  "jci insight": {
+    "src": "covers/jci-insight.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · JCI Insight"
+  },
+  "international journal of computational intelligence systems": {
+    "src": "covers/international-journal-of-computational-intelligence-systems.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · International Journal of Computational Intelligence Systems"
   }
 }
