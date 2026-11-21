@@ -313,5 +313,10 @@
     "src": "covers/international-journal-of-computational-intelligence-systems.jpg",
     "kind": "cover",
     "credit": "Journal cover · International Journal of Computational Intelligence Systems"
+  },
+  "european journal of histochemistry": {
+    "src": "covers/european-journal-of-histochemistry.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · European Journal of Histochemistry"
   }
 }

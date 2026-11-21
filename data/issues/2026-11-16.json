@@ -4,7 +4,7 @@
   "date": "2026-11-16",
   "window": [
     "2026-11-16",
-    "2026-11-21"
+    "2026-11-22"
   ],
   "articles": [
     {
@@ -159,6 +159,28 @@
         "Computational Imaging"
       ],
       "glyph": "comp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-117078-779862",
+      "date": "2027-02-01",
+      "title": "A coherence-ratio scaling model for signal-decay-limited defocus in full-field optical coherence tomography",
+      "authors": "Yue Zhu, Tong Zhang, Penghui Wang",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.117078",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.117078",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM"
+      ],
+      "glyph": "oct",
       "summary": "",
       "why": "",
       "pick": false,
@@ -545,6 +567,155 @@
       ],
       "glyph": "oct",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13787480-7a3d6a",
+      "date": "2026-11-21",
+      "title": "OpenBlink: Low-Cost TIRF Microscopy for Super-Resolution Imaging via μManager",
+      "authors": "Huo R, Komen J, Engelhardt M, Millot A, Extermann J, Grußmayer K",
+      "institutions": [
+        "Delft University of Technology",
+        "HES-SO University of Applied Sciences and Arts Western Switzerland",
+        "HES-SO Genève"
+      ],
+      "journal": "ACS photonics",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13787480",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Miniaturized & Wearable",
+        "Instrumentation & Optical Design",
+        "Protocols & Resources"
+      ],
+      "glyph": "superres",
+      "summary": "Single-molecule localization microscopy (SMLM) has become a central tool in nanoscale biological research due to its high spatial resolution and compatibility with wide-field microscopy. However, achieving quantitative SMLM requires homogeneous high-power illumination, nanometric axial stability, and precise multichannel detection, features typically found only in high-end commercial instruments or custom solutions in specialized laboratories. The cost of such microscopes and their technical complexity still limit access to these advanced imaging techniques. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1186-s12879-026-14864-5-aa33be",
+      "date": "2026-11-21",
+      "title": "High burden of intestinal parasitic infections in two rural communities of central-eastern Gabon: microscopy-based assessment of prevalence and associated factors in Dienga and Iwatsi",
+      "authors": "Almant Bitégué Ibouanga, Luide Desly Madoungou Idoumi, Nick Chénis Atiga, Roméo Karl Imboumy-Limoukou, Jean Claude Bitéghé-Bi-Essone, Serge-Ely Dibakou, Samuel Langouori, Lady Charlène Kouna, Rolande Mabika Mabika, Sandrine Lydie Oyegue-Liabagui",
+      "institutions": [],
+      "journal": "BMC Infectious Diseases",
+      "doi": "10.1186/s12879-026-14864-5",
+      "url": "https://doi.org/10.1186/s12879-026-14864-5",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "Background Intestinal parasitic infections (IPIs) remain a major public health concern in sub-Saharan Africa, particularly in rural communities where access to safe water and sanitation remains limited. In Gabon, epidemiological data are scarce and outdated in several rural areas. This study aimed to determine the microscopic prevalence of IPIs and identify factors associated with infection in the rural communities of Dienga and Iwatsi in central-eastern Gabon. Methods A community-based cross-sectional survey was conducted in July 2025 among 149 participants, recruited through door-to-door sampling in Dienga and Iwatsi. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1177-13860291261509917-749058",
+      "date": "2026-11-21",
+      "title": "Effects of propofol in addition to isoflurane anesthesia on the immune response within the microcirculation: An intravital microscopy study",
+      "authors": "Lynn Jazzar, Juan Zhou, Maryam Dastan, Christian Lehmann",
+      "institutions": [
+        "Dalhousie University"
+      ],
+      "journal": "Clinical Hemorheology and Microcirculation",
+      "doi": "10.1177/13860291261509917",
+      "url": "https://doi.org/10.1177/13860291261509917",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Quantitative Analysis & Modeling",
+        "Cardiovascular & Hemodynamics"
+      ],
+      "glyph": "confocal",
+      "summary": "Background General volatile anesthesia is widely used in human medicine and the standard approach in many experimental animal procedures. In certain clinical situations, intravenous propofol may be added to inhalational anesthesia. Both types of anesthetics are known to have immunomodulatory effects, however, the effects of combining them on the immune response remain insufficiently understood. Methods Twenty male C57BL/6J mice received either isoflurane alone or a combination of isoflurane and propofol. The mice were challenged with either endotoxin or placebo. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s44341-026-00057-3-a1dc3e",
+      "date": "2026-11-21",
+      "title": "Experimental limitations introduced during cluster analysis in super-resolution microscopy due to the choice of labeling methods and fluorophores",
+      "authors": "Kashish Jain, Valerie M. Weaver, Pakorn Kanchanawong, Rishita Changede",
+      "institutions": [],
+      "journal": "npj Biological Physics and Mechanics",
+      "doi": "10.1038/s44341-026-00057-3",
+      "url": "https://doi.org/10.1038/s44341-026-00057-3",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Confocal & Widefield Fluorescence",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "superres",
+      "summary": "Advances in super-resolution fluorescence microscopy, particularly single-molecule localization microscopy (SMLM) techniques such as Photoactivated Localization Microscopy (PALM) and direct Stochastic Optical Reconstruction Microscopy (dSTORM), have enabled the precise visualization and quantification of individual protein molecules and the higher-order complexes formed. However, the relative accuracy and limitations of labeling and imaging parameters in quantifying diffraction-limited protein nanoclusters remain poorly characterized. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1159-drm-ackag036-85918d",
+      "date": "2026-11-21",
+      "title": "Melanoma diagnostic performance of an expert dermatologist with reflectance confocal microscopy: a 5-year single-center retrospective analysis of 1,960 lesions",
+      "authors": "Shaniko Kaleci, Nicholas Gulati, Johanna Chester, Antonio Alma, Seher Banu Farabi Atak, Silvana Ciardo, Francesca Farnetani",
+      "institutions": [],
+      "journal": "Dermatology",
+      "doi": "10.1159/drm/ackag036",
+      "url": "https://doi.org/10.1159/drm/ackag036",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "confocal",
+      "summary": "Background: The diagnostic accuracy of dermatologists improves with experience, particularly in noninvasive skin tumor evaluation. Reflectance confocal microscopy (RCM) further enhances diagnostic precision, but the performance achievable by a single expert RCM reader with long-term experience is not well defined. Objective: To assess the diagnostic performance of a single expert dermatologist (>10 years of RCM experience at study initiation) over a 5-year period using RCM for lesions suspicious for melanoma. Methods: This retrospective study included 2,150 lesions evaluated clinically and dermoscopically between 2016 and 2020 and referred for RCM. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41698-026-01783-6-645f82",
+      "date": "2026-11-21",
+      "title": "Label-free visualization of thyroid cancer via multiscale autofluorescence lifetime imaging",
+      "authors": "Soonyong Kwon, Woojin Lee, Jeongmoo Han, Hyeong Soo Nam, Hongki Yoo, Jae Yeon Seok",
+      "institutions": [],
+      "journal": "npj Precision Oncology",
+      "doi": "10.1038/s41698-026-01783-6",
+      "url": "https://doi.org/10.1038/s41698-026-01783-6",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Label-Free Phase & Holographic",
+        "Oncology & Pathology"
+      ],
+      "glyph": "flim",
+      "summary": "The diagnostic evaluation of thyroid cancer is primarily established through cytological assessment and histopathological examination of Hematoxylin and Eosin-stained tissue sections, which provide essential information on tumor morphology and invasion-related features. We demonstrate that autofluorescence lifetime (AFL) imaging, a label-free optical technique, can provide complementary morphologic and lifetime-based information. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -1067,6 +1238,194 @@
       ],
       "glyph": "confocal",
       "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13787465-7ed683",
+      "date": "2026-11-20",
+      "title": "Dual-modality photoacoustic and optical coherence tomography imaging simultaneously tracks transplanted stem cells and their viability",
+      "authors": "Park S, Qian W, Folz J, Nguyen V, Perera N, Zhang W, Fahim A, Paulus Y, Wang X",
+      "institutions": [
+        "University of Michigan",
+        "IMRA America (United States)",
+        "Johns Hopkins University"
+      ],
+      "journal": "Science advances",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13787465",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "OCT & OCM",
+        "Photoacoustic & Optoacoustic",
+        "Probes & Contrast Agents",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "Monitoring transplanted cell viability in vivo, noninvasively remains a considerable challenge. By using multiwavelength photoacoustic microscopy powered by a reactive oxygen species (ROS)-responsive contrast agent, we can relatively and semiquantitatively assess and longitudinally monitor the viability of human-induced pluripotent stem cell-derived retinal pigment epithelium (hiPSC-RPE) cells in vivo. The contrast agent comprises colloidal chain-like gold nanoparticle (CGNP) clusters conjugated with IR775c, a heptamethine cyanine dye that undergoes selective oxidative quenching under elevated ROS conditions associated with cellular death (CGNP-IR775c). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-actbio-2026-11-037-c5da74",
+      "date": "2026-11-20",
+      "title": "Synthetic Microporous Hydrogels Enable In Vitro Assessment of Patient Cell-Secreted Collagen and Mineralization: A Proof-of-Concept Study in Osteogenesis Imperfecta",
+      "authors": "Zauchner D, de Wildt BWM, Horrer M, Lim PJ, Giunta C, Rohrbach M, Müller R, Qin XH",
+      "institutions": [
+        "ETH Zurich",
+        "Institute for Biomechanics"
+      ],
+      "journal": "Acta biomaterialia",
+      "doi": "10.1016/j.actbio.2026.11.037",
+      "url": "https://doi.org/10.1016/j.actbio.2026.11.037",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Harmonic Generation",
+        "Confocal & Widefield Fluorescence",
+        "Immunology & Inflammation"
+      ],
+      "glyph": "shg",
+      "summary": "During early osteogenesis, osteoblasts deposit collagen and subsequently mineralize the extracellular matrix (ECM). Disruption of this process underlies skeletal disorders such as osteogenesis imperfecta (OI). Advancing the mechanistic understanding of OI requires in vitro models that enable analysis of cell-secreted collagen and its mineralization. However, commonly used collagen hydrogels obscure newly deposited ECM, limiting direct assessment of nascent collagen deposition. We present an in vitro model using patient-derived human osteoblasts (hOBs) embedded in synthetic microporous poly(ethylene glycol) (PEG) hydrogels to investigate donor-dependent matrix alterations. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1007-s10792-026-04339-6-5071ef",
+      "date": "2026-11-20",
+      "title": "Quantitative assessment of corneal haze: comparative optical densitometry using anterior segment OCT and Pentacam",
+      "authors": "Lukács MÁ, Módis L",
+      "institutions": [
+        "University of Debrecen"
+      ],
+      "journal": "International ophthalmology",
+      "doi": "10.1007/s10792-026-04339-6",
+      "url": "https://doi.org/10.1007/s10792-026-04339-6",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Instrumentation & Optical Design",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "Corneal densitometry (CD) is an objective method for the evaluation of corneal opacities. The aim of this study was to compare corneal densitometry along with other tomographic values obtained by two different tomographs in various corneal pathologies. Tomography was performed on 59 corneal opacities of 46 patients and on 26 healthy corneas of 13 age-matched controls using optical coherence tomography (OCT) (ANTERION, Heidelberg Engineering GmbH, Heidelberg, Germany) and Scheimpflug tomography (Pentacam AXL, OCULUS Optikgeräte GmbH, Wetzlar, Germany). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/international-ophthalmology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · International ophthalmology"
+      },
+      "source": "europepmc"
+    },
+    {
+      "id": "10-3390-toxics14111028-c09bc6",
+      "date": "2026-11-20",
+      "title": "Development and Evaluation of a Multi-Technique Analytical Workflow for the Size-Resolved Characterization of Polystyrene Nanoplastics in Water",
+      "authors": "Giorgia Danese, Beatrice Battistini, Stefano Caimi, Maurizio Zini, Federica Fratini, Sara Cerra, Ilaria Fratoddi, Beatrice Bocca",
+      "institutions": [
+        "Istituto Superiore di Sanità",
+        "Sapienza University of Rome"
+      ],
+      "journal": "Toxics",
+      "doi": "10.3390/toxics14111028",
+      "url": "https://doi.org/10.3390/toxics14111028",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "probe",
+      "summary": "Background: Nanoplastic (NP) analysis remains a major analytical challenge due to the small size, heterogeneity, and complex physicochemical properties of these particles. This study developed and evaluated a multi-analytical workflow for the size-resolved characterization of polystyrene (PS) NPs in water. Methods: Monodisperse PS NP standards with nominal diameters of 20, 60, 100, and 200 nm were characterized by field-emission scanning electron microscopy (FESEM), dynamic light scattering (DLS), and nanoparticle tracking analysis (NTA) to assess particle morphology, size distribution, particle concentration, and colloidal stability. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1002-ange-6024376-8852bf",
+      "date": "2026-11-20",
+      "title": "Autonomous Scanning Electrochemical Cell Microscopy Enables Rapid Exploration of Large Compositionally Complex Material Spaces",
+      "authors": "Felix Thelen, Moonjoo Kim, Geovane Arruda de Oliveira, Jan Lukas Bürgel, Wolfgang Schuhmann, Alfred Ludwig",
+      "institutions": [],
+      "journal": "Angewandte Chemie",
+      "doi": "10.1002/ange.6024376",
+      "url": "https://doi.org/10.1002/ange.6024376",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "Alloying is a central strategy in electrocatalysis, enabling fine‐tuning of the electronic structure. In particular, compositionally complex solid solutions (CCSSs), often called high‐entropy alloys, are of high interest. However, the “combinatorial explosion” in the number of possible compositions poses a critical bottleneck for the discovery of CCSS electrocatalysts. We present an autonomous scanning electrochemical cell microscopy (SECCM) system for ultrahigh‐throughput and large‐scale CCSS activity screening. The platform rapidly establishes composition–activity relationships across multiple thin‐film CCSS materials libraries via active learning and automated library exchange. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-4081-ejh-2026-4849-2b393d",
+      "date": "2026-11-20",
+      "title": "P029 | MIDBRAIN DOPAMINE DEPLETION ALTERS MEDIAL PREFRONTAL CORTEX FUNCTION: INVESTIGATED BY <I>IN VIVO</I> THREE-PHOTON IMAGING AND <I>EX VIVO</I> PATCH-CLAMP RECORDINGS",
+      "authors": "",
+      "institutions": [],
+      "journal": "European Journal of Histochemistry",
+      "doi": "10.4081/ejh.2026.4849",
+      "url": "https://doi.org/10.4081/ejh.2026.4849",
+      "oa": true,
+      "license": "CC BY-NC 4.0",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Neuroscience"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Alzheimer’s disease (AD) is a multifactorial neurodegenerative disorder in which alterations of the mesocorticolimbic dopaminergic (DA) system have been reported. In particular, the ventral tegmental area (VTA) shows reduced volume and connectivity in patients with mild cognitive impairment and AD. In line with this, the Tg2576 mouse model of AD shows a progressive loss of VTA DAergic neurons from 2-3 months of age, long before β-amyloid deposition. The medial prefrontal cortex (mPFC), which supports executive control and working memory, receives dense DAergic input, but whether reduced DA alone is sufficient to compromise its function remains unclear. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/european-journal-of-histochemistry.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · European Journal of Histochemistry"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-jcm15229103-9bf22c",
+      "date": "2026-11-20",
+      "title": "Impact of Selected Cardiac Disorders on Retinal Microcirculation and Choroidal Thickness Assessed by Optical Coherence Tomography and OCT Angiography: A Narrative Review",
+      "authors": "Kroczek Marta, Jaworski Damian, Aleksiewicz Tomasz, Wołowiec Łukasz, Grześk Grzegorz, Kałużny Bartłomiej",
+      "institutions": [
+        "Oftalmika Ophthalmology Clinic",
+        "Clinical Pharmacology and Internal Diseases"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "doi": "10.3390/jcm15229103",
+      "url": "https://doi.org/10.3390/jcm15229103",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "Aim: To summarise the impact of cardiovascular diseases on retinal and choroidal microcirculation assessed by optical coherence tomography (OCT) and OCT angiography (OCTA) in patients with heart failure, myocardial infarction and atrial fibrillation, and to evaluate whether potential microvascular changes detected by OCTA depend on haemodynamic status or treatment. Methods: Published original studies investigating retinal microcirculation using OCTA and choroidal thickness using OCT in patients with selected cardiovascular diseases were reviewed. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -1709,6 +2068,88 @@
       "feature": false,
       "fig": null,
       "source": "arxiv"
+    },
+    {
+      "id": "10-1016-j-crmeth-2026-101645-221202",
+      "date": "2026-11-19",
+      "title": "Temporal deconvolution of mesoscale recordings",
+      "authors": "Stern M, Shea-Brown E",
+      "institutions": [
+        "Center for Studies in Physics and Biology",
+        "University of Washington"
+      ],
+      "journal": "Cell reports methods",
+      "doi": "10.1016/j.crmeth.2026.101645",
+      "url": "https://doi.org/10.1016/j.crmeth.2026.101645",
+      "oa": true,
+      "license": "CC BY-NC",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Neuroscience"
+      ],
+      "glyph": "ai",
+      "summary": "Mesoscale calcium recordings, such as wide-field imaging, enable high-temporal-resolution recordings of neuronal activity across extensive brain regions. However, because these recordings capture light emitted by calcium indicator fluorescence, the underlying neural activity is obscured by the temporal dynamics of the indicators. Here, we develop and evaluate four deconvolution methods to recover neuronal spiking rates from fluorescence traces recorded in wide-field imaging. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-48550-arxiv-2611-25888-6a197d",
+      "date": "2026-11-19",
+      "title": "momipy: A time-resolved momentum microscopy data analysis workflow",
+      "authors": "Paul Werner, Wiebke Bennecke, Jan Philipp Bange, Junde Liu, Daniel Steil, Marcel Reutzel, G. S. Matthijs Jansen, Stefan Mathias",
+      "institutions": [
+        "University of Göttingen",
+        "Philipps University of Marburg",
+        "Leiden University"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2611.25888",
+      "url": "https://doi.org/10.48550/arxiv.2611.25888",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Label-Free Phase & Holographic"
+      ],
+      "glyph": "qpi",
+      "summary": "Photoemission momentum microscopy is an emerging approach to photoelectron spectroscopy that is transforming electronic band structure mapping at both laboratory-based and large-scale facilities. Its extension to time-resolved measurements has recently enabled major advances, ranging from the femtosecond imaging of exciton wavefunctions to dark-field photoelectron microscopy of light-induced dynamics and strong light-matter interactions. However, the rapid acquisition of high-dimensional data sets (including electron in-plane momenta kx and ky, kinetic energy Ekin, time Δt, and more) poses substantial challenges for data handling and analysis. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3389-fsens-2026-2022571-fe36cf",
+      "date": "2026-11-19",
+      "title": "Miniaturized optical readout of genetically encoded sensors for real-time oxidative stress monitoring in cell and animal models",
+      "authors": "Fatima Lukmani, Byeong-Ui Moon, Lidija Malic, Yufeng Zhao",
+      "institutions": [
+        "Leslie Dan Faculty of Pharmacy",
+        "Centre for Research and Applications in Fluidic Technologies",
+        "Medical Devices Research Center"
+      ],
+      "journal": "Frontiers in Sensors",
+      "doi": "10.3389/fsens.2026.2022571",
+      "url": "https://doi.org/10.3389/fsens.2026.2022571",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Computational Imaging",
+        "Miniaturized & Wearable",
+        "Instrumentation & Optical Design",
+        "Cell Biology",
+        "Reviews"
+      ],
+      "glyph": "comp",
+      "summary": "Oxidative stress is dynamic and compartment-specific, whereas many conventional cell assays provide only endpoint measurements. Genetically encoded redox biosensors place a molecular recognition element inside living cells, enabling continuous, spatially resolved monitoring of reactive oxygen species (ROS) and redox states. These sensors now offer improved sensitivity, reversibility, targeting and spectral flexibility. Translation toward compact monitoring systems is therefore increasingly limited not by the sensor but by the optical system that reads it. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     },
     {
       "id": "10-1152-ajprenal-90135-2026-60ecc9",
@@ -2497,6 +2938,35 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "10-1002-mco2-71152-4ac158",
+      "date": "2026-11-18",
+      "title": "Multispectral Optoacoustic Tomography Noninvasively Reveals Ultrastructural Muscle Changes and Associates With Clinical Disability in Inclusion Body Myositis",
+      "authors": "Meyer S, Bruex H, Stobbe A, Glaubitz S, Gröhl J, Knieling F, Raming R, Alves F, Malzahn D, Bähr M, von Haehling S, Zschüntzsch J",
+      "institutions": [
+        "Clinic for Neurology University Medical Center Göttingen Göttingen Germany",
+        "Heart & Brain Center Göttingen University Medical Center Göttingen Göttingen Germany",
+        "Pediatric Experimental and Translational Imaging Laboratory"
+      ],
+      "journal": "MedComm",
+      "doi": "10.1002/mco2.71152",
+      "url": "https://doi.org/10.1002/mco2.71152",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Photoacoustic & Optoacoustic",
+        "Instrumentation & Optical Design",
+        "Oncology & Pathology"
+      ],
+      "glyph": "pa",
+      "summary": "Inclusion body myositis (IBM), the most common idiopathic inflammatory myopathy in older adults, causes progressive disability, dysphagia, and respiratory complications. Sensitive, objective and repeatable imaging biomarkers for diagnosis, staging and monitoring remain unavailable, and diagnosis continues to rely on muscle biopsy. The aim of this study was to determine whether multispectral optoacoustic tomography (MSOT) detects disease-relevant alterations in skeletal muscle composition and provides quantitative markers of clinical impairment in IBM. Extremity muscles were examined using MSOT in 10 IBM patients and 10 age- and sex-matched healthy volunteers. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     },
     {
       "id": "10-1117-1-ap-9-1-016006-c563cc",
@@ -4712,6 +5182,32 @@
       "source": "openalex"
     },
     {
+      "id": "10-1364-opticaopen-34936863-v1-45943e",
+      "date": "2026-11-09",
+      "title": "Co-localized OCT and diffuse reflectance spectroscopy in a fiber-optic probe for dosimetry in retinal endolaser photocoagulation",
+      "authors": "Dongyue Wu, Nicklas Enenkel, Florian Lux, Pragyamita Basu, Philipp Matten, Ian A. Howard, Ç‪ağlar Ataman",
+      "institutions": [],
+      "journal": "",
+      "doi": "10.1364/opticaopen.34936863.v1",
+      "url": "https://doi.org/10.1364/opticaopen.34936863.v1",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Diffuse Optics & NIR-II",
+        "Probes & Contrast Agents",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "Retinal endolaser photocoagulation (REPC) is a widely performed vitreoretinal procedure, yet quantitative intraoperative treatment outcome assessment remains challenging using conventional operating microscopes or microscope-integrated optical coherence tomography (miOCT) systems. In this work, we present a dual-fiber 21G endolaser probe with instrument-integrated optical coherence tomography (iiOCT) and diffuse reflectance spectroscopy (DRS) via a monolithic 3D nano-printed sensor head for co-localized laser delivery and multimodal sensing. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-1097-icu-0000000000001261-fa839a",
       "date": "2026-11-06",
       "title": "Recent advances in optical coherence tomography for glaucoma: from macular imaging and optical coherence tomography angiography to artificial intelligence and portable platforms",
@@ -5806,6 +6302,110 @@
       "source": "crossref"
     },
     {
+      "id": "10-1002-2211-5463-70363-2efdab",
+      "date": "2026-11-01",
+      "title": "Experimental protocol for the application of multiphoton endoscopy to image biological tissues",
+      "authors": "Kučikas V, Peltoniemi I, van de Walle SML, Zhou M, van Zandvoort MAMJ",
+      "institutions": [
+        "Maastricht University",
+        "Universitätsklinikum Aachen",
+        "Maastricht University Medical Centre"
+      ],
+      "journal": "FEBS open bio",
+      "doi": "10.1002/2211-5463.70363",
+      "url": "https://doi.org/10.1002/2211-5463.70363",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Endoscopy & Fiber Imaging",
+        "Probes & Contrast Agents",
+        "Neuroscience",
+        "Reviews"
+      ],
+      "glyph": "multiphoton",
+      "summary": "Multiphoton endoscopy has emerged as a promising extension of multiphoton microscopy, enabled by recent advances in nonlinear fiber optics. By combining optical sectioning, intrinsic contrast mechanisms, and flexible probe geometries, multiphoton endoscopy enables imaging in confined or nontraditional environments that are inaccessible to conventional benchtop systems. However, practical implementation remains challenging due to constraints imposed by probe miniaturization, scanning nonuniformity, and sample-dependent photodamage. Here, we present a practical multiphoton endoscopy protocol applying a commercially available, miniaturized two-photon endoscopic system. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-ad-2026-104792-0bb56c",
+      "date": "2026-11-01",
+      "title": "Novel Therapeutic Approach to Actinic Cheilitis Using Tirbanibulin 1% Ointment: Clinical and Reflectance Confocal Microscopy Evaluation",
+      "authors": "A. Loda, P. Antonetti, E. Vagnozzi, M. Bruni, L. Dragone, M. Esposito, M. Concetta Fargnoli",
+      "institutions": [],
+      "journal": "Actas Dermo-Sifiliográficas",
+      "doi": "10.1016/j.ad.2026.104792",
+      "url": "https://doi.org/10.1016/j.ad.2026.104792",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Cell Biology"
+      ],
+      "glyph": "confocal",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-igie-2026-11-003-c70837",
+      "date": "2026-11-01",
+      "title": "Diagnostic Value of Confocal Laser Endomicroscopy for Gastric Oxyntic Gland Adenoma",
+      "authors": "Yinglin Wang, Wei Jiang, Yongjun Wang, Xiang Cai, Rui Xu",
+      "institutions": [],
+      "journal": "iGIE",
+      "doi": "10.1016/j.igie.2026.11.003",
+      "url": "https://doi.org/10.1016/j.igie.2026.11.003",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Endoscopy & Fiber Imaging"
+      ],
+      "glyph": "endo",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ao-615604-64b00c",
+      "date": "2026-10-30",
+      "title": "Spectral-aware SlingBAG reconstruction for multispectral photoacoustic vascular composition imaging using sparse sensors",
+      "authors": "Shen Y, Han H, Wang Z, Tong J, Zhang Y, Zhang Z, Yang X",
+      "institutions": [
+        "School of Mathematics and Physics",
+        "Institute of Acoustics"
+      ],
+      "journal": "Applied optics",
+      "doi": "10.1364/ao.615604",
+      "url": "https://doi.org/10.1364/ao.615604",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "Photoacoustic & Optoacoustic",
+        "Quantitative Analysis & Modeling",
+        "Cardiovascular & Hemodynamics"
+      ],
+      "glyph": "pa",
+      "summary": "Multispectral photoacoustic imaging can characterize vascular plaque components through their distinct absorption spectra, but sparse spatial sampling introduces artifacts that impair component recovery. Here, we propose Joint-SlingBAG, a spectrally aware reconstruction method that jointly estimates three-dimensional hemoglobin and lipid distributions using shared Gaussian-sphere primitives and a normalized equivalent spectral model. We evaluated the method using a vascular plaque simulation model in a homogeneous acoustic medium with a one-sided planar array. Five wavelengths were selected based on spectral-matrix conditioning and the angle between component spectra. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-1039-d6an00716c-1bdae2",
       "date": "2026-10-27",
       "title": "Directly visualizing the spatial distribution of exogenous humectants in a leaf matrix via stimulated Raman scattering imaging",
@@ -5994,6 +6594,30 @@
       "source": "openalex"
     },
     {
+      "id": "10-14710-mkts-v32i1-79176-6fd4e2",
+      "date": "2026-10-20",
+      "title": "Optimization of Ramp Metering Signals in Urban Traffic Dominated by Motorcycles Using NSGA-II",
+      "authors": "Siti Raudhatul Fadilah",
+      "institutions": [
+        "Universitas Sriwijaya"
+      ],
+      "journal": "MEDIA KOMUNIKASI TEKNIK SIPIL",
+      "doi": "10.14710/mkts.v32i1.79176",
+      "url": "https://doi.org/10.14710/mkts.v32i1.79176",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Instrumentation & Optical Design"
+      ],
+      "glyph": "instrument",
+      "summary": "Motorcycles are a dominant mode of urban mobility in many Southeast Asian cities because of their affordability, flexibility, and ability to maneuver through congested streets. However, their high share creates dense and heterogeneous traffic conditions, where conventional traffic control strategies may become less effective. This study develops a motorcycle-sensitive ramp metering strategy for urban road networks to regulate motorcycle entry onto the main road and reduce congestion. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-7759-cureus-118099-2419bf",
       "date": "2026-10-18",
       "title": "Correlation Between Serum Vascular Endothelial Growth Factor-A (VEGF-A) Levels and Optical Coherence Tomography Angiography Parameters in Exudative Age-Related Macular Degeneration",
@@ -6133,5 +6757,5 @@
     }
   ],
   "removed": [],
-  "updated": "2026-11-21"
+  "updated": "2026-11-22"
 }
