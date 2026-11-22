@@ -1,0 +1,283 @@
+{
+  "id": "2026-11-23",
+  "number": 4,
+  "date": "2026-11-23",
+  "window": [
+    "2026-11-23",
+    "2026-11-23"
+  ],
+  "articles": [
+    {
+      "id": "10-7759-cureus-120094-85103e",
+      "date": "2026-11-22",
+      "title": "From Nature to Microscopy: Plant-Based Alternatives to Hematoxylin and Eosin in Oral Histopathology",
+      "authors": "Gargi Singh, Manav Singh, Om Singh",
+      "institutions": [],
+      "journal": "Cureus",
+      "doi": "10.7759/cureus.120094",
+      "url": "https://doi.org/10.7759/cureus.120094",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Oncology & Pathology"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41467-026-79507-4-b7b2d3",
+      "date": "2026-11-22",
+      "title": "Super-resolution microscopy reveals distinct epigenetic states regulated by estrogen receptor activity",
+      "authors": "Tara Akhshi, Shengen Shawn Hu, Esme Wheeler, Christian Hellriegel, Douglas S. Richardson, Nicole Cayting, Nicole A. Traphagen, Wangu Mvula, Buraq Ahmed, Anne Tie, Rinath Jeselsohn, Chongzhi Zang, Myles Brown",
+      "institutions": [],
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-026-79507-4",
+      "url": "https://doi.org/10.1038/s41467-026-79507-4",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Super-Resolution & Nanoscopy"
+      ],
+      "glyph": "superres",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s12264-026-01753-9-e0086a",
+      "date": "2026-11-22",
+      "title": "Photoacoustic Brain Imaging in Mice",
+      "authors": "Meng Wang, Zhigang Wang, Yanchen Li, Zhiyang Wang, Quan-Hong Ma, Guang-Yin Xu, Sihua Yang, Yong Tang",
+      "institutions": [],
+      "journal": "Neuroscience Bulletin",
+      "doi": "10.1007/s12264-026-01753-9",
+      "url": "https://doi.org/10.1007/s12264-026-01753-9",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Adaptive Optics & Deep Tissue",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "pa",
+      "summary": "Photoacoustic brain imaging (PABI) has emerged as a promising modality that partially overcomes the trade-off between spatial resolution and penetration depth in conventional neuroimaging. By integrating optical absorption contrast with ultrasonic detection, PABI enables high-resolution visualization of cerebral vasculature and supports multi-parametric analysis of vascular morphological features, as well as quantitative assessment of functional oxygenation parameters such as cerebral oxygen saturation (sO 2 ). In addition, PABI combined with exogenous tracers provides opportunities to evaluate blood-brain barrier (BBB) permeability and track brain lymphatic drainage dynamics. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1038-s41598-026-80577-z-dff1c2",
+      "date": "2026-11-22",
+      "title": "PATBox for reproducible benchmarking of photoacoustic reconstruction",
+      "authors": "Bahareh Khishkhah, Parsa Shahidi, M. Reza Rahimi Tabar",
+      "institutions": [],
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-026-80577-z",
+      "url": "https://doi.org/10.1038/s41598-026-80577-z",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Quantitative Analysis & Modeling"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-biomac-6c02047-f6825f",
+      "date": "2026-11-22",
+      "title": "Fluorescence Imaging Reveals Heterogeneous Water Structuring and Protein Organization in Liquid−Liquid Phase Separation",
+      "authors": "Sara Anselmo, Federica Scollo, Elisa Bonaccorso, Giuseppe Sancataldo, Giovanna d’Angelo, Luca Lanzanò, Valeria Vetri",
+      "institutions": [
+        "University of Palermo",
+        "University of Messina",
+        "Institute for Microelectronics and Microsystems"
+      ],
+      "journal": "Biomacromolecules",
+      "doi": "10.1021/acs.biomac.6c02047",
+      "url": "https://doi.org/10.1021/acs.biomac.6c02047",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Fluorescence Lifetime & Spectral",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "flim",
+      "summary": "Water is increasingly recognized as an active thermodynamic component of liquid−liquid phase separation, whose local organization and dynamics regulate phase behavior by modulating intermolecular interactions, solvent entropy, and the stability of condensed phases. Here, we combine micro-Raman spectroscopy with phasor-based spectral imaging and fluorescence lifetime analysis of environment-sensitive probes to map solvent-dependent changes across coexisting phases at the sub-microscale. Complementary observables reporting on solvent dipolar relaxation, local protein environment, phase partitioning, and hydrogen-bond organization converge to a consistent picture of local hydration. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-2058-6272-aec54d-4d6bf0",
+      "date": "2026-11-22",
+      "title": "Application of multi-view multi-frame high-speed imaging for jet merging and plasma liner diagnostics",
+      "authors": "Yiheng Zhou, Guangyu Li, Chunjing Hao, Fengfan Liang, Yi Shen, Chen Zhang, Lu Wang, Chao Ma, Guangyi Zhu",
+      "institutions": [
+        "ShanghaiTech University",
+        "Center for Ultimate Energy (CUE)",
+        "ShanghaiTech University ShanghaiTech University"
+      ],
+      "journal": "Plasma Science and Technology",
+      "doi": "10.1088/2058-6272/aec54d",
+      "url": "https://doi.org/10.1088/2058-6272/aec54d",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Quantitative Analysis & Modeling",
+        "Reviews"
+      ],
+      "glyph": "model",
+      "summary": "To advance the diagnostic from single-jet imaging to comprehensive multi-jet visualization for Plasma-Jet-Driven Magneto-Inertial Fusion (PJMIF), this work develops an orthogonal-view eight-frame intensified IsCMOS imaging system on the Jet Merging Experiment (JMX) facility. Designed to record the morphological features of plasma jets moving at speeds above 70 km/s from multiple viewing angles, this system has been experimentally validated to capture the entire evolution process of multi-jet convergence and the formation of quasi-spherical plasma liners. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-64898-2026-11-20-768092-968115",
+      "date": "2026-11-20",
+      "title": "Optimizing environmental conditions for PALM imaging of the nuclear pore complex labeled with the photoconvertible fluorescent protein mEos4b",
+      "authors": "Oarii Vahirua, Pascale Tacnet, Jérémy Néri, Anna Rosenkrancová, Jip Wulffelé, Oleksandr Glushonkov, Virgile Adam, Philippe Frachet, Bernhard Brutscher, Dominique Bourgeois",
+      "institutions": [
+        "Centre National de la Recherche Scientifique",
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "CEA Grenoble"
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "doi": "10.64898/2026.11.20.768092",
+      "url": "https://doi.org/10.64898/2026.11.20.768092",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "Green-to-red photoconvertible fluorescent proteins (PCFPs) are smart fluorophores used in several nanoscopy approaches based on single-molecule localization microscopy (SMLM). To optimize the achievable spatial resolution and facilitate molecular counting in these approaches, PCFPs should deliver a high effective labeling efficiency (ELE). Here, to evaluate the ELE provided by mEos4b, a performant PCFP, we designed a constitutive Nup96-mEos4b protein fusion in the nuclear pore complex (NPC) of U2OS cells, and performed PhotoActivated Localization Microscopy (PALM) imaging of NPCs in fixed cells under different environmental conditions. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-microc-2026-120409-0aa59b",
+      "date": "2026-11-01",
+      "title": "Deep learning analysis of fourteen filamentous Cyanobacteria samples using multi-wavelength laser microscopy",
+      "authors": "Sara Hemmati, Arthur Zastepa, Younggy Kim",
+      "institutions": [],
+      "journal": "Microchemical Journal",
+      "doi": "10.1016/j.microc.2026.120409",
+      "url": "https://doi.org/10.1016/j.microc.2026.120409",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Microbiology & Plants"
+      ],
+      "glyph": "ai",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-snb-2026-141299-f43bc0",
+      "date": "2026-11-01",
+      "title": "Open Multi-Gas Photoacoustic Sensing Using a Dual-Resonant Fiber-Optic Cantilever Sensor",
+      "authors": "Guojie Wu, Linsong Zhang, Yuchen Guan, Jingtong Na, Tianli Gao, Jiawei Xing, Ming Zhang, Wei Peng, Zhenfeng Gong",
+      "institutions": [],
+      "journal": "Sensors and Actuators B: Chemical",
+      "doi": "10.1016/j.snb.2026.141299",
+      "url": "https://doi.org/10.1016/j.snb.2026.141299",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Photoacoustic & Optoacoustic"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-foodchem-2026-152322-045863",
+      "date": "2026-11-01",
+      "title": "Hyperspectral imaging coupled with machine learning for non-destructive prediction and visualization of textural properties in cooked rice",
+      "authors": "Tongliang Yang, Ningyu Zhang, Zheng Wang, Hongyan Xing, Yue Du, Ye Chen, Yifu Zhang",
+      "institutions": [],
+      "journal": "Food Chemistry",
+      "doi": "10.1016/j.foodchem.2026.152322",
+      "url": "https://doi.org/10.1016/j.foodchem.2026.152322",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-5322-jesi-2026-35-10-981-a4e1f0",
+      "date": "2026-10-31",
+      "title": "Proposed Amendment to the Official Water Quality Testing Standards to Improve the Accuracy of Public Statistics During the Climate Crisis: Focus on Discrimination of Dead Pediastrum Cells",
+      "authors": "Jong-Myong Park, Ji-Won Hong",
+      "institutions": [
+        "Kyungpook National University"
+      ],
+      "journal": "Journal of Environmental Science International",
+      "doi": "10.5322/jesi.2026.35.10.981",
+      "url": "https://doi.org/10.5322/jesi.2026.35.10.981",
+      "oa": true,
+      "license": "CC BY-NC",
+      "categories": [
+        "Microbiology & Plants"
+      ],
+      "glyph": "cell",
+      "summary": "This study examined the scientific and administrative limitations of the current official water quality testing standard, the \"Phytoplankton-Microscopic Counting Method (ES 04705.1c),\" in the context of increasing variability of aquatic ecosystems associated with the climate crisis and proposed regulatory and policy measures to improve the accuracy of public water quality statistics. The green algal genus Pediastrum retains its morphology after cell death because of its rigid cell walls. During sudden increases in flow caused by extreme rainfall, dead cells may be resuspended in the upper water column, potentially leading to overestimation of phytoplankton abundance. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    }
+  ],
+  "removed": [],
+  "updated": "2026-11-23"
+}
