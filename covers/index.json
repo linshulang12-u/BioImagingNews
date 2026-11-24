@@ -318,5 +318,25 @@
     "src": "covers/european-journal-of-histochemistry.jpg",
     "kind": "cover",
     "credit": "Journal cover · European Journal of Histochemistry"
+  },
+  "eye (london, england)": {
+    "src": "covers/eye-london-england.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Eye (London, England)"
+  },
+  "jurnal sistem informasi dan informatika": {
+    "src": "covers/jurnal-sistem-informasi-dan-informatika.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Jurnal Sistem Informasi Dan Informatika"
+  },
+  "dermatology practical &amp; conceptual": {
+    "src": "covers/dermatology-practical-amp-conceptual.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Dermatology Practical &amp; Conceptual"
+  },
+  "groma: documenting archaeology": {
+    "src": "covers/groma-documenting-archaeology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · GROMA: Documenting Archaeology"
   }
 }
