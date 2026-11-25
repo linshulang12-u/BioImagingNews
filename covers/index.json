@@ -338,5 +338,25 @@
     "src": "covers/groma-documenting-archaeology.jpg",
     "kind": "cover",
     "credit": "Journal cover · GROMA: Documenting Archaeology"
+  },
+  "rsc chemical biology": {
+    "src": "covers/rsc-chemical-biology.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · RSC Chemical Biology"
+  },
+  "biomaterials science": {
+    "src": "covers/biomaterials-science.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Biomaterials Science"
+  },
+  "quantitative imaging in medicine and surgery": {
+    "src": "covers/quantitative-imaging-in-medicine-and-surgery.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · Quantitative Imaging in Medicine and Surgery"
+  },
+  "the international journal of advanced manufacturing technology": {
+    "src": "covers/the-international-journal-of-advanced-manufacturing-technolo.jpg",
+    "kind": "cover",
+    "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
   }
 }

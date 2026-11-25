@@ -4,7 +4,7 @@
   "date": "2026-11-23",
   "window": [
     "2026-11-23",
-    "2026-11-25"
+    "2026-11-26"
   ],
   "articles": [
     {
@@ -96,6 +96,50 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-conengprac-2026-107352-680070",
+      "date": "2027-02-01",
+      "title": "Rapid and precise autofocus in optical microscopy via coarse-to-fine search, time-optimal minimum-jerk trajectory planning, and robust sliding mode control",
+      "authors": "I-Chieh Chiu, Ting-Lin Wei, Jim-Wei Wu",
+      "institutions": [],
+      "journal": "Control Engineering Practice",
+      "doi": "10.1016/j.conengprac.2026.107352",
+      "url": "https://doi.org/10.1016/j.conengprac.2026.107352",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-optlastec-2026-116959-9915d3",
+      "date": "2027-02-01",
+      "title": "Atmospheric-channel-driven adaptive resolution via turbulence-aware retinal sampling for free-space optical imaging",
+      "authors": "Jie Cao, Haifeng Yao, Chenyang Li, Chenyu Xu, Yansong Song, Qun Hao",
+      "institutions": [],
+      "journal": "Optics &amp; Laser Technology",
+      "doi": "10.1016/j.optlastec.2026.116959",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116959",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Ophthalmology"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-1016-j-indcrop-2026-124843-9e2191",
       "date": "2026-12-01",
       "title": "Fusion of dual-view hyperspectral imaging with a novel MTBCNN-KDE framework: Reliable quantification of multiple quality markers in cultivated chrysanthemum",
@@ -165,6 +209,33 @@
       "source": "crossref"
     },
     {
+      "id": "10-21037-qims-2026-0946-c654f1",
+      "date": "2026-12-01",
+      "title": "Development and validation of a macular optical coherence tomography angiography-based diagnostic model for differentiating non-diabetic kidney disease",
+      "authors": "Yonghong Tang, Yuancheng Zhao, Sen Fan, Mingmin Qin, Huhai Yuan, Rongdi Yuan, Wei Fan",
+      "institutions": [],
+      "journal": "Quantitative Imaging in Medicine and Surgery",
+      "doi": "10.21037/qims-2026-0946",
+      "url": "https://doi.org/10.21037/qims-2026-0946",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/quantitative-imaging-in-medicine-and-surgery.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Quantitative Imaging in Medicine and Surgery"
+      },
+      "source": "crossref"
+    },
+    {
       "id": "10-6026-973206300227994-ba196a",
       "date": "2026-11-30",
       "title": "Role of anterior segment optical coherence tomography in managing fungal keratitis",
@@ -212,6 +283,402 @@
       "summary": "Purpose This study aims to present a non-contact alternating-current (AC) magnetic-field imaging system based on diamond nitrogen-vacancy (NV) centers that reduces dependence on external arbitrary waveform generators and lock-in amplifiers. Design/methodology/approach Fixed-frequency optically detected magnetic resonance was implemented with an STM32F1 microcontroller, which generates a 1 kHz excitation, triggers synchronous ADC acquisition, constructs a phase-coherent reference and performs in-phase/quadrature software lock-in demodulation. Straight, L-shaped and antiparallel printed circuit board traces provided validation. …",
       "why": "",
       "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13793820-949f03",
+      "date": "2026-11-25",
+      "title": "Quantitative Optical Coherence Tomography Angiography of Retinal and Choriocapillaris Microvasculature in Central Serous Chorioretinopathy",
+      "authors": "Taweebanjongsin W, Phasukkijwatana N, Chanwimol K, Wongsawad W, Somboonthanakij S, Soomsawasdi P, Jitawatanarat U, Arayangkoon E, Smitthimathin W, Kitcharoen S",
+      "institutions": [
+        "Mettapracharak (Wat Rai Khing) Hospital",
+        "Siriraj Hospital"
+      ],
+      "journal": "Cureus",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13793820",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1364-prj-610413-aaf311",
+      "date": "2026-11-25",
+      "title": "High-resolution image-projection fluorescence lifetime imaging microscopy",
+      "authors": "Woong Jae Baek, jongchan park, Liang Gao",
+      "institutions": [],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.610413",
+      "url": "https://doi.org/10.1364/prj.610413",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-prj-615985-d74297",
+      "date": "2026-11-25",
+      "title": "Single-pixel imaging below the sub-photon limit",
+      "authors": "Qingyuan Wu, xiang Wang, Jianbo Li, yuqing zhang, wenhao Wang, Sun junquan, Wen-Kai Yu, Jianing Yang, Fei Xing, KE-MI XU, An-Ning Zhang",
+      "institutions": [],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.615985",
+      "url": "https://doi.org/10.1364/prj.615985",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Computational Imaging"
+      ],
+      "glyph": "comp",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1186-s12886-026-05559-1-17e33a",
+      "date": "2026-11-25",
+      "title": "Etiological characteristics and in vivo confocal microscopy features of fungal keratitis in a hospital in Jiangxi region, China",
+      "authors": "Yiming Hu, Haijiang Hu, Tao Jin, Zhipeng Pan, Chenye Li, Qifang Jin",
+      "institutions": [],
+      "journal": "BMC Ophthalmology",
+      "doi": "10.1186/s12886-026-05559-1",
+      "url": "https://doi.org/10.1186/s12886-026-05559-1",
+      "oa": true,
+      "license": "CC BY-NC-ND 4.0",
+      "categories": [
+        "Confocal & Widefield Fluorescence"
+      ],
+      "glyph": "confocal",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ol-619432-9fd85d",
+      "date": "2026-11-25",
+      "title": "Single-shot quantitative phase imaging in plastic culture dishes based on PlasDIC microscopy",
+      "authors": "Wencheng Ai, Jinhu Hu, Hongliang Luo, Huiqun Cao, Chenshuang Zhang, Danying Lin, Junle Qu, Songlin Peng, Bin Yu",
+      "institutions": [],
+      "journal": "Optics Letters",
+      "doi": "10.1364/ol.619432",
+      "url": "https://doi.org/10.1364/ol.619432",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Label-Free Phase & Holographic"
+      ],
+      "glyph": "qpi",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-prj-615049-32c774",
+      "date": "2026-11-25",
+      "title": "All-Optical Phase-Intensity Dual-Domain Modulator Based on Third-Order Nonlinearity In-Situ On-Fiber Graphene Synthesis in Micro Hollow-Core Fiber",
+      "authors": "Xuetao Xia, Yuegang Fu, Mengye Wang, Xuejing Liu, Tiexin Zhang, Jing Jia, Wa Jin, Xinghu Fu, Guangwei Fu, Bi Weihong",
+      "institutions": [],
+      "journal": "Photonics Research",
+      "doi": "10.1364/prj.615049",
+      "url": "https://doi.org/10.1364/prj.615049",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fpain-2026-1995600-2f72fc",
+      "date": "2026-11-25",
+      "title": "Bedside microcirculatory assessment in complex regional pain syndrome: a feasibility study of incident dark-field handheld vital microscopy",
+      "authors": "Daniël P. C. van der Spek, Jan van den Brink, Can Ince, Bülent Ergin, Giovanni Marchena, Frank J. P. M. Huygen, Maaike Dirckx, Zühre Uz",
+      "institutions": [
+        "Center for Pain Medicine",
+        "Erasmus MC University Medical Center"
+      ],
+      "journal": "Frontiers in Pain Research",
+      "doi": "10.3389/fpain.2026.1995600",
+      "url": "https://doi.org/10.3389/fpain.2026.1995600",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "Miniaturized & Wearable",
+        "Quantitative Analysis & Modeling",
+        "Cardiovascular & Hemodynamics"
+      ],
+      "glyph": "qpi",
+      "summary": "Introduction Vasomotor disturbance is a prominent clinical feature of complex regional pain syndrome (CRPS), but its relation to directly observable microvascular alterations remains unclear. This study evaluated the procedural and analytic feasibility of assessing the microcirculation in patients with CRPS using handheld vital microscopy (HVM). Methods In this single-center feasibility study, adults with CRPS underwent incident dark-field HVM assessment of the sublingual mucosa and of the nailfold and skin of the affected and contralateral limbs. Procedural feasibility was assessed by measurement completion, time to measure (TTM), practical hindrances, and tolerability. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-analchem-6c05203-33640f",
+      "date": "2026-11-25",
+      "title": "Impedance-Gated Label-Free Imaging Flow and Deformability Cytometry in a Sidewall Electrode Microfluidic Device for Deep Learning-Based Cancer Cell Type Classification",
+      "authors": "Javad Jarmoshti, Abdullah-Bin Siddique, Negin Zeinali, Shaghayegh Mirhosseini, Sara Adair, Todd W. Bauer, Nathan S. Swami",
+      "institutions": [
+        "University of Virginia"
+      ],
+      "journal": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c05203",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05203",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "AI, Denoising & Restoration",
+        "Neuroscience"
+      ],
+      "glyph": "qpi",
+      "summary": "Cellular biophysical metrics offer label-free means to identify cell types in a dynamic manner, but their low dimensionality limits functional correlation to specific cell states, in comparison to flow cytometry on protein expression profiles after antibody labeling. Deep learning strategies applied to label-free imaging flow cytometry (IFC) offer multiparametric single-cell information on their morphologies and intracellular organization, and this information can be enriched by coupling with biophysical metrics to enhance the dimensionality of cell state distinction. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1088-1402-4896-aec700-01011d",
+      "date": "2026-11-25",
+      "title": "Label-free optical biosensor for urea and albumin detection using a photonic crystal cavity with machine-learning-based prediction",
+      "authors": "Agape Mary Mammen, V V Ravi Kanth Kumar, Alok Sharan",
+      "institutions": [
+        "Pondicherry University"
+      ],
+      "journal": "Physica Scripta",
+      "doi": "10.1088/1402-4896/aec700",
+      "url": "https://doi.org/10.1088/1402-4896/aec700",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Label-Free Phase & Holographic",
+        "AI, Denoising & Restoration",
+        "Microbiology & Plants"
+      ],
+      "glyph": "qpi",
+      "summary": "A one-dimensional photonic crystal with a single defect [(GaP/SiO2)5/ sensing medium/ (SiO2 /GaP)5 / glass] is proposed as an optical biosensor to detect urea and albumin in urine in the near infrared region. The physical parameters of the proposed structure are optimised to attain high sensitivity. The design is numerically investigated using Transfer Matrix Method and Finite Element method. Incorporating polarisation dependent anisotropy behaviour of the analytes have helped in analyte discrimination making it suitable for multi-analyte detection. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acssensors-6c04275-4a6f70",
+      "date": "2026-11-25",
+      "title": "Volumetric Digital Microsphere Assay Coupling Cb Ago–CRISPR/Cas12a and Lens-Free Holography for Salmonella typhimurium Detection",
+      "authors": "Chen Zhan, Peng Lu, Xuefei Mao, Long Wu, Yiping Chen",
+      "institutions": [
+        "College of Informatics",
+        "China Tobacco Gene Research Center",
+        "Institute of Quality Standard and Testing Technology for Agro-products"
+      ],
+      "journal": "ACS Sensors",
+      "doi": "10.1021/acssensors.6c04275",
+      "url": "https://doi.org/10.1021/acssensors.6c04275",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Computational Imaging",
+        "AI, Denoising & Restoration",
+        "Microbiology & Plants"
+      ],
+      "glyph": "comp",
+      "summary": "Sensitive and precise quantification of foodborne pathogens in complex matrices remains challenging due to inefficient signal conversion, limited volumetric information, and inaccurate counting under dense signal conditions. Here, we develop an integrated digital biosensing platform that combines programmable biochemical amplification, lens-free holographic imaging, and intelligent computational decoding. A CbAgo–CRISPR/Cas12a cascade is employed to convert pathogen DNA signals into discrete microsphere-based digital outputs, while automated lens-free holography preserves three-dimensional spatial information for high-throughput acquisition. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1021-acs-analchem-6c05923-75bf28",
+      "date": "2026-11-25",
+      "title": "Dual-Channel Cell Membrane Probe for Simultaneously Detecting ONOO− and Viscosity of Tumor Cell Membranes and In Vivo Tumor Imaging",
+      "authors": "Bo Zhao, Siyu Jiang, Yijia Liu, Meiling Wang, Guoqiang Feng",
+      "institutions": [
+        "Central China Normal University"
+      ],
+      "journal": "Analytical Chemistry",
+      "doi": "10.1021/acs.analchem.6c05923",
+      "url": "https://doi.org/10.1021/acs.analchem.6c05923",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Probes & Contrast Agents",
+        "Oncology & Pathology"
+      ],
+      "glyph": "confocal",
+      "summary": "Cancer represents a global health challenge that urgently demands more sensitive and reliable detection methods. Although fluorescence imaging shows promising application prospects, most existing fluorescent probes rely on single-channel imaging and are prone to false-positive interference. Herein, we report a novel probe, Mem-OV, with excellent cell membrane localization and independent dual-channel detection functions for tumor detection. Mem-OV rapidly responds to two tumor markers, viscosity and ONOO−, producing turn-on fluorescence signals at 734 nm and 514 nm (Δλ = 220 nm), respectively, without emission channel crosstalk. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3390-chemosensors14120264-97d349",
+      "date": "2026-11-25",
+      "title": "A Complementary Workflow of Industrial-Camera and Short-Wave Infrared Imaging with UHPLC–MS/MS for Authenticating Processed Ginseng Products and Predicting Ginsenoside Content",
+      "authors": "Weijun Liu, Lulu Sang, Liqiong Gao, Guofang Shen, Peng Wu, Yi Tao",
+      "institutions": [
+        "College of Pharmaceutical Science",
+        "Hangzhou Institute for Food and Drug Control",
+        "BRICS Standardization (Zhejiang) Research Center"
+      ],
+      "journal": "Chemosensors",
+      "doi": "10.3390/chemosensors14120264",
+      "url": "https://doi.org/10.3390/chemosensors14120264",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Diffuse Optics & NIR-II",
+        "Instrumentation & Optical Design"
+      ],
+      "glyph": "diffuse",
+      "summary": "Red, black, and Taiji ginseng can be difficult to distinguish in trade. To address this issue, this study established a complementary workflow of an industrial camera and short-wave infrared (SWIR) imaging to authenticate these processed ginseng types and to predict the contents of six ginsenosides (Rb1, Rb2, Rc, Re, Rf, and Rg1) across 153 batches of processed ginseng (119 red, 16 black, and 18 Taiji ginseng). Ginsenoside reference values were established by UHPLC–MS/MS using digoxin as the internal standard, with the method showing satisfactory precision (RSD ≤ 3.76%), stability (RSD ≤ 3.84%), and recovery (97.04–102.76%). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-ao-613512-5ffb7f",
+      "date": "2026-11-25",
+      "title": "Initial structure design method for off-axis reflective freeform imaging systems with a small F-number and a wide field of view based on optical path control",
+      "authors": "Yi Shi, Rina Wu, Lu Xing, Qin Dai",
+      "institutions": [],
+      "journal": "Applied Optics",
+      "doi": "10.1364/ao.613512",
+      "url": "https://doi.org/10.1364/ao.613512",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Other Imaging"
+      ],
+      "glyph": "cell",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-3389-fnhum-2026-1953545-57e6d5",
+      "date": "2026-11-25",
+      "title": "Neural correlates of executive functioning among adolescents and young adults living with HIV: a systematic review of structural and functional imaging studies",
+      "authors": "Ezra Too, Ronald Ngetich, Byron Odera, Sharon Chepkemoi, Nanda Rommelse, Anneloes Van Baar, Amina Abubakar",
+      "institutions": [
+        "Institute for Human Development",
+        "Utrecht University"
+      ],
+      "journal": "Frontiers in Human Neuroscience",
+      "doi": "10.3389/fnhum.2026.1953545",
+      "url": "https://doi.org/10.3389/fnhum.2026.1953545",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Neuroscience",
+        "Reviews"
+      ],
+      "glyph": "cell",
+      "summary": "Introduction Reduced executive functioning (EF) - including inhibitory control, cognitive flexibility, and working memory - has been frequently observed among adolescents and young adults living with HIV (AYALH), despite antiretroviral therapy (ART). These deficits may reflect HIV-associated alterations in brain structure and function. This review aimed to synthesize the available evidence of this relationship. Methods Following the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) guidelines, we searched PsycINFO, PubMed, Scopus, and Web of Science databases for relevant studies reporting EF outcomes and neural correlates (structural or functional). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1007-s00170-026-19596-z-1ac157",
+      "date": "2026-11-25",
+      "title": "Anomaly detection in selective laser melted 316L stainless steel using machine learning and in-situ optical imaging",
+      "authors": "Roghayeh Mohammadzadeh, Saman Saffari, John Lidstone, Pascal Milord, Bradley Elliott, Armin Hatefi, Sima A. Alidokht",
+      "institutions": [],
+      "journal": "The International Journal of Advanced Manufacturing Technology",
+      "doi": "10.1007/s00170-026-19596-z",
+      "url": "https://doi.org/10.1007/s00170-026-19596-z",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration"
+      ],
+      "glyph": "ai",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/the-international-journal-of-advanced-manufacturing-technolo.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · The International Journal of Advanced Manufacturing Technology"
+      },
+      "source": "crossref"
+    },
+    {
+      "id": "10-1364-boe-616598-88c792",
+      "date": "2026-11-25",
+      "title": "Anatomy-to-phantom-to-anatomy framework for interpretable time-domain fNIRS design in reference head models",
+      "authors": "Shoubo Hu, Deyu Li, Huiting Qiao, Jiatong He, Daifa Wang",
+      "institutions": [],
+      "journal": "Biomedical Optics Express",
+      "doi": "10.1364/boe.616598",
+      "url": "https://doi.org/10.1364/boe.616598",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Diffuse Optics & NIR-II"
+      ],
+      "glyph": "diffuse",
+      "summary": "",
+      "why": "",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -730,6 +1197,197 @@
       ],
       "glyph": "diffuse",
       "summary": "SignificanceThe lack of large-scale, open-access fNIRS datasets limits machine learning model validation.AimWe present a large-scale fNIRS dataset of N=100 participants performing hand clenching and finger tapping. Due to their overlapping neuroanatomical patterns, these tasks provide a highly challenging benchmark for classification algorithms.ApproachfNIRS data (760/850 nm; 10.17 Hz) were recorded over the left sensorimotor cortex using an 8×8 source–detector setup. The release contains a reduced 5×5 montage with 12 standard-distance channels and one short-separation channel (SSC). Raw and standard preprocessed data are publicly available and explorable via an online dashboard. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1016-j-jfo-2026-105038-6a0d3f",
+      "date": "2026-11-24",
+      "title": "How are choroidal structures altered in branch retinal vein occlusion and improved with anti-VEGF therapy? An optical coherence tomography study",
+      "authors": "Cevher S, Öztürk C, Duran M",
+      "institutions": [
+        "Hitit University"
+      ],
+      "journal": "Journal francais d'ophtalmologie",
+      "doi": "10.1016/j.jfo.2026.105038",
+      "url": "https://doi.org/10.1016/j.jfo.2026.105038",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "To evaluate retinal and choroidal parameters in patients with branch retinal vein occlusion (BRVO) and to assess the effects of intravitreal bevacizumab treatment on these parameters. This study included 26 eyes of 26 patients diagnosed with BRVO (Group 1) and their healthy fellow eyes (Group 2), as well as 26 eyes of 26 age- and sex-matched healthy controls (Group 3). Best-corrected visual acuity (BCVA) and retinal and choroidal parameters, including central macular thickness (CMT), subfoveal choroidal thickness (SFCT), total choroidal area (TCA), luminal area (LA), stromal area (SA), and choroidal vascularity index (CVI), were analyzed. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s41467-026-79580-9-58388c",
+      "date": "2026-11-24",
+      "title": "3D-MINSTED nanoscopy and protein tracking in densely labelled living cells",
+      "authors": "Peters JB, Heidebrecht C, Weber M, Leutenegger M, Hell SW",
+      "institutions": [
+        "Max Planck Institute for Multidisciplinary Sciences",
+        "University of Göttingen",
+        "Heidelberg University"
+      ],
+      "journal": "Nature communications",
+      "doi": "10.1038/s41467-026-79580-9",
+      "url": "https://doi.org/10.1038/s41467-026-79580-9",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "Investigating the movements and conformational changes of proteins in living cells is essential for understanding their function. The recently introduced fluorescence nanoscopy method called MINSTED has successfully tracked single fluorophore-labelled proteins, albeit in fixed cells and two dimensions only. Here we introduce a MINSTED setup for live-cell tracking of individual proteins in three dimensions (3D) with a localization precision σ down to <1 nm. Applied to the motor protein kinesin-1, our MINSTED nanoscope follows single proteins in 3D as they process along microtubules in 16 nm steps. Individual steps are resolved amid substantial intracellular background. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-5194-ar-2026-52-3357ed",
+      "date": "2026-11-24",
+      "title": "An automated computer vision framework for the systematic sizing and kinematic analysis of multiple droplets in ultra-high-speed videos",
+      "authors": "Carlos Pérez-Cantalapiedra, Manuel Carranza-García, Luis B. Modesto-López",
+      "institutions": [
+        "Instituto de Recursos Naturales y Agrobiología de Sevilla",
+        "Universidad de Sevilla"
+      ],
+      "journal": "",
+      "doi": "10.5194/ar-2026-52",
+      "url": "https://doi.org/10.5194/ar-2026-52",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Instrumentation & Optical Design",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "instrument",
+      "summary": "Measuring the size and motion of individual droplets in sprays remains challenging when many droplets coexist, overlap, or cross paths in ultra-high-speed recordings. We present Droplet Analyzer (DA), an automated open-source framework built on OpenCV that combines droplet detection, geometric characterization, trajectory reconstruction, and two-dimensional velocity estimation, and preserves the link between size, position, and velocity for each droplet. Performance was quantified with synthetic sequences with prescribed droplet sizes, positions, and velocities, processed with a configuration selected on an independent tuning set. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-3390-s26237428-e67e8a",
+      "date": "2026-11-24",
+      "title": "SF6 Concentration Recognition Under Variable Humidity for GIS Leakage Monitoring Using Gramian Angular Summation Field and a Two-Stage CNN",
+      "authors": "Hua Wu, Qinlai Dai, Daocheng Zhou, Wei Liu, Han Zeng",
+      "institutions": [
+        "Ltd. Extra High Voltage Branch",
+        "School of Electrical and Automation Engineering"
+      ],
+      "journal": "Sensors",
+      "doi": "10.3390/s26237428",
+      "url": "https://doi.org/10.3390/s26237428",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Neuroscience",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Reliable sulfur hexafluoride (SF6) leakage monitoring in gas-insulated switchgear (GIS) requires sensor systems capable of distinguishing true concentration variations from environmental humidity interference. This study proposes an intelligent concentration-level recognition framework combining dynamic time-series imaging via Gramian Angular Summation Fields (GASF) with a two-stage convolutional neural network (CNN). Dynamic response waveforms from a commercial non-dispersive infrared (NDIR) SF6 sensor were acquired in a controlled 20 L chamber under various concentrations (100–500 ppm) and relative humidities (RH, 30–80%). …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1142-s0219467828500702-e1d1c0",
+      "date": "2026-11-24",
+      "title": "Parameter-Weighted Adaptive Clustering with Cluster-Aware Illumination Estimation for Hybrid Low-Light Image Enhancement",
+      "authors": "Pratiksha Angadi, Savita M. Bagewadi, Uma Mudenagudi",
+      "institutions": [
+        "KLE Technological University",
+        "Centre of Excellence in Visual Intelligence (CEVI)"
+      ],
+      "journal": "International Journal of Image and Graphics",
+      "doi": "10.1142/s0219467828500702",
+      "url": "https://doi.org/10.1142/s0219467828500702",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Ophthalmology",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Low-light image enhancement is an essential task in computer vision with significant impact on both human visual perception and downstream imaging applications; however, it remains challenging due to the simultaneous requirements of brightness improvement, noise suppression, and preservation of natural color and structural details. This work presents a metadata-driven low-light image enhancement framework based on Parameter Weighted Adaptive Clustering (PWAK) and cluster-conditioned hybrid processing. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-aidi-70173-3cb452",
+      "date": "2026-11-24",
+      "title": "Physics‐Grounded Generative Models for Robust Inverse Imaging Under Forward Operator Variability",
+      "authors": "Justin Peng, Fanchen Meng, Hai Xiao",
+      "institutions": [
+        "Watt Family Innovation Center Clemson University Clemson South Carolina USA",
+        "Clemson University ‐ The Energy Center (CU‐TEC) Anderson South Carolina USA"
+      ],
+      "journal": "Advanced Intelligent Discovery",
+      "doi": "10.1002/aidi.70173",
+      "url": "https://doi.org/10.1002/aidi.70173",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Protocols & Resources"
+      ],
+      "glyph": "ai",
+      "summary": "Inverse problems in physical systems remain challenging due to nonlinear, nonunique relationships between internal structures and observable responses. A key limitation of physics‐grounded machine learning is the generation of large, physically consistent datasets at scale. Here, we present a scalable physics‐grounded generative framework that integrates finite‐element simulations with conditional modeling for robust inverse imaging under forward operator variability. Rather than enforcing physics through loss‐function constraints, physical consistency is achieved via large‐scale, simulation‐based data generation across multiple discretizations. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
+      "id": "10-1002-lpor-72271-2901e0",
+      "date": "2026-11-24",
+      "title": "Macroscopic Fluorescence Lifetime Imaging for Intraoperative Detection of Sentinel Lymph Node Metastases",
+      "authors": "Vladislav I. Shcheslavskiy, Anton A. Plekhanov, Alexey V. Gayer, Marina V. Shirmanova, Dmitry S. Kozlov, Varvara V. Dudenkova, Artem M. Mozherov, Arseniy L. Potapov, Alexey Yu. Vorontsov, Evgeny A. Shirshin, Wolfgang Becker, Daria S. Kuznetsova, Riccardo Cicchi, João L. Lagarto, Vladislav V. Yakovlev, Sergey V. Gamayunov",
+      "institutions": [
+        "Hickl GmbH Berlin Germany",
+        "Hybrid Photonics Laboratory École Polytechnique Fédérale de Lausanne Lausanne Switzerland",
+        "Department of Physics M.V. Lomonosov Moscow State University Moscow Russia"
+      ],
+      "journal": "Laser &amp; Photonics Reviews",
+      "doi": "10.1002/lpor.72271",
+      "url": "https://doi.org/10.1002/lpor.72271",
+      "oa": true,
+      "license": "CC BY 4.0",
+      "categories": [
+        "Fluorescence Lifetime & Spectral",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "flim",
+      "summary": "Accurate and timely evaluation of sentinel lymph nodes (SLNs) is a cornerstone of effective surgical planning and staging in breast cancer. In this study, we present macroscopic fluorescence lifetime imaging (macro‐FLIM) as a novel, label‐free, and non‐destructive approach for intraoperative detection of SLN metastases. This cutting‐edge technique exploits the natural fluorescence lifetimes of autofluorescent cofactors to distinguish between healthy and malignant tissues without the need for dyes, stains, or contrast agents. Validation began in a 4T1 mouse model of metastatic breast cancer and advanced to a clinical study involving 55 lymph nodes from 39 patients. …",
       "why": "",
       "pick": false,
       "feature": false,
@@ -2066,6 +2724,34 @@
       "source": "crossref"
     },
     {
+      "id": "10-2196-106685-7dab51",
+      "date": "2026-11-23",
+      "title": "A Multiagent Large Language Model Framework for Longitudinal Multimodal Tracking of Wet Age-Related Macular Degeneration: Retrospective Feasibility Study",
+      "authors": "Jiang X, Tao J, Yu C, Wang L, Fang X, Xue W, Qin Q",
+      "institutions": [
+        "School of Intelligent Manufacturing and Control Engineering",
+        "Shanghai Eye Disease Prevention & Treatment Center"
+      ],
+      "journal": "JMIR formative research",
+      "doi": "10.2196/106685",
+      "url": "https://doi.org/10.2196/106685",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "AI, Denoising & Restoration",
+        "Ophthalmology",
+        "Reviews"
+      ],
+      "glyph": "ai",
+      "summary": "Background Wet age-related macular degeneration (AMD) requires long-term, high-frequency management involving multimodal retinal imaging across repeated follow-up visits. Reconstructing disease trajectories from fragmented imaging reports, treatment histories, and clinical notes creates a substantial information integration burden for clinicians in routine chronic disease management. Objective This study aimed to evaluate the preliminary feasibility of a proof-of-concept, multiagent large language model (LLM) framework that integrates longitudinal multimodal imaging findings and treatment records into structured reports to support clinician review during wet AMD follow-up. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-7759-cureus-120094-85103e",
       "date": "2026-11-22",
       "title": "From Nature to Microscopy: Plant-Based Alternatives to Hematoxylin and Eosin in Oral Histopathology",
@@ -2317,6 +3003,29 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-jcmg-2026-10-009-f48d12",
+      "date": "2026-11-22",
+      "title": "Dulaglutide and Coronary Plaque Characteristics in Type 2 Diabetes: A Randomized Optical Coherence Tomography Study",
+      "authors": "Matsuhama K, Kakizaki S, Toba T, Sugizaki Y, Kawamori H, Saito S, Yamamoto A, Takayoshi T, Hirota Y, Otake H",
+      "institutions": [],
+      "journal": "JACC. Cardiovascular imaging",
+      "doi": "10.1016/j.jcmg.2026.10.009",
+      "url": "https://doi.org/10.1016/j.jcmg.2026.10.009",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Cardiovascular & Hemodynamics"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
       "id": "10-3390-s26237374-c9f17a",
       "date": "2026-11-21",
       "title": "Standoff Explosive Detection by Hyperspectral Imaging: A Requirements-Based Review",
@@ -2431,6 +3140,31 @@
       "source": "openalex"
     },
     {
+      "id": "10-48550-arxiv-2611-29015-61e998",
+      "date": "2026-11-21",
+      "title": "Efficient phase-only wavefront shaping at 250 kHz for multimode fiber endomicroscopy",
+      "authors": "Pau Riera Rodríguez, Antonio M. Caravaca-Aguirre, Omer Tzang, Alexander Payne, S. HAMANN, Rafael Piestun",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.29015",
+      "url": "https://doi.org/10.48550/arxiv.2611.29015",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Endoscopy & Fiber Imaging",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "endo",
+      "summary": "Wavefront shaping through multimode fibers (MMFs) enables diffraction-limited fluorescence imaging with hair-thin probes, at a speed and light budget bounded by the wavefront modulator. Existing modulators provide at most two of three key characteristics: high refresh rate, (high) modal dimensionality, and light efficiency. Here, we demonstrate wavefront control through an MMF using a tailored phase-only microelectromechanical modulator that combines all three, with 8,192 elements arranged in a 32 x 256 array, 7-bit phase control, and a 250 kHz full-frame refresh rate. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-64898-2026-11-20-768092-968115",
       "date": "2026-11-20",
       "title": "Optimizing environmental conditions for PALM imaging of the nuclear pore complex labeled with the photoconvertible fluorescent protein mEos4b",
@@ -2486,6 +3220,55 @@
       "source": "crossref"
     },
     {
+      "id": "10-1097-wno-0000000000002563-557839",
+      "date": "2026-11-20",
+      "title": "OCT RNFL Sector-Specific Analysis for Papilledema Detection: PHOMS or Drusen Coexistence in 41% of Cases Does Not Reverse Diagnostic Discrimination",
+      "authors": "Mignot GPR, Irfan A, Ginige R, Chetty S",
+      "institutions": [
+        "Institute of Education for Medical and Dental Sciences"
+      ],
+      "journal": "Journal of neuro-ophthalmology : the official journal of the North American Neuro-Ophthalmology Society",
+      "doi": "10.1097/wno.0000000000002563",
+      "url": "https://doi.org/10.1097/wno.0000000000002563",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Neuroscience"
+      ],
+      "glyph": "oct",
+      "summary": "Background Peripapillary hyperreflective ovoid mass-like structures (PHOMS) and optic disc drusen frequently coexist with papilledema, creating uncertainty about the diagnostic validity of optical coherence tomography (OCT) retinal nerve fiber layer (RNFL) measurements. We examined whether PHOMS coexistence affects OCT discrimination of raised intracranial pressure (ICP) and explored sector-specific RNFL thresholds in a geographically dispersed population. Methods Retrospective analysis of 78 consecutive patients with suspected disc swelling presenting to the Urgent Access Eye Clinic at Aberdeen Royal Infirmary (August 2023-January 2024). …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-48550-arxiv-2611-28423-251a31",
+      "date": "2026-11-20",
+      "title": "Real-Time 250-kHz Spectral-Domain Optical Coherence Tomography Using a Jetson AGX Orin",
+      "authors": "Yash Nakadi, Austin Yetter, Toast Lobel, Jungeun Won",
+      "institutions": [],
+      "journal": "arXiv",
+      "doi": "10.48550/arxiv.2611.28423",
+      "url": "https://doi.org/10.48550/arxiv.2611.28423",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Instrumentation & Optical Design",
+        "Protocols & Resources"
+      ],
+      "glyph": "oct",
+      "summary": "High-performance optical coherence tomography (OCT) relies on desktop workstations for data acquisition, reconstruction, and visualization, limiting integration into compact imaging systems. We evaluated whether an embedded GPU platform could sustain real-time operation of a 250-kHz spectral-domain OCT instrument without a desktop computer. A custom C++/CUDA OCT engine running on a NVIDIA Jetson AGX Orin 64 GB was developed and integrated with a 2048-pixel spectrometer, Camera Link frame grabber, and galvanometer scanner, and compared against an RTX A4500 workstation under the same scan protocols. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
       "id": "10-48550-arxiv-2611-26703-ce06fc",
       "date": "2026-11-19",
       "title": "MambaSplit: Severity-Robust and Inference-Efficient Semantic Unmixing of Fluorescence Microscopy Image Data",
@@ -2507,6 +3290,33 @@
       "glyph": "confocal",
       "summary": "The number of structures fluorescence microscopy can image in one sample is limited by how few fluorophores can be separated without significant spectral overlap. Semantic unmixing circumvents this limit by imaging two structures in one fluorescent channel and computationally separating the superimposed image into one image per structure. Because pixels rarely identify their structure, unmixing requires both local and long-range spatial context. The relative brightness of the two structures is unknown and can be very uneven, so predictions must remain accurate across mixing severities, from balanced mixtures to ones where a structure is barely visible. …",
       "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6ra07939c-80094a",
+      "date": "2026-11-17",
+      "title": "Photo-Fenton assisted degradation of methylene blue dye utilizing green tea extract synthesized Ag@Fe 2 O 3 nanocomposites",
+      "authors": "Nikhil Kumar Daimari, Nishita Phukon, Rajib Biswas, Nirmal Mazumder",
+      "institutions": [
+        "Tezpur University",
+        "Manipal Academy of Higher Education"
+      ],
+      "journal": "RSC Advances",
+      "doi": "10.1039/d6ra07939c",
+      "url": "https://doi.org/10.1039/d6ra07939c",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Diffuse Optics & NIR-II",
+        "Probes & Contrast Agents"
+      ],
+      "glyph": "diffuse",
+      "summary": "The discharge of synthetic dyes into water resources represents a significant and persistent environmental concern, making their removal from aquatic systems essential. The use of iron-based nanomaterials has emerged as a promising approach for the degradation of synthetic dyes in contaminated water. Herein, we report an environmentally friendly method for the synthesis of Ag@Fe2O3 nanocomposites (Ag@Fe2O3 NCs) utilizing green tea extract as a reducing agent for the photo-Fenton-assisted degradation of methylene blue (MB) dye under visible-light irradiation. …",
+      "why": "",
+      "tier": "notable",
       "pick": false,
       "feature": false,
       "fig": null,
@@ -2562,6 +3372,37 @@
       "feature": false,
       "fig": null,
       "source": "europepmc"
+    },
+    {
+      "id": "10-1039-d6cb00168h-278d67",
+      "date": "2026-11-04",
+      "title": "Genetically encoded dinitrobenzyl photostabilizer for enhancing the photostability of fluorescent proteins",
+      "authors": "Guihua Li, Xia Wang, Jiben Xue, Jie Wang",
+      "institutions": [
+        "Southern University of Science and Technology"
+      ],
+      "journal": "RSC Chemical Biology",
+      "doi": "10.1039/d6cb00168h",
+      "url": "https://doi.org/10.1039/d6cb00168h",
+      "oa": true,
+      "license": "CC BY-NC",
+      "categories": [
+        "Super-Resolution & Nanoscopy",
+        "Confocal & Widefield Fluorescence",
+        "Probes & Contrast Agents",
+        "Cell Biology"
+      ],
+      "glyph": "superres",
+      "summary": "Fluorescent proteins (FPs) are essential tools for biological imaging, but their application in long-term and super-resolution microscopy is often limited by photobleaching. Inspired by \"self-healing\" organic dyes, we report a genetically encoded intramolecular photostabilization strategy to improve the ability of fluorescent proteins to resist photobleaching. We designed a dinitrobenzene-based unnatural amino acid (UAA), 2-NBAK, to function as an efficient photostabilizer. Using an engineered orthogonal translation system, we performed a systematic spatial scan of 192 insertion sites across the mNeonGreen (mNG) β-barrel. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/rsc-chemical-biology.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · RSC Chemical Biology"
+      },
+      "source": "openalex"
     },
     {
       "id": "10-1016-j-microc-2026-120409-0aa59b",
@@ -2820,6 +3661,52 @@
       "source": "crossref"
     },
     {
+      "id": "10-1016-j-xops-2026-101485-ee98ec",
+      "date": "2026-11-01",
+      "title": "Deep Learning-assisted AMD Staging based on OCT and OCT Angiography",
+      "authors": "Yukun Guo, Tristan T. Hormel, An-lun Wu, Liqin Gao, Min Gao, Steven T. Bailey, Yali Jia",
+      "institutions": [],
+      "journal": "Ophthalmology Science",
+      "doi": "10.1016/j.xops.2026.101485",
+      "url": "https://doi.org/10.1016/j.xops.2026.101485",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "OCT & OCM",
+        "AI, Denoising & Restoration",
+        "Oncology & Pathology"
+      ],
+      "glyph": "oct",
+      "summary": "To develop and evaluate deep learning models for automated grading of age-related macular degeneration (AMD) severity using optical coherence tomography (OCT) and OCT angiography (OCTA) data. Two hundred seventy-one participants aged >= 50 years with varying AMD severities. Central macular 6 x 6 mm OCT/OCTA volumes were acquired using a swept-source OCTA system (SOLIX; Visionix/Optovue Inc., CA). AMD severity was graded into four stages (No AMD, Early AMD, Intermediate AMD, and Advanced AMD) according to the AREDS simplified severity scale. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "10-1016-j-saa-2026-129215-67cddd",
+      "date": "2026-11-01",
+      "title": "Non-destructive assessment of postharvest chilling injury in cucumber via information fusion of hyperspectral imaging and low-field NMR",
+      "authors": "Pengliying Wei, Yulong Chen, Yanxuan Li, Gaoxiang Mei, Chaoxian Liu, Bing Li",
+      "institutions": [],
+      "journal": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+      "doi": "10.1016/j.saa.2026.129215",
+      "url": "https://doi.org/10.1016/j.saa.2026.129215",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Fluorescence Lifetime & Spectral"
+      ],
+      "glyph": "flim",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
+    },
+    {
       "id": "10-5322-jesi-2026-35-10-981-a4e1f0",
       "date": "2026-10-31",
       "title": "Proposed Amendment to the Official Water Quality Testing Standards to Improve the Accuracy of Public Statistics During the Climate Crisis: Focus on Discrimination of Dead Pediastrum Cells",
@@ -2843,6 +3730,245 @@
       "feature": false,
       "fig": null,
       "source": "openalex"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795958-e13619",
+      "date": "2026-10-27",
+      "title": "Quantitative photoacoustic imaging for assessing regional kidney changes in a mouse model of ischemia–reperfusion injury",
+      "authors": "Moothanchery M, Bhaduri S, Mukherjee S, Littlewood J, Harwood R, Bera S, Khaled A, Esmaeili A, Pagel M, Wilm B, Murray P, Poptani H",
+      "institutions": [
+        "Centre for Preclinical Imaging",
+        "Institute for Advancing Intelligence (IAI)",
+        "Institute of Systems"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795958",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Photoacoustic & Optoacoustic",
+        "Cardiovascular & Hemodynamics"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1039-d6bm01047d-1a3e30",
+      "date": "2026-10-27",
+      "title": "Near-infrared-II fluorescent quantum dots for in vivo tracking of colonization dynamics of transplanted gut microbiota",
+      "authors": "Yongxin Zhang, Zhongzhu Mo, Qingping Yang, Bin Jiang, Rui Han, Jinyu Wang, Hanbin Liu, Shaobing Zhou, Jingya Zhao",
+      "institutions": [
+        "Southwest Jiaotong University"
+      ],
+      "journal": "Biomaterials Science",
+      "doi": "10.1039/d6bm01047d",
+      "url": "https://doi.org/10.1039/d6bm01047d",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Diffuse Optics & NIR-II",
+        "Probes & Contrast Agents",
+        "Microbiology & Plants"
+      ],
+      "glyph": "diffuse",
+      "summary": "Faecal microbiota transplantation (FMT) represents a critical therapeutic strategy for diseases associated with gut microbiota dysbiosis, but effective real-time monitoring methods for the dynamic behaviour of transplanted microbiota in the recipient gut are lacking. This study constructed a bacterial labelling probe based on near-infrared-II (NIR-II) fluorescent quantum dots (QDs). Using Ag2Te QDs as the fluorescent core, a PLGA-PEG coating was applied to improve their water dispersibility and biocompatibility, while heparin functionalization endowed them with bacterial labelling capabilities. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": {
+        "src": "covers/biomaterials-science.jpg",
+        "kind": "cover",
+        "credit": "Journal cover · Biomaterials Science"
+      },
+      "source": "openalex"
+    },
+    {
+      "id": "10-1039-d6an00925e-47c7c1",
+      "date": "2026-10-27",
+      "title": "Efficient chemical state imaging of Ni90 cathodes by in situ TXM-XANES white-line peak fitting",
+      "authors": "Yangwei Huang, Haitao Lu, Zhongqin Dai, Ling Zhang, Fen Tao, Jun Wang, Guohao Du, Tiqiao Xiao, Biao Deng",
+      "institutions": [
+        "Chinese Academy of Sciences",
+        "Shanghai Advanced Research Institute",
+        "Shanghai Institute of Applied Physics"
+      ],
+      "journal": "The Analyst",
+      "doi": "10.1039/d6an00925e",
+      "url": "https://doi.org/10.1039/d6an00925e",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Computational Imaging",
+        "Quantitative Analysis & Modeling",
+        "Neuroscience"
+      ],
+      "glyph": "comp",
+      "summary": "Transmission X-ray microscopy combined with X-ray absorption near-edge structure (TXM-XANES) spectroscopy enables nanoscale chemical state imaging of transition metal oxides, yet the low signal-to-noise ratio (SNR) of single-pixel spectra undermines the reliability of conventional edge-energy (E0) quantification. Herein, we present an analytical framework based on white-line peak fitting that integrates skewed Gaussian fitting for precise peak extraction, area normalization for spectral standardization, and average spectrum analysis for chemical state referencing. …",
+      "why": "",
+      "tier": "notable",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "openalex"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795927-3a2278",
+      "date": "2026-10-20",
+      "title": "Exploration of structural optic nerve changes in mouse models of retinal and neuronal degeneration with optical coherence tomography",
+      "authors": "Ladurner G, Augustin M, Harper D, Worm S, Varaka M, May L, Patel Y, Rohrmoser T, García-Ramírez F, Garhöfer G, Prokesch M, Baumann B, Merkle C",
+      "institutions": [
+        "Medical University of Vienna",
+        "Scantox Neuro GmbH"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795927",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "OCT & OCM",
+        "Neuroscience"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795924-c833d5",
+      "date": "2026-10-14",
+      "title": "Quantitative photoacoustic tomography for simultaneous reconstruction of optical spectral parameters and speed of sound",
+      "authors": "Suhonen M, Lucka F, Pulkkinen A, Arridge S, Cox B, Tarvainen T",
+      "institutions": [
+        "University of Eastern Finland",
+        "University College London"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795924",
+      "oa": true,
+      "license": "CC BY",
+      "categories": [
+        "Photoacoustic & Optoacoustic"
+      ],
+      "glyph": "pa",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795956-156779",
+      "date": "2026-10-13",
+      "title": "Unpaired animal to human translation of label-free multiphoton microscopy images: a demonstration of cross species biological augmentation in pancreatic neuroendocrine tumors",
+      "authors": "Guan S, Daigle N, Diao K, Twer A, Duan S, Sawyer T",
+      "institutions": [
+        "Wyant College of Optical Sciences",
+        "University of California Irvine"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795956",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Multiphoton Microscopy",
+        "Label-Free Phase & Holographic",
+        "Neuroscience"
+      ],
+      "glyph": "multiphoton",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795928-289b62",
+      "date": "2026-10-08",
+      "title": "Quantitative measurement using panretinal optical coherence tomography with three-dimensional curve distortion correction: erratum",
+      "authors": "Bayhaqi Y, Ni S, Ng R, Jackson J, Ostmo S, Merz B, Huang D, Skalet A, Campbell J, Young B, Jian Y",
+      "institutions": [
+        "Casey Eye Institute"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795928",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "OCT & OCM",
+        "Ophthalmology"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "https-europepmc-org-article-pmc-pmc13795957-b56d90",
+      "date": "2026-10-06",
+      "title": "Custom optical coherence tomography/confocal scanning laser microscope system for rapid measurement of cell size",
+      "authors": "Kumar A, Tiet H, Chen H, Pugh E, Zawadzki R",
+      "institutions": [
+        "UC Davis EyePod Small Animal Imaging Laboratory",
+        "University of California Davis"
+      ],
+      "journal": "Biomedical optics express",
+      "doi": null,
+      "url": "https://europepmc.org/article/PMC/PMC13795957",
+      "oa": true,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "OCT & OCM"
+      ],
+      "glyph": "oct",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
+    },
+    {
+      "id": "10-1016-j-chest-2026-07-5078-4e6d8c",
+      "date": "2026-10-01",
+      "title": "DIAGNOSTIC PERFORMANCE OF NEEDLE-BASED CONFOCAL LASER ENDOMICROSCOPY IN THORACIC LESIONS: A SYSTEMATIC REVIEW",
+      "authors": "JINISH DOSHI, NENCY GANATRA, RUSHI PATEL, USAMA AFZAAL, BELAL ELSAYED, STANLEY SAJU, SHERLYN SAJU, YOUSAF MS, KUNAL DEOKAR, JUAN IRIBARREN",
+      "institutions": [],
+      "journal": "CHEST",
+      "doi": "10.1016/j.chest.2026.07.5078",
+      "url": "https://doi.org/10.1016/j.chest.2026.07.5078",
+      "oa": false,
+      "license": "",
+      "categories": [
+        "Confocal & Widefield Fluorescence",
+        "Endoscopy & Fiber Imaging"
+      ],
+      "glyph": "endo",
+      "summary": "",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "crossref"
     },
     {
       "id": "10-1038-s44325-026-00150-5-9a61f5",
@@ -2876,8 +4002,36 @@
         "credit": "CC BY-NC-ND · via nature.com"
       },
       "source": "europepmc"
+    },
+    {
+      "id": "10-1038-s44303-026-00186-3-b2c328",
+      "date": "2026-07-29",
+      "title": "Investigation of Propagation Properties of Airy-like Beams for Light-Sheet Fluorescence Microscopy",
+      "authors": "Wang Y, Wang Q, Ding J, Zhao R, Ao S, Xiong X, Li S, Ma D, Ma H, Wang Z, Yang Z, Wang H, Zhang XD, Liu P",
+      "institutions": [
+        "Academy of Medical Engineering and Translational Medicine",
+        "Central Hospital",
+        "School of Sciences"
+      ],
+      "journal": "Npj imaging",
+      "doi": "10.1038/s44303-026-00186-3",
+      "url": "https://doi.org/10.1038/s44303-026-00186-3",
+      "oa": true,
+      "license": "CC BY-NC-ND",
+      "categories": [
+        "Light-Sheet & Oblique Plane",
+        "Quantitative Analysis & Modeling",
+        "Neuroscience"
+      ],
+      "glyph": "lightsheet",
+      "summary": "This study investigates the electric field distribution of an extended class of diffraction-free Airy beams, termed Airy-like beams, aiming to identify an optimal configuration that balances field of view (FOV) and axial resolution for light-sheet fluorescence microscopy (LSFM). Based on the Olver function framework, we derived an analytical expression of the electric field through phase term superposition and established a mapping relationship between the pupil function and electric field distribution. …",
+      "why": "",
+      "pick": false,
+      "feature": false,
+      "fig": null,
+      "source": "europepmc"
     }
   ],
   "removed": [],
-  "updated": "2026-11-25"
+  "updated": "2026-11-26"
 }
